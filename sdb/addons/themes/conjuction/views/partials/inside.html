@@ -1,0 +1,70 @@
+<div class="profile_content">
+	
+    <div id="profile_pic">
+    {if '{pyro:user:gravatar}' == ''}
+    <img width="200" height="150" src="{pyro:url:base}uploads/files/{pyro:user:gravatar}" />
+    {else}
+    <img src="{pyro:url:base}files/thumb/{pyro:user:gravatar}/200/190" />
+    {/if}
+    </div>
+	
+    <div id="new_face">
+		<p>وجه جديد </p>
+        {pyro:query:run query="SELECT `u`.id, `u`.group_id, `p`.display_name, `p`.bio, `p`.gravatar FROM `users` u, `profiles` p WHERE u.group_id = '14'  and  u.id = p.user_id ORDER BY RAND() LIMIT 1"}  
+		<p class="new_face">{display_name}</p>
+		<p class="new_f_desc">{bio}</p>
+		<div id="new_face_pho">
+            {if '{gravatar}' == 'no_avatar.jpg' || '{gravatar}' == ''}
+            <img width="50" height="50" src="/uploads/files/no_avatar.jpg" />
+            {else}
+            <img width="50" height="50" src="/files/thumb/{gravatar}/50/50" />
+            {/if}			
+         </div>
+        {/pyro:query:run}
+	</div>
+	
+<!--
+    <div id="advertise_area_profile">
+        <object width="250" height="500">
+        <param name="movie" value="/banners/syriatel250x500.swf">
+        <embed src="/banners/syriatel250x500.swf" width="250" height="500"></embed>
+        </object>
+    </div>
+-->
+    
+	<div id="profile_info">
+
+{if '{pyro:user:logged_in}' == '1' and '{pyro:url:segments segment="4"}' == '{pyro:user:username}' || {pyro:url:segments segment="1"} == 'my-profile'}
+        <div id="status">
+			<form>
+				<textarea class="status_area" name="update" id="update"></textarea>
+				<input class="status_submit" type="submit" id="update_button" value="تحديث" />
+				<div class="status_pic">
+				{pyro:theme:image file="status_icon.jpg"} الحالة</div>
+			</form>
+		</div>
+{else}     
+        <div id="status" style="text-align: center" >
+            {pyro:theme:image file="logo.png" style="margin:20px auto"}
+		</div>  
+{/if}
+        <div id="wall_area_main">
+    	
+            
+            <div class="wall_content">
+            
+            {pyro:theme:partial name="breadcrumbs"}
+            
+            {pyro:session:messages success="success-box" notice="notice-box" error="error-box"}
+            
+            {pyro:template:body}
+        
+            </div>
+        
+        </div><!--end of wall area-->
+		<!--end of wall area-->
+        
+	</div>
+	<!--end of profile_info-->
+    
+</div>

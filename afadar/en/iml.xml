@@ -1,0 +1,308 @@
+﻿<IMG>
+
+
+  <setting>
+     <horizontal> 4 </horizontal>
+     <vertical> 3 </vertical>
+     <blockWidth> 300 </blockWidth>
+     <blockHeight> 700 </blockHeight>
+     <blockDepth> 5 </blockDepth>
+     <space>   50 </space>
+     <thumbStyle> easeOutElastic </thumbStyle>
+     <gridStyle> easeInOutBack</gridStyle>
+     <cssloc> css/style.css </cssloc>
+     <movecam> true  </movecam>
+  </setting>
+  
+  
+  
+  <Pict id="1">
+     <thumb> ../upload/3D/image/1.jpg </thumb>
+     <Loc >../upload/3D/image/1.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="2">
+     <thumb> ../upload/3D/image/4.jpg </thumb>
+     <Loc >../upload/3D/image/4.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="3">
+     <thumb> ../upload/3D/image/5.jpg </thumb>
+     <Loc >../upload/3D/image/5.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="4">
+     <thumb> ../upload/3D/image/6.jpg </thumb>
+     <Loc >../upload/3D/image/6.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="5">
+     <thumb> ../upload/3D/image/7.jpg </thumb>
+     <Loc >../upload/3D/image/7.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="6">
+     <thumb> ../upload/3D/image/8.jpg </thumb>
+     <Loc >../upload/3D/image/8.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="7">
+     <thumb> ../upload/3D/image/9.jpg </thumb>
+     <Loc >../upload/3D/image/9.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="8">
+     <thumb> ../upload/3D/image/11.jpg </thumb>
+     <Loc >../upload/3D/image/11.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="9">
+     <thumb> ../upload/3D/image/12.jpg </thumb>
+     <Loc >../upload/3D/image/12.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="10">
+     <thumb> ../upload/3D/image/13.jpg </thumb>
+     <Loc >../upload/3D/image/13.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="11">
+     <thumb> ../upload/3D/image/14.jpg </thumb>
+     <Loc >../upload/3D/image/14.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="12">
+     <thumb> ../upload/3D/image/15.jpg </thumb>
+     <Loc >../upload/3D/image/15.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="13">
+     <thumb> ../upload/3D/image/16.jpg </thumb>
+     <Loc >../upload/3D/image/16.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="14">
+     <thumb> ../upload/3D/image/17.jpg </thumb>
+     <Loc >../upload/3D/image/17.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="15">
+     <thumb> ../upload/3D/image/18.jpg </thumb>
+     <Loc >../upload/3D/image/18.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="16">
+     <thumb> ../upload/3D/image/19.jpg </thumb>
+     <Loc >../upload/3D/image/19.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="17">
+     <thumb> ../upload/3D/image/20.jpg </thumb>
+     <Loc >../upload/3D/image/20.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="18">
+     <thumb> ../upload/3D/image/21.jpg </thumb>
+     <Loc >../upload/3D/image/21.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="19">
+     <thumb> ../upload/3D/image/22.jpg </thumb>
+     <Loc >../upload/3D/image/22.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="20">
+     <thumb> ../upload/3D/image/23.jpg </thumb>
+     <Loc >../upload/3D/image/23.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+  <Pict id="21">
+     <thumb> ../upload/3D/image/24.jpg </thumb>
+     <Loc >../upload/3D/image/24.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+    <Pict id="22">
+     <thumb> ../upload/3D/image/25.jpg </thumb>
+     <Loc >../upload/3D/image/25.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="23">
+     <thumb> ../upload/3D/image/26.jpg </thumb>
+     <Loc >../upload/3D/image/25.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="24">
+     <thumb> ../upload/3D/image/26.jpg </thumb>
+     <Loc >../upload/3D/image/26.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="25">
+     <thumb> ../upload/3D/image/27.jpg </thumb>
+     <Loc >../upload/3D/image/27.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="26">
+     <thumb> ../upload/3D/image/28.jpg </thumb>
+     <Loc >../upload/3D/image/28.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="27">
+     <thumb> ../upload/3D/image/29.jpg </thumb>
+     <Loc >../upload/3D/image/29.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="28">
+     <thumb> ../upload/3D/image/30.jpg </thumb>
+     <Loc >../upload/3D/image/30.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="29">
+     <thumb> ../upload/3D/image/31.jpg </thumb>
+     <Loc >../upload/3D/image/31.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="30">
+     <thumb> ../upload/3D/image/32.jpg </thumb>
+     <Loc >../upload/3D/image/32.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="31">
+     <thumb> ../upload/3D/image/33.jpg </thumb>
+     <Loc >../upload/3D/image/33.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="32">
+     <thumb> ../upload/3D/image/34.jpg </thumb>
+     <Loc >../upload/3D/image/34.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="33">
+     <thumb> ../upload/3D/image/35.jpg </thumb>
+     <Loc >../upload/3D/image/35.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="31">
+     <thumb> ../upload/3D/image/36.jpg </thumb>
+     <Loc >../upload/3D/image/36.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="35">
+     <thumb> ../upload/3D/image/37.jpg </thumb>
+     <Loc >../upload/3D/image/37.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+     <Pict id="36">
+     <thumb> ../upload/3D/image/38.jpg </thumb>
+     <Loc >../upload/3D/image/38.jpg </Loc>
+     <style> tipe1 </style>
+     <title>AFADAR JEWELRY</title>
+     <desc></desc>
+     <link></link>
+   </Pict>
+   
+</IMG>

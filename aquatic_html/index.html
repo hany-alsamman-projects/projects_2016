@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<title>
+</title>
+
+</head>
+
+	<style type="text/css">
+	@import url(css/reset.css);
+	@import url(css/style.css);
+	</style>
+<body>
+
+	<link rel="stylesheet" href="js/pe.kenburns/themes/default/skin.min.css" />
+	
+	
+	<!-- import jQuery -->
+	<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="js/preview.js"></script>
+
+	
+	<script type="text/javascript" src="js/pe.kenburns/jquery.pixelentity.kenburnsSlider.min.js"></script>
+		
+	<!--specify size of slider-->
+	<style>		
+		.peKenBurns {
+       		width: 962px;
+       		height: 444px;
+		}
+	</style>
+	
+	<script>
+
+		jQuery(function($){
+			$(".peKenBurns").peKenburnsSlider({externalFont:true})
+		})
+		// for google fonts, handle captions sizing only after fonts are loaded
+		jQuery(window).load(function() {
+			$(".peKenBurns").each(function() {
+				$(this).data("peKenburnsSlider").fontsLoaded()
+			})
+		})
+		
+	</script>
+	<div id="wrapper">
+    
+    
+        <div id="header">
+        	<Div id="nav">
+            	<div id="logo"></div>
+            	<div id="nav_l"></div>
+                        <div id="nav_m">
+                       		  <img src="img/ray.jpg">
+                              <div class="links">
+                              	<ul>
+                                	<a href="#"><li>Home</li></a>
+                                   <a href="#"> <li>Gallery</li></a>
+                                    <a href="#"><li>About us</li></a>
+                                    <a href="#"><li>Contact us</li></a>
+                                </ul>
+                              </div>
+                        </div><!--end of nav_m-->
+                <div id="nav_r"></div>
+            </Div><!--end of nav-->
+        
+        </div><!--end of header-->
+        
+   		 <div id="root">
+         	<div id="slider">
+            	<div class="peKenBurns peNoJs" data-autopause="image" data-thumb="enabled" data-mode="kb" data-controls="always" data-shadow="enabled" data-logo="disabled">
+				 
+			   <div class="peKb_active" data-delay="5" data-thumb="img/thumbs/kb_01.jpg">
+			   <img src="img/kb_01.jpg" alt="Banner Image 1" />
+
+			   </div>
+			   
+
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_04.jpg">
+			   <a class="video hd autoplay loop" href="http://www.youtube.com/watch?v=lZOnrN4x0Zk"><img src="img/blank.png" data-src="img/kb_04.jpg" alt="Banner Image 1" /></a>
+			   </div>
+
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_05.jpg">
+			   <img src="img/blank.png" data-src="img/kb_05.jpg" alt="Banner Image 1" />
+			   </div>
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_06.jpg">
+			   <img src="img/blank.png" data-src="img/kb_06.jpg" alt="Banner Image 1" />
+			   </div>
+				 
+			</div>
+            </div>
+            <div id="last_products"><h1>Latest products</h1>
+					<div id="product">
+                   <a href=""> <img src="img/pro_pho.jpg"  title="click to inlarg"></a>
+                       <img src="img/dot.jpg" style="border:none ;width:5px; height:5px; margin:18px 0 0 0"><h3>Deltec APF800</h3>
+                          <p class="pro_disc">The new external AP series compact high performance skimmer,
+                           a classic reinvented.Suitable for aquariums up to 1000Litres</p>
+                           <a href="#"><p class="read_more"> Read more</p></a>
+                    </div>
+                    <div id="product">
+                      <a href=""> <img src="img/pro_pho.jpg"  title="click to inlarg"></a>
+                       <img src="img/dot.jpg" style="border:none ;width:5px; height:5px; margin:18px 0 0 0"><a href="#"><h3>Deltec APF800</h3></a>
+                          <p class="pro_disc">The new external AP series compact high performance skimmer,
+                           a classic reinvented.Suitable for aquariums up to 1000Litres</p>
+                           <a href="#"><p class="read_more"> Read more</p></a>
+                    </div>
+                    <div id="product">
+                     <a href=""> <img src="img/pro_pho.jpg"  title="click to inlarg"></a>
+                       <img src="img/dot.jpg" style="border:none ;width:5px; height:5px; margin:18px 0 0 0"><a href="#"><h3>Deltec APF800</h3></a>
+                          <p class="pro_disc">The new external AP series compact high performance skimmer,
+                           a classic reinvented.Suitable for aquariums up to 1000Litres</p>
+                           <a href="#"><p class="read_more" Read more> Read more</p></a>
+                    </div>
+                    <div id="product">
+                     <a href=""> <img src="img/pro_pho.jpg"  title="click to inlarg"></a>
+                       <img src="img/dot.jpg" style="border:none ;width:5px; height:5px; margin:18px 0 0 0"><a href="#"><h3>Deltec APF800</h3></a>
+                          <p class="pro_disc">The new external AP series compact high performance skimmer,
+                          xternal AP series compact high performance skimmer,
+                           a classic reinvented.Suitable for aquariums up to 1000Litres</p>
+                           <a href="#"><p class="read_more"> Read more</p></a>
+                    </div>
+                    		
+         </div><!--end of last_products-->
+            <div id="gallery">
+            <h1>Gallery</h1>
+            	<a href="#"><img src="img/gal_pho.jpg"></a>
+            	<a href="#"><img src="img/gal_pho.jpg"></a>
+                <a href="#"><img src="img/gal_pho.jpg"></a>
+            </div><!--end of gallery-->
+             <div id="pages">
+            <h1>Pages</h1>
+         <p><img src="img/dot.jpg"><a href="#">Home</a></p>
+          <p><img src="img/dot.jpg"><a href="#">Gallery</a></p>
+           <p><img src="img/dot.jpg"><a href="#">Products</a></p>
+            <p><img src="img/dot.jpg"><a href="#">About us</a></p>
+            <p><img src="img/dot.jpg"><a href="#">Contact us</a></p>
+
+            </div><!--end of pages-->
+         </div><!--end of root-->
+         
+    </div><!--end of wrapper-->
+
+    <div id="footer">
+    	<div id="pages" style="float:left; margin-left:200px;">
+        	         <h1>ARCHIVE</h1>
+         <p><img src="img/dot.jpg"><a href="#">March 2010</a></p>
+          <p><img src="img/dot.jpg"><a href="#">February 2010</a></p>
+           <p><img src="img/dot.jpg"><a href="#">January 2010</a></p>
+
+        
+        </div>
+           	<div id="pages" style="float:left; margin-left:10px; ">
+        	         <h1>CATEGORIES</h1>
+         <p><img src="img/dot.jpg"><a href="#">Products by Type</a></p>
+          <p><img src="img/dot.jpg"><a href="#">Aqua Illumination</a></p>
+           <p><img src="img/dot.jpg"><a href="#">Spares Online</a></p>
+            <p><img src="img/dot.jpg"><a href="#">News</a></p>
+        
+        </div>
+        <div id="copy_right">Copyright © Worldfish Co. 2012, All rights reserved Programmed , Hosted & designed by:<a style="text-decoration:underline" href="http://www.codexc.com"> Codexc.com</a></div>
+    </div><!--end of footer-->
+</body>
+</html>

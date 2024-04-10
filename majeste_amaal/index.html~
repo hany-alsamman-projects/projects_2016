@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>شركة مشروعات الاعمال التجارية</title>
+
+<!-- Bootstrap CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap-responsive.min.css" />
+
+<!-- Esatto CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/esatto.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/dark.css" id="swap-bg" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/color/yellow.css" id="swap-color" />
+
+<!-- Slider CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/superslides.css" />
+
+<!-- Fancybox CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/fancybox.css" />
+
+
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="shortcut icon" />
+</head>
+<body>
+
+<div id="info" style="display:none; float: right; text-align: right">
+<p> تم الارسال بنجاح !</p>
+<p> تم تلقي طلبك وإرسال لإدارة الأصول في شركة مشروعات الأعمال التجارية شكرا لوقتك</p>
+</div>
+
+<!-- NavBar container -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+     <div style="float: right; display: block;"><img src="img/banner.jpg" width="300" height="123" alt="logo" class="logo" /></div>
+     <div style="float: left; display: block;"><img src="img/banner2.jpg" width="300" height="123" alt="logo" class="logo" /></div>
+      
+      <!-- NavBar logo -->
+      <img src="img/logo.png" alt="logo" class="logo" />
+
+
+      <!-- NavBar Title --> 
+      <a class="brand" data-toggle="collapse" data-target=".nav-collapse"><span class="sosa">m</span>Menu</a>
+      <div class="nav-collapse collapse navbar-responsive-collapse"> 
+        
+        <!-- NavBar section list -->
+        <ul id="nav" class="nav nav-main pull-right">          
+          <li><a href="index.html#develop">خطط التطوير والتنمية</a></li>
+          <li><a href="index.html#sale">بيع وتسويق</a></li>
+          <li><a href="index.html#rental">تاجير وتسويق</a></li>
+	  <li class="home-icon current"><a href="index.html#home"><span class="sosa">Ç</span></a></li>
+        </ul>
+        
+        <!-- NavBar right list -->
+        <ul class="nav nav-divider pull-left">
+          <li><a href="#" onClick="$(document).toggleFullScreen()"><i class="icon-cog icon-white"></i>عرض كامل الشاشة</a>
+          </li>
+        </ul>
+        
+        <!-- NavBar social -->
+        <ul class="nav social-nav pull-left">
+          <li><a href="#"><span class="sosa">v</span></a></li>
+          <li><a href="#"><span class="sosa">t</span></a></li>
+          <li><a href="#"><span class="sosa">x</span></a></li>
+        </ul>
+
+
+        <!-- NavBar search -->
+        <form action="search" class="form-search pull-left">
+          <input type="text" class="input-medium" />
+          <button type="submit" class="btn"><span class="sosa">]</span></button>
+        </form>
+        
+
+        
+        <!-- NavBar Blog list 
+        <ul class="nav nav-divider-right pull-left">
+          <li><a href="blog.html">Blog</a>
+            <ul>
+              <li><a href="blog.html">Home Blog</a></li>
+              <li><a href="blog-detail.html">Single Post</a></li>
+            </ul>
+          </li>
+        </ul>-->
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Home container -->
+<div id="home">
+
+    <!-- Slider container -->
+    <div id="slides">
+        <ul class="slides-container">
+
+            <!-- Slider single item -->
+            <li><img src="img/slider/slide1.jpg" alt="Pic" />
+                <div class="detail"><span class="sosa">Ç</span>
+                    <p class="title"><span>تأجير</span> عقارات؟</p>
+                    <p class="lead">تقدم شركة مشروعات الأعمال تأجير وتسويق العقارات المتميزة الآن</p>
+                </div>
+            </li>
+
+            <!-- Slider single item -->
+            <li><img src="img/slider/slide2.jpg" alt="Pic" />
+                <div class="detail"><span class="sosa">Ç</span>
+                    <p class="title"><span>بيع</span> عقارات؟</p>
+                    <p class="lead">تقدم شركة مشروعات الأعمال بيع وتسويق العقارات المتميزة الآن</p>
+                </div>
+            </li>
+
+            <!-- Slider single item -->
+            <li><img src="img/slider/slide3.jpg" alt="Pic" />
+                <div class="detail"><span class="sosa">G</span>
+                    <p class="title"><span>خطط</span> تسويق؟</p>
+                    <p class="lead">لدينا الآن العديد من الخطط لتبدأ عملك الاحترافي معنا</p>
+                </div>
+            </li>
+
+            <!-- Slider single item -->
+            <li><img src="img/slider/slide4.jpg" alt="Pic" />
+                <div class="detail"><span class="sosa">å</span>
+                    <p class="title"><span>الخدمات</span> المتميزة!</p>
+                    <p class="lead">خدماتنا مميزه بعملائها ونحن نضمن لكم الافضل</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <!-- Slider navigation -->
+        <div class="slides-navigation"><a href="#" class="prev"><i class="icon-chevron-left icon-white"></i></a> <a href="#" class="next"><i class="icon-chevron-right icon-white"></i></a></div>
+    </div>
+  <div class="bg-arrow"></div>
+</div>
+
+<!-- Template container -->
+<div class="wrapper">
+
+  <!-- rental section -->
+  <div id="rental" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+		 <div style="float: left; display: block;"><img src="img/logo.png"  /></div>
+                    <h1>تأجير وتسويق <span>العقارات</span></h1>
+                    <p class="lead">في حال لديك عقار تود تسويقه أوتأجيره نحن في مشروعات الأعمال ومن خلال  قسم ادارة الاصول يمكن لنا ادارة اصولكم وتسويقها‬ لكبرى الشركات والمستثمرين‪ ،‬يرجى تعبئة النموذج أدناه بشكل كامل‬
+                      ‬
+                    </p>
+                    <div class="row">
+                        <div class="span6 pull-right">
+
+                            <!-- rental form -->
+                            <form action="send-actions.php" method="post" id="formrental" class="rental-form">
+                                <fieldset>
+                                    <legend>يرجى ملء الحقول التالية</legend>
+                                    <input type="text" name="ful_name" placeholder="الاسم الثلاثي" class="span3" />
+                                    <input type="text" name="mobile_number" placeholder="رقم الجوال" class="span3" />
+                                    <input type="text" name="location" placeholder="مكان العقار" class="span3" />
+				    <input type="text" name="video_url" placeholder="رابط مقطع فيديو" class="span3" />
+                                    <input type="text" name="budget" placeholder="التكلفة المتوقعة بالريال" class="span3" />
+                                    <input type="text" name="adv_type" placeholder="اسم المسوق الذي ارشدك الينا" class="span3" />
+				    <input class="IMU" buttonText="Attach files" filesLimit="10" fileDesc="jpg,png,gif,avi,wmv,fla" fileExt="jpg,png,gif,avi,wmv,fla" button="custom_button.png" type="file" path="files/" startOn='onSubmit:formrental' ajax='true' ajaxInfoId='rinfo' ajaxLoaderId='loader' multi='true' afterUpload='filename' maxSize='204800' />
+				    <input type="hidden" name="form_type" value="rental" />
+                                    <!--<textarea rows="5" placeholder="Message"></textarea>-->
+                                    <button type="submit" class="btn btn-large">ارسال الطلب</button>
+					<span class="imu_loader" id="loader">
+						
+					</span>
+                                </fieldset>
+				<div class="imu_info" id="rinfo"></div>
+                            </form>
+
+                        </div>
+
+                        <div class="span4 pull-right" style="margin-right:50px;">
+                            <h5 class="text-right">معلومات تهمك</h5>
+
+                            <address>
+                                <p>‫يرجى ذكر المكان بالتفصيل مع نقاط عالم واضحة‬<span class="sosa">o</span> <br />
+                                    ‫لن يتم عرض رقم الهاتف وستتواصل الشركة معكم عبره‬ <span class="sosa">4</span> <br />
+  بالضغط على ارفق ملف سوف ترفق جميع ملفاتك <span class="sosa">b</span> <br />
+  ارفاق الملف او الصورة مطلوب لارسال الطلب <span class="sosa">g</span>
+
+                                </p>
+                            </address>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end rental section -->
+
+  <!-- sale section -->
+  <div id="sale" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+		<div style="float: left; display: block;"><img src="img/logo.png"  /></div>
+                    <h1>بيع وتسويق <span>العقارات</span></h1>
+                    <p class="lead">‫‫في حال لديك عقار تنوي عرضه وبيعه نحن في مشروعات الاعمال التجارية نسوق عقارك ونستقطب المستثمرين بحكم‬
+                        ‫علاقاتنا التجارية والاستثمارية ،‬نرجو تعبئة البيانات التالية ‪:‬‬
+                    </p>
+                    <div class="row">
+                        <div class="span6 pull-right">
+
+                            <!-- sale form -->
+                            <form action="send-actions.php" method="post" id="formsale" class="sale-form">
+                                <fieldset>
+                                    <legend>يرجى ملء الحقول التالية</legend>
+                                    <input type="text" name="ful_name" placeholder="الاسم الثلاثي" class="span3" />
+                                    <input type="text" name="mobile_number" placeholder="رقم الجوال" class="span3" />
+                                    <input type="text" name="location" placeholder="مكان العقار" class="span3" />
+				    <input type="text" name="video_url" placeholder="رابط مقطع فيديو" class="span3" />
+                                    <input type="text" name="budget" placeholder="التكلفة المتوقعة بالريال" class="span3" />
+                                    <input type="text" name="adv_type" placeholder="اسم المسوق الذي ارشدك الينا" class="span3" />
+				    <input class="IMU" buttonText="Attach files" filesLimit="10" fileDesc="jpg,png,gif,avi,wmv,fla" fileExt="jpg,png,gif,avi,wmv,fla" button="custom_button.png" type="file" path="files/" startOn='onSubmit:formsale' ajax='true' ajaxInfoId='sinfo' ajaxLoaderId='loader' multi='true' afterUpload='filename' maxSize='204800' />
+				    <input type="hidden" name="form_type" value="rental" />
+                                    <!--<textarea rows="5" placeholder="Message"></textarea>-->
+                                    <button type="submit" class="btn btn-large">ارسال الطلب</button>
+					<span class="imu_loader" id="loader">
+						
+					</span>
+				<div class="imu_info" id="sinfo"></div>
+                                </fieldset>
+                            </form>
+
+                        </div>
+
+                        <div class="span4 pull-right" style="margin-right:50px;">
+                            <h5 class="text-right">معلومات تهمك</h5>
+
+                            <address>
+                                <p>‫يرجى ذكر المكان بالتفصيل مع نقاط عالم واضحة‬<span class="sosa">o</span> <br />
+                                    ‫لن يتم عرض رقم الهاتف وستتواصل الشركة معكم عبره‬ <span class="sosa">4</span> <br />
+  بالضغط على ارفق ملف سوف ترفق جميع ملفاتك <span class="sosa">b</span> <br />
+  ارفاق الملف او الصورة مطلوب لارسال الطلب <span class="sosa">g</span>
+
+                                </p>
+                            </address>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end sale section -->
+
+  <!-- develop section -->
+  <div id="develop" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+		<div style="float: left; display: block;"><img src="img/logo.png"  /></div>
+                    <h1>‫خطط التطوير  ‬ <span>والتنمية</span></h1>
+                    <p class="lead">‫‫‫نقوم بتطوير المشاريع وتنميتها وتسويقها إضافة إلمكانية اقامة المشاريع العقارية لذا في حال كانت لديكم موقع عقاري او‬
+‫أرض يمكن لنا تطويرها معا وتنميتها عبر الذراع االستثماري للشركة القابضة‬
+                    </p>
+                    <div class="row">
+                        <div class="span6 pull-right">
+
+                            <!-- develop form -->
+                            <form action="send-actions.php" method="post" id="formdevelop" class="develop-form">
+                                <fieldset>
+                                    <legend>يرجى ملء الحقول التالية</legend>
+                                    <input type="text" name="ful_name" placeholder="الاسم الثلاثي" class="span3" />
+                                    <input type="text" name="mobile_number" placeholder="رقم الجوال" class="span3" />
+                                    <input type="text" name="location" placeholder="مكان الاستثمار او العقار" class="span3" />
+		                    <input type="text" name="video_url" placeholder="رابط مقطع فيديو" class="span3" />
+                                    <input type="text" name="budget" placeholder="التكلفة المتوقعة بالريال" class="span3" />
+                                    <input type="text" name="adv_type" placeholder="اسم المسوق الذي ارشدك الينا" class="span3" />
+				    <input class="IMU" buttonText="Attach files" filesLimit="10" fileDesc="jpg,png,gif,avi,wmv,fla" fileExt="jpg,png,gif,avi,wmv,fla" button="custom_button.png" type="file" path="files/" startOn='onSubmit:formdevelop' ajax='true' ajaxInfoId='dinfo' ajaxLoaderId='loader' multi='true' afterUpload='filename' maxSize='204800' />
+				    <input type="hidden" name="form_type" value="develop" />
+                                    <!--<textarea rows="5" placeholder="Message"></textarea>-->
+                                    <button type="submit" class="btn btn-large">ارسال الطلب</button>
+					<span class="imu_loader" id="loader">
+						
+					</span>
+				  <div class="imu_info" id="dinfo"></div>
+                                </fieldset>
+                            </form>
+
+                        </div>
+
+                        <div class="span4 pull-right" style="margin-right:50px;">
+                            <h5 class="text-right">معلومات تهمك</h5>
+
+                            <address>
+                                <p>‫يرجى ذكر المكان بالتفصيل مع نقاط عالم واضحة‬<span class="sosa">o</span> <br />
+                                    ‫لن يتم عرض رقم الهاتف وستتواصل الشركة معكم عبره‬ <span class="sosa">4</span> <br />
+  بالضغط على ارفق ملف سوف ترفق جميع ملفاتك <span class="sosa">b</span> <br />
+  ارفاق الملف او الصورة مطلوب لارسال الطلب <span class="sosa">g</span>
+
+                                </p>
+                            </address>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end develop section -->
+
+  
+    <!-- Footer section -->
+    <div class="footer">
+        <p class="text-center"><a href="#">شركة مشروعات الاعمال التجارية</a> &copy; 2013  جميع الحقوق محفوظة تصميم وبرمجة <a href="http://majeste.me/">ماجستي</a></p>
+    </div>
+</div>
+<!-- Go to top page -->
+<div id="toTop"><i class="icon-chevron-up icon-white"></i></div>
+
+<!-- jQuery Scripts --> 
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+
+<!-- Bootstrap Scripts --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+<!-- OnePage scroll Script --> 
+<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script> 
+<script type="text/javascript" src="js/jquery.localscroll.min.js"></script> 
+<script type="text/javascript" src="js/jquery.nav.min.js"></script> 
+
+<!-- Superslides Script --> 
+<script type="text/javascript" src="js/jquery.superslides.min.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+
+<!-- ScrollBar Script --> 
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script> 
+
+<!-- Filterable Script --> 
+<script type="text/javascript" src="js/jquery.filterable.min.js"></script> 
+
+<!-- Masonry Script --> 
+<script type="text/javascript" src="js/jquery.masonry.min.js"></script> 
+
+<!-- Fancybox Script --> 
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script> 
+
+<!-- FullScreen Script --> 
+<script type="text/javascript" src="js/jquery.fullscreen-min.js"></script> 
+
+<!-- facebox Script --> 
+<link href="js/src/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="js/src/facebox.js" type="text/javascript"></script>
+
+<!-- Uploader -->
+<link type="text/css" rel="stylesheet" href="css/uploader.css" />
+<script type='text/javascript' src='js/upload.min.js'></script>
+<script type='text/javascript' src='js/swfobject.js'></script>
+<script type='text/javascript' src='js/myupload.js'></script>
+
+<!-- Settings Script --> 
+<script type="text/javascript" src="js/settings.js"></script>
+</body>
+</html>

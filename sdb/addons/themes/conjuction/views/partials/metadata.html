@@ -1,0 +1,121 @@
+<!-- Begin meta tags -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9, IE=8" />
+<meta name="author" content="codexc.com" />
+<meta name="copyright" content="codexc.com" />
+<meta name="distribution" content="global" />
+<meta name="resource-type" content="document" />
+<meta name="language" content="{pyro:lang:code}" />
+
+{pyro:theme:favicon file="favicon.png"}
+
+<!-- Begin stylesheets -->
+{pyro:theme:css file="reset.css"}
+{pyro:theme:css file="style.css"}
+{pyro:theme:css file="loslider.css"}
+{pyro:theme:css file="main_slider.css"}
+
+
+<!--[if lt IE 9]>
+{pyro:theme:js file="IE9.js"}
+<![endif]-->
+
+
+{pyro:theme:js file="jquery.js"}
+{pyro:theme:js file="jquery.easing.js"}
+
+{if '{pyro:url:segments segment="1"}' == 'home' || '{pyro:url:segments segment="1"}' == ''}
+{pyro:theme:js file="script.js"}
+{pyro:theme:js file="jquery-easing-compatibility.1.2.pack.js"}
+{pyro:theme:js file="coda-slider.1.1.1.pack.js"}
+
+
+<script type="text/javascript">
+
+
+		var theInt = null;
+		var $crosslink, $navthumb;
+		var curclicked = 0;
+		theInterval = function(cur){
+			clearInterval(theInt);
+			
+			if( typeof cur != 'undefined' )
+				curclicked = cur;
+			
+			$crosslink.removeClass("active-thumb");
+			$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+			
+			theInt = setInterval(function(){
+				$crosslink.removeClass("active-thumb");
+				$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+				curclicked++;
+				if( 6 == curclicked )
+					curclicked = 0;}, 8000);
+		};
+		
+		$(function(){
+			
+			$("#main-photo-slider").codaSlider();
+			
+			$navthumb = $(".nav-thumb");
+			$crosslink = $(".cross-link");
+			
+			$navthumb
+			.click(function() {
+				var $this = $(this);
+				theInterval($this.parent().attr('href').slice(1) - 1);
+				return false;
+			});
+			
+			theInterval();
+		});
+
+ $(document).ready( function(){	
+				
+		$('#lofslidecontent45').lofJSidernews( { interval:2000,
+												auto:false } );	
+                                                
+        if ((screen.width <= 1024)) {        
+            alert('الرجاء تغيير اعدادات الشاشة');
+        }                                    	
+  });
+
+</script>
+    {pyro:theme:js file="easySlider1.5.js"}
+   
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true,
+				continuous: true 
+			});
+		});	
+	</script>
+
+{/if}
+
+<!-- End stylesheets -->
+
+{pyro:template:metadata}
+
+<!-- Place CSS bug fixes for IE 6 in this comment -->
+<!--[if IE 6]>
+<meta http-equiv="refresh" content="0; url=http://www.microsoft.com/windows/internet-explorer/default.aspx" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window.top.location = 'http://www.microsoft.com/windows/internet-explorer/default.aspx';
+/* ]]> */
+</script>
+<![endif]-->
+
+<!-- Place CSS bug fixes for IE 7 in this comment -->
+<!--[if IE 7]>
+{pyro:theme:css file="ie.css"}
+<![endif]-->
+
+
+
+<title>{pyro:settings:site_name}&nbsp;&bull;&nbsp;{pyro:template:title}</title>

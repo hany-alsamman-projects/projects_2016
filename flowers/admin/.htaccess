@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+#RewriteBase /
+
+RewriteRule ^css/(.*)$ ../files/css/$1 [L,NC]
+RewriteRule ^images/(.*)$ ../files/img/$1 [L,NC]
+RewriteRule ^js/(.*)$ ../files/js/$1 [L,NC]

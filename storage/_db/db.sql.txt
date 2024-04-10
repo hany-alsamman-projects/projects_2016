@@ -1,0 +1,188 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Sep 13, 2012 at 10:11 AM
+-- Server version: 5.0.51
+-- PHP Version: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Database: `storage`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `customers`
+-- 
+
+CREATE TABLE `customers` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(255) default NULL,
+  `phone` varchar(50) default NULL,
+  `mobile` varchar(50) default NULL,
+  `note` varchar(255) default NULL,
+  `act` int(11) default '1',
+  `company` varchar(255) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=129 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `dmg_opr`
+-- 
+
+CREATE TABLE `dmg_opr` (
+  `id` int(11) NOT NULL auto_increment,
+  `ord_id` int(11) default NULL,
+  `it_id` int(11) default NULL,
+  `qunt` int(11) default NULL,
+  `user_id` int(11) default NULL,
+  `date` int(80) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `invices`
+-- 
+
+CREATE TABLE `invices` (
+  `id` int(11) NOT NULL auto_increment,
+  `date` datetime NOT NULL,
+  `c_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `fin` int(11) default '0',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=397 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `inv_opr`
+-- 
+
+CREATE TABLE `inv_opr` (
+  `id` int(11) NOT NULL auto_increment,
+  `inv_id` int(11) default NULL,
+  `ord_id` int(11) default NULL,
+  `it_id` int(11) default NULL,
+  `qunt` int(11) default NULL,
+  `price` float default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4410 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `inv_porx`
+-- 
+
+CREATE TABLE `inv_porx` (
+  `id` int(11) NOT NULL auto_increment,
+  `user_id` int(11) default NULL,
+  `ord_id` int(11) default NULL,
+  `it_id` int(11) default NULL,
+  `qunt` int(11) default NULL,
+  `price` float default NULL,
+  `date` int(120) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `inv_text`
+-- 
+
+CREATE TABLE `inv_text` (
+  `id` int(11) NOT NULL auto_increment,
+  `header` varchar(255) default NULL,
+  `footer` varchar(255) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `items`
+-- 
+
+CREATE TABLE `items` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(150) default NULL,
+  `price` float default NULL,
+  `act` int(11) default '1',
+  `ord` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=94 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `orders`
+-- 
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(120) default NULL,
+  `date` datetime default NULL,
+  `expenses` int(11) default NULL,
+  `user_id` int(11) default NULL,
+  `fin` int(11) default '0',
+  `num` varchar(80) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=55 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `ord_opr`
+-- 
+
+CREATE TABLE `ord_opr` (
+  `id` int(11) NOT NULL auto_increment,
+  `ord_id` int(11) default NULL,
+  `it_id` int(11) default NULL,
+  `qunt` int(11) default NULL,
+  `price` float default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=402 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `payments`
+-- 
+
+CREATE TABLE `payments` (
+  `id` int(11) NOT NULL auto_increment,
+  `pay` float default NULL,
+  `cus` int(11) default NULL,
+  `inv` int(11) default NULL,
+  `note` varchar(255) default NULL,
+  `date` datetime default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `users`
+-- 
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL auto_increment,
+  `fname` varchar(120) default NULL,
+  `un` varchar(50) NOT NULL,
+  `pw` varchar(50) NOT NULL,
+  `act` int(11) NOT NULL default '1',
+  `user_type` int(11) NOT NULL default '1',
+  `short` varchar(50) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;

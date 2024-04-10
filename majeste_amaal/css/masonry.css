@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Masonry */
+.masonry, .masonry .masonry-brick {
+	transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+#masonry {
+	margin: 0 auto 20px;
+	width: 960px;
+	clear: both;
+}
+.wrapper-blog #masonry {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.wrapper-blog #masonry .single {
+	background: #F9F9F9;
+}
+
+/* Masonry single container */
+#masonry .single {
+	margin: 0px 10px 20px 10px;
+	width: 220px;
+	background: #FFF;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* Masonry single container big */
+#masonry .single.big {
+	width: 460px;
+}
+#masonry .single:hover {
+	z-index: 1000;
+}
+#masonry .single.not-current {
+	opacity: 0.1;
+}
+#masonry .single h3 {
+	padding: 10px;
+	background: #F9F9F9;
+	font-size: 14px;
+	line-height: 20px;
+}
+#masonry .single h3 a {
+	color: #333;
+}
+#masonry .single h3 a:hover {
+	color: #999;
+}
+#masonry .single h4 {
+	margin: 20px 20px 0 20px;
+}
+#masonry .single p {
+	margin: 20px;
+	font-weight: 300;
+	font-size: 14px;
+}
+#masonry .single p strong {
+	font-weight: 400;
+}
+#masonry .single em {
+	margin: 0px 20px 20px 20px;
+	font: normal 12px/20px Arial, Helvetica, sans-serif;
+	color: #999;
+	display: block;
+}
+#masonry .single .blog-comments {
+	background: #F0F0F0;
+	font: normal 12px/40px Arial, Helvetica, sans-serif;
+	color: #999;
+	display: block;
+}
+#masonry .single .blog-comments .sosa {
+	margin: 0 5px 0 0;
+	color: #CCC;
+}
+#masonry .single.not-current a {
+	cursor: default;
+}
+#masonry .single.not-current .sosa {
+	display: none;
+}
+#masonry img, #masonry object {
+	margin-bottom: 0;
+	width: 100%;
+}
+@media (min-width: 1200px) {
+#masonry {
+	width: 1200px;
+}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+#masonry {
+	width: 720px;
+}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+#masonry {
+	width: 480px;
+}
+}
+@media (max-width: 479px) {
+#masonry {
+	width: 240px;
+}
+#masonry .single, #masonry .single.big {
+	width: 240px;
+}
+}

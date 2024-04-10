@@ -1,0 +1,226 @@
+html{
+	background-color:#000203;
+		background:url(../img/main_bg.jpg) #000203 no-repeat top center;
+
+}
+
+body{
+
+	font-family: Calibri, Arial, sans-serif;
+	}
+a:link {
+	text-decoration:none	
+	}
+a:hover {
+	color:#fff;	
+	}
+a {
+	color:#96958a;	
+	}
+a:visetde {
+	text-decoration:none	
+	}
+#wrapper{
+	width:975px;
+	margin:0 auto;
+
+
+	}
+.clear{ clear: both; }
+#header{
+	height:371px;
+	margin:0 auto;
+	width:100%;
+	}
+#nav{
+	width:99%;
+	height:150px;
+	position:relative;
+	top:220px;
+	}
+#nav img{
+	width:735px;
+	height:46px;
+	position:absolute;
+	bottom:0px;
+	right:10px;
+	}
+#logo{
+	width:176px;
+	height:159px;
+	position:absolute;
+	left:80px;
+	bottom:0;
+	background:url(../img/logo.png) no-repeat;
+	}
+#nav_l{
+	width:20px;
+	height:150px;
+	float:left;
+	background:url(../img/nav_l.png) no-repeat;
+	}
+#nav_m{
+	
+	width:921px;
+	height:150px;
+	float:left;
+	background:url(../img/nav_m.png) repeat-x;}
+.links{
+	
+	width:550px;
+	height:55px;
+	float:right;
+	margin:80px 0px 0 0; 
+	}
+.links li{
+	text-decoration:none;
+		display:inline;
+		font-family:Verdana, Geneva, sans-serif;
+		border-right:solid 1px #fefd02;
+		padding:0 15px 0 15px;
+		text-shadow: 0 0 0.2em #8F7;
+		font-size:18px;
+		}
+.links a{
+	color:#fff;
+	}
+#nav_r{
+	width:20px;
+	height:150px;
+	float:left;
+	background:url(../img/nav_r.png) no-repeat;}
+	
+#root{
+	width:100%;
+	margin:0 auto;
+
+	}
+
+#slider{
+	width:962px;
+	height:444px;
+	float:left;
+	top:0;
+
+	}
+#last_products{
+	width:580px;
+	float:left;
+	margin:10px 0 0 5px;
+	min-height:500px;
+	}
+#last_products h1{
+	color:#424242;
+	font-size:22px;
+	font-family:Verdana, Geneva, sans-serif
+	
+	}
+#product{
+	width:280px;
+	min-height:300px;
+	float:left;
+	margin:30px 0 0 10px;	
+	position:relative
+	}
+#product a:hover{
+	color:#096dfe
+		}
+#product img{
+	width:270px;
+	height:117px;
+	float:left;
+	border:double #3e403f 6px;
+	}
+#product h3{
+	color:#96958a;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	width:90%;
+	padding-top:10px;
+	padding-bottom:7px;
+	margin-left:10px;
+	float:left;
+	border-bottom:solid #141415 1px;
+	}
+.pro_disc{
+	color:#464a49;
+	font-size:12px;
+	line-height:18px;
+	margin:5px 0 0 15px;
+	}
+.read_more{
+	width:113px;
+	height:22px;
+	background:url(../img/readmore.jpg) no-repeat;
+	position:absolute;
+	bottom:0;
+	left:10px;
+	text-align:left;
+	font-size:14px;
+	line-height:20px;
+	padding-left:12px;
+	}
+.read_more a:hover{
+	color:red;
+	}
+#gallery{
+	width:300px;
+	float:right;
+	margin:10px 80px 0 0px;
+	}
+#gallery h1{
+	color:#424242;
+	font-size:22px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:10px;
+	
+	}
+#gallery img{
+	width:121px;
+	height:121px;
+	float:left;
+	border:double #3e403f 4px;
+	margin:30px 0 0 10px;
+	}
+#pages{
+	width:300px;
+	float:right;
+	margin:10px 70px 0 10px;
+	text-align:left;
+	}
+#pages h1{
+	color:#a1a192;
+	font-size:22px;
+	font-family:Verdana, Geneva, sans-serif
+	}
+#pages img{
+	width:5px;
+	 height:5px;
+	 margin:18px 0 0 0;
+	 padding-right:5px;
+	}
+#pages p{
+	border-bottom:solid #141415 1px;
+	padding-bottom:10px;
+	}
+#footer{
+	width:100%;
+	background:#0b0a05;
+	float:left;
+	position:relative;
+	bottom:0;
+	margin-top:50px;
+	border-top:solid 1px #1e1e20;
+
+	}
+#copy_right{
+	width:100%;
+	height:40px;
+	font-size:12px;
+	color:#939393;
+	float:left;
+	margin-top:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	
+	}

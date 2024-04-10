@@ -1,0 +1,834 @@
+@charset 'utf-8';
+
+/* =Reset default browser CSS.
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+ul {
+	list-style: none;
+}
+li {
+	font-size:13px;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+input, textarea, a {outline:0px;}
+textarea {resize:none;}
+
+aside, article, footer, header, nav, section {display:block;}
+
+/* separators */
+.separator_10 {height:10px; clear:both; overflow:hidden;}
+.separator_15 {height:15px; clear:both; overflow:hidden;}
+.separator_20 {height:20px; clear:both; overflow:hidden;}
+.separator_25 {height:25px; clear:both; overflow:hidden;}
+.separator_30 {height:30px; clear:both; overflow:hidden;}
+.separator_35 {height:35px; clear:both; overflow:hidden;}
+.separator_40 {height:40px; clear:both; overflow:hidden;}
+.separator_45 {height:45px; clear:both; overflow:hidden;}
+.separator_65 {height:65px; clear:both; overflow:hidden;}
+
+/* @font-face */ 
+@font-face {
+ font-family: "ge_ss_two_medium";
+ font-style: normal;
+ font-weight: normal;
+ src: url('../fonts/ge_ss_two_medium.eot?');
+ src: local("ge_ss_two_medium"), url("../fonts/ge_ss_two_medium.woff") format("woff"), url("../fonts/ge_ss_two_medium.ttf") format("truetype"), url("../fonts/ge_ss_two_medium.svg#ge_ss_two_medium") format("svg");
+}
+/******************
+GLOBAL PROPERTRIES
+******************/
+*{
+    font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+    font-weight:normal;
+}
+
+body {
+	width:100%;
+	height:auto;
+	background:#FFF;
+	text-align:right;
+	margin:auto;
+	padding:0;
+	font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	font-weight:normal;
+}
+img {
+	border:0px;
+}
+ul, li, a {
+	list-style:none;
+	font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	color:#000;
+}
+a {
+	outline: none;  /* prevents dotted line when link is active */
+}
+a:hover {
+	color:#04baee;
+}
+p {
+	margin:0;
+	font-family:ge_ss_two_medium, Geneva, sans-serif;
+	font-size:13px;
+	width:100%;
+	float:right;
+	padding:10px 0 10px 0;
+	text-align:justify;
+	color:#666666;
+}
+
+/* fonts */
+h1, h2, h3, h4, h5, h6 {font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif; color:#0142aa; font-weight:normal; text-shadow:0px 1px rgba(0, 0, 0, 0.42);}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif; color:#0142aa; font-weight:normal; text-shadow:0px 1px rgba(0, 0, 0, 0.42);}
+h1, h1 a {font-size:22px;}
+h2, h2 a {font-size:18px;}
+h3, h3 a {font-size:15px;}
+h4, h4 a {font-size:13px;}
+
+.clear {
+	clear:both;
+}
+.more {
+	color:#01afeb;
+	padding-left:15px;
+	cursor:pointer;
+	float:left;
+}
+.more:hover {
+	color:#000;
+}
+
+.wrapper {width:1150px; min-height:100%; overflow-x:hidden;  margin: 0 auto; padding:0; position:relative}
+ 
+/******************
+START HEADER
+******************/
+header {
+	width:100%;
+	margin:auto;
+	padding:20px 0px;
+	height:105px;
+	position:relative;
+    background: url(../images/bubble.jpg) repeat-x  center top;
+}
+logo {
+	float:right;
+	width:309px;
+	height:105px;
+    background: url(../images/logo.png) no-repeat;
+
+}
+.cust_area {
+	background:url(../images/ca_l.png) left top no-repeat transparent;
+	height:50px;
+	position:absolute;
+	top:0;
+	left:80px;
+	width:700px;
+}
+.ca_left {
+	background: url("../images/ca_bg_03.jpg") repeat-x scroll 0 0 transparent;
+	float: left;
+	height: 42px;
+	margin-left: 12px;
+}
+.ca_left .login {
+	background: url("../images/nitaqaty_06.png") repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	float: left;
+	font-size: 13px;
+	font-weight: normal;
+	height: 27px;
+	line-height: 23px;
+	margin: 6px 0 0 15px;
+	text-align: center;
+	width: 53px;
+}
+.ca_left .login:hover {
+	background: url("../images/nitaqaty_06_hover.png") repeat scroll 0 0 transparent;
+}
+.input_pw_border_r {
+	background: url("../images/nitaqaty_08.png") no-repeat scroll right center transparent;
+	float: left;
+	height: 27px;
+	margin: 6px 0 0 20px;
+	width: 170px;
+}
+.input_pw_border_r input {
+	background: url("../images/nitaqaty_12.jpg") repeat-x scroll 0 0 transparent;
+	border: 0 none;
+	float: right;
+	height: 27px;
+	margin-right: 22px;
+	width: 140px;
+	color:#999
+}
+.input_pw_border_l {
+	background: url("../images/nitaqaty_10.png") no-repeat scroll left top transparent;
+	float: right;
+	height: 27px;
+	width: 7px;
+}
+.input_un_border_r {
+	background: url(../images/nitaqaty_14.png) no-repeat scroll right center transparent;
+	float: left;
+	height: 27px;
+	margin: 6px 0 0 20px;
+	width: 170px;
+}
+.input_un_border_r input {
+	background: url("../images/nitaqaty_12.jpg") repeat-x scroll 0 0 transparent;
+	border: 0 none;
+	float: right;
+	height: 26px;
+	margin-right: 22px;
+	width: 140px;
+	color:#999
+}
+.input_un_border_l {
+	background: url("../images/nitaqaty_10.png") no-repeat scroll left top transparent;
+	float: right;
+	height: 27px;
+	width: 7px;
+}
+.ca_right {
+	background: url(../images/top_menu_r_03.png) scroll 0 0 transparent;
+	float: left;
+	height: 42px;
+	width:235px;
+}
+.ca_right h4 {
+	color: #FFFFFF;
+	float: right;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 10px 10px 0 0;
+}
+.ca_right a {
+	background: url("../images/nitaqaty_17.png") no-repeat scroll 0 0 transparent;
+	color: #295B93;
+	float: left;
+	height: 25px;
+	margin: 8px 0 0 29px;
+	text-align: center;
+	width: 81px;
+}
+.ca_right a:hover{background: url("../images/nitaqaty_17_hover.png") no-repeat scroll 0 0 transparent;}
+.cust_area .forget_pw, .forget_pw a {
+	color: #386EA6;
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+.cust_area .forget_pw a:hover {
+	text-decoration:underline;
+}
+/**************
+NAV
+*****************/
+nav {
+	display: block;
+	position: relative;
+	width: 700px;
+	z-index: 1;
+	overflow: hidden;
+}
+nav ul {
+    padding-top: 24px;
+    float: left;
+}
+header nav li {
+	float:right;
+    border-left: 1px solid #d5d6d7;
+    height: 20px;
+}
+header nav li:last-child {
+    float:right;
+    border: 0px;
+}
+header nav a {
+	text-decoration: none;
+	color: #727273;
+	text-decoration: none;
+	position: relative;
+	width:80px;
+	float: right;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	display: inline;
+	font-size: 16px;
+}
+header nav a:hover {
+	text-decoration: none;
+	color: #0142aa;
+}
+/****************
+SLIDER
+*****************/
+.slider_full_width {
+	width:100%;
+    background:url(../images/nitaqaty_31.jpg) center no-repeat;
+	height:317px;
+}
+
+.slider_bg {
+	width:1140px;
+	margin:auto;
+	height:317px;
+}
+/*****************
+CONTENT
+******************/
+
+.content {
+	margin: 20px auto auto;
+	width: 1150px;
+}
+.board_bg  {
+    background: url("../images/board_bubble_bg.jpg") no-repeat scroll center top;
+    width: 1150px;
+    height: 387px;
+    z-index: 19;
+    position: absolute;
+}
+.up_arrow{
+    background: url("../images/up_arrow.png") no-repeat scroll center top;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+}
+.services_board  {
+	background: url("../images/section_bg.png") no-repeat scroll center bottom transparent;
+	padding-top: 60px;
+	width: 1150px;
+	height: 387px;
+	position:relative;
+    z-index: 20;
+}
+.domains_search {
+	left: 80px;
+	position: absolute;
+	top: 11px;
+	width: 43%;
+}
+.domains_search_box {
+	border: 3px solid #C8C8C8;
+	float: left;
+    width: 100%;
+}
+.domains_search div {
+	height: 44px;
+	padding: 5px;
+}
+.domains_search div input, .domains_search div select {
+	float:right;
+}
+.domains_search div input {
+	color: #BAB7B7;
+	height: 30px;
+	margin-left: 2px;
+	padding-right: 10px;
+	width: 330px;
+}
+.domains_search div select {
+	background: url("../images/nitaqaty_41.png") no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	color: #333333;
+	direction: ltr;
+	font-size: 19px;
+	height: 36px;
+	margin-left: 0;
+	text-align: center;
+	width: 76px;
+}
+.domains_search div a {
+	background: url("../images/nitaqaty_38.png") repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	float: left;
+	height: 37px;
+	line-height: 35px;
+	text-align: center;
+	width: 49px;
+}
+.domains_search div a:hover {
+	background:url(../images/nitaqaty_38_hover.png);
+}
+.domains_search h1 {
+	float: right;
+	margin: 14px 174px 0 0;
+}
+.domains_search p {
+	color: #7A7A7A;
+    text-align: right;
+    float: left;
+	font-family: ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+    width:270px;
+	font-size: 13px;
+	margin: 5px 0px 0 50px;
+	padding: 0;
+}
+/*********************************************/
+/***********
+RIGHT CONTENT
+************/
+.right_sec {
+	float: right;
+	margin-right: 82px;
+	width: 53%;
+	position: relative;
+}
+
+.right_sec_bg {
+	background: url("../images/big_bubble_bg.jpg") repeat-x bottom center;
+}
+
+.right_sec h1 {
+	padding-top:10px;
+	margin-right:15px;
+}
+.right_sec h4 {
+	margin-right:15px;
+}
+.right_sec_sec {
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	width: 47%;
+    direction: rtl;
+}
+.left_sec_sec {
+	float: left;
+	padding-top: 32px;
+	width: 44%;
+    direction: rtl;
+}
+.right_sec_sec img {
+	float:left;
+	margin-top:20px;
+}
+.right_sec_sec p {
+	font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+}
+.left_sec_sec img {
+	float:left;
+    margin-left: 50px;
+}
+.left_sec_sec h1 {
+	margin-right:20px;
+}
+.left_sec_sec p {
+	font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	margin-right:20px;
+    font-size: 12px;
+}
+/*************
+LEFT SECTION
+****************/
+.left_sec {
+	float: left;
+	margin: 137px 0 0 97px;
+    direction: rtl;
+}
+.left_sec h4 {
+	margin:10px 0 10px 0;
+
+}
+/****************************************************/
+/*********
+AD 1
+*************/
+.ad1 img {
+	float:right;
+}
+.ad1_bg {
+	background:url(../images/box_bg.jpg);
+	width:96%;
+	height:123px;
+	float:right;
+
+}
+.ad1_bg img {
+	float: right;
+	padding-top: 10px;
+}
+.ad1_bg p {
+	float: right;
+	margin-right: 8px;
+	margin-top: 18px;
+	width: 45%;
+	text-align: right;
+	direction: rtl;
+}
+.hilight {
+	color: #0142aa;
+	float: right;
+	font-family: ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+	padding: 17px 10px 0 8px;
+}
+.hilight1 {
+	color: #7E8082;
+	font-family: ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+.hilight2 {
+	color: #0142aa;
+	font-family: ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+.content .right_sec h1 {
+	margin-top:10px;
+}
+.content .right_sec p {
+	color:#666666;
+	text-align:justify;
+	line-height:28px;
+    direction: rtl;
+}
+.content .right_sec p img {
+	float: right;
+	margin: 5px 0 10px 3px;
+}
+.our_aims {
+	background: url("../images/nitaqaty_107.png") no-repeat scroll 0 0 transparent;
+	margin: 0px auto 0px auto;
+	width: 990px;
+	height: 184px;
+	position:relative;
+}
+.our_aims h1 {
+    position: absolute;
+    right:100px;
+    top:40px;
+    direction: rtl;
+}
+
+.our_aims h2{
+	margin-right:25px;
+	color:#0142aa;
+}
+
+.our_aims p {
+	line-height: 22px;
+	margin-right: 280px;
+	width: auto;
+    direction: rtl;
+}
+/***********************
+LEFT
+********************/
+
+.content .left_sec {
+	float: right;
+	margin: 0 23px 0 0;
+	width: 30%;
+}
+.content .left_sec img {
+	margin-top:30px;
+	float:left;
+	margin-bottom:30px;
+}
+.inquiry {
+	background: url("../images/left_nav_bg.jpg") repeat-x scroll 0 bottom transparent;
+	border: 1px solid #dedede;
+	border-radius: 7px;
+	float: left;
+	/*	height: 130px;*/
+	width: 295px;
+    direction: rtl;
+    padding-right: 15px;
+}
+.inquiry .inquiry1 {
+	background: url("../images/nitaqaty_65.png") no-repeat scroll 4px 15px transparent;
+	height: 120px;
+}
+.inquiry .inquiry1 h1 {
+	padding-bottom: 7px;
+	padding-top: 22px;
+}
+.inquiry img {
+	margin-top:30px;
+}
+.inquiry .inquiry1 h2 {
+	padding-bottom: 7px;
+	color:#666666;
+}
+.inquiry .inquiry1 .hilight2 {
+}
+/******************************/
+.inquiry2 {
+	height:175px;
+
+}
+.inquiry2 div h1 {
+	padding-bottom: 7px;
+	padding-top: 10px;
+	border-bottom:1px dashed #d9d7d7;
+}
+.inquiry2 p {
+	color: #999999;
+	font-family: ge_ss_two_medium, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+}
+.inquiry2 div {
+	background: none !important;
+	height: 120px;
+	width: 92%;
+}
+.inquiry2 div .hilight2 {
+	float:left;
+	width:100%;
+	text-align:left;
+}
+.inquiry2 div .hilight3 {
+	color: #999999;
+	float: left;
+	text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+/************************************/
+.social_share {
+
+}
+.social_share div {
+    padding: 10px;
+    height: 50px;
+}
+.social_logo{
+    width: 52px;
+    height: 52px;
+    background: url(../images/logo2.jpg) no-repeat center top;
+    float:left;
+ }
+.social_share h1 {
+	float:right;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.social_share div span {
+	font-size:12px;
+	direction:ltr;
+	text-align:right;
+	color:#999;
+	float:right;
+}
+/************
+newsletter
+*************/
+
+.newsletters {
+	margin-top: 20px;
+	padding: 3px 3px 3px 0px;
+    width: 305px;
+}
+.newsletters .newsl {
+	background:url(../images/newsletter_91.jpg);
+	width:99%;
+	height:119px;
+}
+.newsletters .newsl .newsl_div {
+	margin-top:6px;
+}
+.newsletters .newsl h1 {
+	color:#FFF;
+	padding:15px 10px 5px 0;
+}
+.newsletters .newsl h3 {
+	font-size: 13px;
+	padding-right: 10px;
+    color:#bdbdbd;
+}
+.input_nl_border_r {
+	background: url("../images/nitaqaty_100.png?1") no-repeat scroll right center transparent;
+	float: right;
+	height: 27px;
+	margin: 6px 7px 0 20px;
+	width: 195px;
+}
+.input_nl_border_r input {
+	background: url("../images/nitaqaty_12.jpg") repeat scroll 0 0 transparent;
+	border: 0 none;
+	color: #999999;
+	float: right;
+	height: 27px;
+	margin-right: 27px;
+	width: 161px;
+	padding-top:0
+}
+.input_nl_border_l {
+	background: url("../images/nitaqaty_10.png") repeat scroll left center transparent;
+	float: left;
+	height: 27px;
+	width: 7px;
+}
+.newsletters .newsl .newsl_div a {
+	color:#FFF;
+	background:url(../images/nitaqaty_94.png);
+	width:53px;
+	height:27px;
+	text-align:center;
+	font-size:13px;
+	float:right;
+	margin-top:6px;
+	line-height:27px;
+}
+/******************************************/
+
+.client_honor {
+	background: url("../images/client_honor_bg.jpg") no-repeat scroll 0 0 transparent;
+	height: 124px;
+	margin: 0px auto 0px auto;
+	width: 990px;
+}
+.client_honor h1 {
+	margin-right: 14px;
+}
+.ch_l {
+	border-right: 1px solid #999999;
+	float: left;
+	margin: 0px 0px 5px 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 26%;
+    direction: rtl;
+}
+/*************
+social btns
+***************/
+ .social {
+	float:left;
+	margin-top:15px;
+}
+.social li a {
+	text-indent:-9999px;
+	height:24px;
+	width:24px;
+	white-space: nowrap;                  /* because only the first line is indented */
+	display: block;
+
+}
+.social .facebook {
+	background: url("../images/social.png") no-repeat scroll -59px 0 transparent;
+	display: block;
+	float: left;
+	height: 24px;
+	width: 24px;
+	margin-right: 2px;
+}
+.social .twitter {
+	background: url("../images/social.png") no-repeat scroll -30px 0 transparent;
+	display: block;
+	float: left;
+	height: 24px;
+	margin-right: 2px;
+	width: 24px;
+}
+.social .youtube {
+	background: url("../images/social.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	height: 24px;
+	width: 24px;
+	margin-right: 2px;
+}
+.social .rss {
+	background: url("../images/social.png") no-repeat scroll -90px 0 transparent;
+	display: block;
+	float: left;
+	height: 24px;
+	width: 24px;
+	margin-right: 2px;
+}
+.social .facebook:hover {
+	background:url(../images/social_hover.png) no-repeat -59px 0;
+}
+.social .twitter:hover {
+	background:url(../images/social_hover.png) no-repeat -30px 0;
+}
+.social .youtube:hover {
+	background:url(../images/social_hover.png) no-repeat 0px 0;
+}
+.social .rss:hover {
+	background:url(../images/social_hover.png) no-repeat -90px 0;
+}
+/**********************
+FOOTER
+**********************/
+footer {
+	width:990px;
+	margin:auto;
+}
+.right_footer {
+	float:right;
+	width:48%;
+	margin-top:20px
+}
+.right_footer a {
+	float:right;
+	margin-left:30px;
+	margin-bottom:30px;
+}
+.left_footer {
+	float:left;
+	width:48%;
+    direction: rtl;
+}
+.left_footer a {
+	float: right;
+	margin: 20px 8px 5px 30px;
+}
+.left_footer p {
+	padding-right: 10px;
+	width: 83%;
+    font-size: 12px;
+    font-family: ge_ss_two_medium;
+}

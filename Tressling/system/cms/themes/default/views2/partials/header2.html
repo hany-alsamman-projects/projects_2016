@@ -1,0 +1,74 @@
+
+            <div id="header">
+            	<section class="header_top">
+                    <div class="inner">
+            			<div style="float: left" id="logo"><a href="{{ url:site  }}" title="Home">{{ theme:image file="pic_logo.png"  alt="{{ settings:site_slogan }}" }}</a></div>
+                        
+                        <div style="float: right" class="block_top_info">
+
+
+  <div class="phone"><p>Saudi Arabia - Riyadh , Tel. <strong>(+966) 920013777</strong> </p></div>
+            <br />
+            <div class="email"><p>info@virtualtour.sa</p></div>
+<br>   
+            <div><img alt="انتقل الى العربية" src="system/cms/themes/default/img/ar.png" />&nbsp;&nbsp;<a href="/?lang=ar">انتقل الى العربية</a></div>
+        
+        <div id="myDropdown"></div>
+          
+                            
+                            
+                            
+                        </div>
+                        
+                        <div class="clearboth"></div>
+                    </div>
+                </section>
+                    
+                <section class="header_bottom block_page_menu">
+                    <div class="inner">
+                        <nav class="top_menu">
+                                    <script type="text/javascript">
+                                    <!--
+                                    function getss(title, url){
+                                    var thelink = '';
+                                    var str = title;
+                                    var myarr = str.split("::");
+                                    return '<a href="url">'+myarr[0]+'<span class="menu_subtext">'+myarr[1]+'</span></a>';
+                                    //return document.write(thelink);
+                                    }
+                                    -->
+                                    </script>
+                                        
+                                    <ul>
+                                    {{ if global:current_language == 'ar' }}
+
+                                      {{ navigation:links group="header_en" }}
+                                        <li>
+                                        <a href="{{ url }}">{{ title }}<span></span></a>
+                                        </li>
+                                        {{ /navigation:links }}
+                                        
+                                     {{ endif }}
+                                        
+                                    </ul>
+<!--
+                                                                        
+                            <ul>
+                                
+                              	<li class="current_page_item"><a href="home.html">Home<span class="menu_subtext">Virtual tour home page</span></a>
+                                </li>
+                                <li><a href="services.html">Our Services<span class="menu_subtext">View Our Services</span></a>
+                                </li>
+                              	<li><a href="projects.html">Our Projects<span class="menu_subtext">View Our Projects</span></a>
+                                </li>
+                              	<li><a href="about.html">About us<span class="menu_subtext">Hello! We are Virtual Tour</span></a>
+                                </li>
+                              	<li><a href="contactus.html">Contact us<span class="menu_subtext">say hello !</span></a>
+                                </li>
+                          	</ul>
+-->
+                        </nav>
+                    </div>
+                </section>
+            </div>
+        </header>

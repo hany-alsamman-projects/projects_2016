@@ -1,0 +1,21 @@
+<?php
+$INFO['MetaAuthor']			=	'1';
+$INFO['MetaDesc']			=	'my site the best';
+$INFO['MetaKeys']			=	'ÊÏÝÆÉ æÊßííÝ,ÊÚåÏÇÊ ÊÏÝÆÉ æ ÊßííÝ,ãÔÇÑíÚ ÊÏÝÆÉ æÊßííÝ,ÝÊÍÇÊ ÊßííÝ Ãáãäíæã,ãÔÇÑíÚ ãíßÇäíß æßåÑÈÇÁ,ÏÑÇÓÇÊ ßåÑÈÇÁ,ÏÑÇÓÇÊ ÊÏÝÆÉ æÊßííÝ,ÊÏÝÆÉ ÈÇáØÇÞÉ ÇáÔãÓíÉ,ÊßííÝ ÈÇáØÇÞÉ ÇáÔãÓíÉ,ÊÏÝÆÉ ÃÑÖíÉ,ãÑØÈÇÊ ÈÎÇÑ,ÍãÇã ÊÑßí,ÍáÈÉ ÊÒáÌ,ÍáÈÉ ÊÒáÌ ËÇÈÊÉ,ÍáÈÉ ÊÒáÌ ãÊäÞáÉ,ÊÃÌíÑ ÍáÈÇÊ ÊÒáÌ,ÊÒáÌ Úáì ÇáÌáíÏ,ÚÑæÖ ÊÒáÌ,ÚÑæÖ ÊÒáÌ ÇáÔÑÞ ÇáæÓØ,ÃÍÐíÉ ÊÒáÌ,ãÚÏÇÊ ÊÒáÌ,äÙÇã ÅÏÇÑÉ ÇáãÈÇäí,äÙÇã ÊÍßã ÈÇáãÈÇäí,äÙÇã ÊÍßã,ÕãÇã ËáÇËí,ÕãÇã ãÒÌ,ÍÓÇÓ ÍÑÇÑÉ,ÍÓÇÓ ÑØæÈÉ,Heating air conditioning,Heating air conditioning projects,Heating air conditioning contracting,Electrical Mechanical projects,Electrical Mechanical contracting,HVAC,Solar heating,Solar Cooling,Under floor heating,Steam Humidifier,Turkish Bath,Mobile Ice Rink,Permanent Ice Rink,Ice rink Middle east,Rental Ice rink,Ice Rink,Ice skating,Figure skating show Middle east,Ice skating Show,Ice skating boots,Ice skating equipments,BMS,Building management system,Building control system,Three way valve,Mixing valve,Temperature sensor,Humidity sensor,Bacnet';
+$INFO['MetaTitle']			=	'0';
+$INFO['REPORTING']			=	'7';
+$INFO['SITE_DIR']			=	'http://www.clima-sy.com';
+$INFO['SITE_NAME']			=	'ÔÑßÉ ßáíãÇÊíß';
+$INFO['SITE_PATH']			=	''.$_SERVER["DOCUMENT_ROOT"].'';
+$INFO['SMTPhost']			=	'';
+$INFO['SMTPpass']			=	'';
+$INFO['SMTPuser']			=	'';
+$INFO['SendAuth']			=	'0';
+$INFO['SendmPath']			=	'/usr/sbin/sendmail';
+$INFO['Submit1']			=	'submit';
+$INFO['from_name']			=	'ßæÏßÓ';
+$INFO['gzip']			=	'1';
+$INFO['mail_from']			=	'hany@codexc.om';
+$INFO['mailer']			=	'smtp';
+
+?>

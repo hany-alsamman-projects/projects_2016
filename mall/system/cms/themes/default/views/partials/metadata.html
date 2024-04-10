@@ -1,0 +1,128 @@
+<meta name="keywords" content="">
+<meta name="description" content="" />
+<meta itemprop="name" content="" />
+<meta property="og:title" content="" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="language" content="{{ lang:code }}" />
+
+
+<base href="{{ url:base }}" />
+
+
+<!-- Begin scripts -->
+{{ theme:js file='jquery.js' }}
+<!-- End scripts -->
+
+<!-- jQuery KenBurn Slider  -->
+	{{ theme:js file="jquery.themepunch.plugins.min.js" }}
+	{{ theme:js file="jquery.themepunch.revolution.min.js" }}  
+
+<!-- REVOLUTION BANNER CSS SETTINGS -->
+	{{ theme:css file="settings.css" }}
+	{{ theme:css file="captions.css" }}
+
+<!-- Begin stylesheets -->
+{{ if global:current_language == 'en' }}   
+    {{ theme:css file="template_ltr.css" }}
+    
+{{ elseif  global:current_language == 'ar'}}
+    {{ theme:css file="template_rtl.css" }}
+{{ endif }}
+
+
+<!-- End stylesheets -->
+
+<!--[if IE]>
+{{ theme:css file="template_IE.css" }}
+<![endif]-->
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+
+<!--
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic|Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
+-->
+
+<script language='javascript' type='text/javascript'>
+var adjust = 0;
+</script>
+<script language='javascript' src='https://arabbloggerscripts.googlecode.com/svn/tarikh_hijri.js' type='text/javascript'>
+</script>
+<script>
+
+$(document).ready( function() {
+
+loadDate();
+
+$("#msubmit").click(function() {
+
+    $.ajax({
+           type: "POST",
+           url: '/widget_newsletter/ext.php?t=signup',
+           data: $("#vipajax").serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+               alert(data); // show response from the php script.
+           }
+         });
+
+    // Prevent the browser from submitting it NOW,
+    // because the AJAX is still running
+    return false;
+    });
+	
+});
+
+var count=0;
+function loadDate(){
+	KSA=3;
+	CAN=-4;
+	count++;
+	// --------KSA-------
+	//new Date(year, month, day, hours, minutes, seconds, milliseconds)
+	var DS = new Date(2013, 01, 7,17+KSA,54,(53+count),000000); 	
+	var SH= DS.getHours();	
+	var SM=DS.getMinutes();
+	var SS= DS.getSeconds();
+	var HTS="AM"; if(SH>12){SH=SH-12;HTS="PM";} if(SH==0){SH=12;}
+	// --------CA-------
+	var DC= new Date(2013, 01, 7,17+CAN,54,(53+count),000000); 	
+	var CH= DC.getHours();	
+	var CM=DC.getMinutes();
+	var CS= DC.getSeconds();	
+	var HTC="AM"; if(CH>12){CH=CH-12;HTC="PM";} if(CH==0){CH=12;} 
+	// ---------------------------------------		//getFullYear()	getDay() getMonth()
+	var str='';
+
+	
+	{{ if global:current_language == 'en' }} 
+	  
+		str+='<p>'+writeIslamicDate()+' <img src="system/cms/themes/default/img/clock.png" width="19" height="18" /> The Time now is '+SH+':'+SM+':'+SS+' in <span class="highlight">'+HTS+'</span> Riyadh</p>';
+
+	{{ elseif  global:current_language == 'ar'}}
+
+		str+='<p>'+writeIslamicDate()+' <img src="system/cms/themes/default/img/clock.png" width="19" height="18" /> الساعة الآن '+SH+':'+SM+':'+SS+'  <span class="highlight">'+HTS+'</span> في الرياض </p>';
+
+	{{ endif }}
+
+
+	$('#siteDate').html(str);
+	var t=setTimeout('loadDate()',1000);
+}
+</script>
+
+
+{{ template:metadata }}
+
+<title>{{ settings:site_name }}&nbsp;&bull;&nbsp;{{ template:title }}</title>

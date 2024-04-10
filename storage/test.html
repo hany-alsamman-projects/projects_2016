@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<style>
+.tMenu{
+	width:200px; height:20px; background-color:#eee; margin-bottom:2px; cursor:pointer}
+.subMenu{ display:none;}
+.subMenu div{width:200px; height:20px; background-color:#ccc; margin-bottom:2px; margin-left:10px}
+</style>
+<script>
+function SH(id){
+	if(document.getElementById('s'+id).style.display=="block"){
+		document.getElementById('s'+id).style.display="none"	
+	}else{
+		document.getElementById('s'+id).style.display="block"
+	}
+}
+</script>
+
+<div id="t1" class="tMenu" onclick="SH(1)">1</div>
+<div id="s1" class="subMenu">
+<div>11</div>
+<div>12</div>
+</div>
+
+
+<div id="t2" class="tMenu" onclick="SH(2)">2</div>
+<div id="s2" class="subMenu">
+<div>21</div>
+<div>22</div>
+</div>
+
+
+</body>
+</html>

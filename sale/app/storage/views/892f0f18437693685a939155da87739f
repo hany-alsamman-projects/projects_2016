@@ -1,0 +1,9 @@
+Full name: <?php echo $full_name; ?> <br>
+
+Mobile Number: <?php echo $phone_number; ?> <br>
+
+Country/Location: <?php echo $residence; ?> <br>
+
+Subject: <?php echo $subject; ?><br>
+
+Message: <?php echo $message; ?><br>

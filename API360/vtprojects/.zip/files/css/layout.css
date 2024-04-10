@@ -1,0 +1,382 @@
+hr { display:none; }
+
+span.loading {background: url("../images/loader.gif") no-repeat; display: none; padding: 3px 0 3px 20px;}
+
+
+/* ClearFix */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+.clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+#add_links{
+    margin: 0px auto;
+    width:100%;
+}
+
+#search-bar{
+    margin-left: 35px;
+    float: left;
+}
+
+#links_title{
+    margin: 5px;
+    clear: both;
+    overflow: hidden;
+}
+
+#intro{
+    width: 137px;
+    height: 84px;
+    margin: 10px 0px 10px 0px;
+    background: url("../images/syn_logo.gif") no-repeat;
+}
+
+#statistics{
+    margin: 10px;
+}
+
+/* ajax autocomplete css */
+
+#ac_country {
+	background: white left center no-repeat;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 8pt;
+}
+
+#ac_country_hidden {
+    visibility: hidden;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+
+/* categories list css */
+
+#categories {
+	width: 170px;
+	float: left;
+	margin: 0 15px 10px 30px;
+}
+
+#categories ul, #leftcol #bydate ul {
+	font-size: 1.0em;
+	margin:0;
+	padding:0 0 10px;
+	list-style: none;
+}
+#categories li, #leftcol #bydate li {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px dotted #BBE0EB;
+}
+
+#categories a {
+	display: block;
+	text-decoration: none;
+	padding: 3px 5px 3px 10px;
+	height: 17px;
+}
+#categories a:hover { background:#F0FDE2; }
+
+
+/* User Control panel css */
+
+
+/* links list css */
+
+#pagination-links{
+width:400px;
+padding:10px;
+}
+
+#pagination-links ul{
+margin: 0;
+padding: 0;
+text-align: left; /*Set to �right� to right align pagination-links interface*/
+font-size: 16px;
+}
+
+#pagination-links li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+margin-right: 5px;
+}
+
+#pagination-links a, #pagination-links a:visited{
+padding: 0 5px;
+border: 1px solid #9aafe5;
+text-decoration: none;
+color: #2e6ab1;
+}
+
+#pagination-links a:hover, #pagination-links a:active{
+border: 1px solid #2b66a5;
+color: #000;
+background-color: #FFFF80;
+}
+
+#pagination-links a.currentpage{
+background-color: #2e6ab1;
+color: #FFF !important;
+border-color: #2b66a5;
+font-weight: bold;
+cursor: default;
+}
+
+#pagination-links a.disablelink, #pagination-links a.disablelink:hover{
+background-color: white;
+cursor: default;
+color: #929292;
+border-color: #929292;
+font-weight: normal !important;
+}
+
+#pagination-links a.prevnext{
+font-weight: bold;
+}
+
+#mylinks{
+	width:450px;
+	overflow:hidden;
+    float: left;
+	padding:6px 10px 14px 10px;
+}
+#mylinks li{
+	border-bottom: 1px dotted #BBE0EB; margin:0; padding:0; list-style:none;
+}
+
+#mylinks li{
+
+	padding:10px;
+	list-style:none;
+	
+}
+#mylinks a{
+	color:#000000;
+	text-decoration:none;
+	
+}
+#mylinks .user-title{
+	display:block;
+	font-weight:bold;
+	margin-bottom:4px;
+	font-size:11px;
+	color:#36538D;
+}
+#mylinks .addas{
+	display:block;
+	font-size:11px;
+	color:#666666;
+}
+#mylinks img{
+	float:left;
+	margin-right:7px;
+	padding:4px;
+    width: 80px;
+    height: 60px;	
+}
+#mylinks .wait
+{
+float:right; font-weight:bold; color:red
+}
+#mylinks .del
+{
+float:right; font-weight:bold; color:#666666
+}
+#mylinks .del a
+{
+color:#000000;
+}
+#mylinks .del a:hover
+{
+background-color:#36538D;
+padding-left:1px;
+padding-right:1px;
+color:#ffffff;
+}
+
+
+
+.wrap {
+    background: url(../images/pemisah.png) center bottom no-repeat;
+    overflow: hidden;
+    width: 470px;
+    float: left;
+}
+.box-icon {
+    width: 85px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.box-serv {
+    float: left;
+    width: 355px;
+    height: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.wrap h2,wrap p {
+    margin-bottom: 0px;
+}
+.wrap h1{
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+
+/* CSS FANCY ADVANCE SEARCH */
+
+
+#main-search
+{
+
+	*margin-left:0px;
+
+}
+#main-search DIV {
+	BACKGROUND: url("../images/search-background.png") no-repeat;  PADDING-BOTTOM: 11px; PADDING-LEFT: 17px; 
+	WIDTH: 390px; 
+	*WIDTH: 410px; 
+	PADDING-RIGHT: 17px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 26px; PADDING-TOP: 11px
+}
+#main-search #main-search-input {
+	BORDER: 0px; 
+    PADDING-BOTTOM: 3px; 
+    OUTLINE-STYLE: none; 
+    OUTLINE-COLOR: invert; 
+    PADDING-LEFT: 5px; 
+    OUTLINE-WIDTH: medium; 
+    WIDTH: 352px; 
+    PADDING-RIGHT: 0px; 
+    DISPLAY: block; 
+    FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    BACKGROUND: #fff; 
+    FLOAT: left; 
+    COLOR: #595959; 
+    FONT-SIZE: 8pt; 
+    PADDING-TOP: 3px; 
+    text-align:right;
+}
+#main-search #main-search-button {
+	WIDTH: 29px; DISPLAY: block; FLOAT: left; border:0px; background-color: transparent;
+}
+#main-search #main-search-loader {
+	POSITION: absolute; MARGIN-TOP: 14px; DISPLAY: none; 
+	MARGIN-LEFT:-280px; 
+	*MARGIN-LEFT:-150px; 
+}
+
+
+
+#container {
+	width: 100%;
+	padding:0;
+	margin:0;
+	background: url(../images/content-bg.gif) bottom right no-repeat;
+	position: relative;
+}
+
+#content {
+	margin:0;
+	background: transparent;
+	padding: 10px 0 20px 20px;
+	width: 95%;
+	border-left: 1px dotted #BBE0EB;
+    overflow: hidden;
+}
+#content h2 {
+	font-size: 1.7em;
+	margin:0;
+	font-weight: normal;
+	padding: 10px 0 0 0;
+	color: #83CDE1;
+}
+#content h3 {
+	padding: 15px 0 0 0;
+	clear: both;
+	margin: 0;
+	color: #83CDE1;
+	font-size: 1.1em;
+}
+#content label {
+	font-size: 0.9em;
+	cursor: pointer;
+}
+#content p {
+	margin:0;
+	padding: 10px 0 5px 0;
+	line-height: 150%;
+}
+#leftcol {
+	float:left;
+	width: 50%;
+	min-width:340px;
+	margin:0;
+	padding: 10px 0 15px 0;
+}
+
+#rightcol {
+	float: right;
+	width: 27%;
+	padding: 0;
+    text-align: left;
+}

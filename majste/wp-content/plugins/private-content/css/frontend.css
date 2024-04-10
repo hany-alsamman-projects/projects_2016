@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/****************************
+    MANDATORY ELEMENTS
+ *****************************/
+  
+/* cursor for the triggers */
+.pg_trigger, .pg_logout_btn {
+    cursor: pointer;   
+}
+.pg_login_trig {
+	font-weight: bold;
+}
+ 
+/* loader style */
+.pg_loading {
+    display: inline-block;
+    background: url(../img/loader.gif) no-repeat top left transparent;
+    width: 20px;
+    height: 20px;  
+}
+ 
+/* loader container */
+.pg_loginform_loader,
+.pg_custom_form_loader {
+	display: inline-block;	
+}
+.pg_loginform_loader span,
+.pg_custom_form_loader span
+.pg_logout_box .pg_loading {
+    display: inline-block;
+    margin-bottom:-3px;
+}
+ 
+ 
+/****************************
+    WIDGET FORM ELEMENTS
+ *****************************/
+  
+/* form label */
+.PrivateContentLogin label {
+    display: inline-block;
+    min-width: 100px;  
+    margin-top: 7px;
+}
+ 
+/* form input */
+.PrivateContentLogin input[type="text"],
+.PrivateContentLogin input[type="password"] {
+	width: 166px;
+	padding: 3px;  
+}
+ 
+/* logout button */
+.widget .pg_logout_btn {
+    display: inline-block;
+    padding: 2px 4px;
+    margin-top: 5px;
+}
+ 
+  
+/*********************************
+   STANDARD LOGIN FORM ELEMENTS
+ ********************************/
+  
+ /* container */
+ .pg_login_block {
+    margin: 20px 0;
+}
+ 
+/* container message */
+.pg_login_block p {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #FDFFDD;
+    border: 1px solid #ddd;
+    margin: 0;
+    border: 1px solid #EEE78A;
+}
+  
+ /* form tag */
+.pg_pvtpage_login_form,
+.pg_inline_login_form {
+    width: 290px;
+    padding: 17px;
+    border: 1px solid #D3D3D3;
+    background-color: #F4F4F4;
+    box-shadow:0px 0px 7px rgb(190,190,190);
+    border-radius: 4px;
+}
+.pg_pvtpage_login_form {
+    margin: 20px auto 20px;
+}
+.pg_inline_login_form {
+    margin: 0 auto 30px;   
+}
+ 
+/* label*/
+.pg_pvtpage_login_form label,
+.pg_inline_login_form label {
+    display: inline-block;
+    width: 90px;
+    padding-right: 10px;   
+    margin-bottom: 15px;
+}
+ 
+/* text inputs */
+.pg_pvtpage_login_form input[type="text"],
+.pg_pvtpage_login_form inputinput[type=password],
+.pg_inline_login_form input[type="text"],
+.pg_inline_login_form input[type="password"] {
+	padding: 3px;
+	width: 166px;	
+}
+ 
+ 
+ 
+/*********************************
+          LOGOUT BOX
+ ********************************/
+.pg_logout_box {
+	display: inline-block;
+	padding: 2px 5px;	
+	border: 1px solid #D3D3D3;
+	background-color: #F4F4F4;
+	border-radius: 3px;
+} 
+ 
+
+
+/************************************************
+   COMMON REGISTRATION AND CUSTOM FORM ELEMENTS
+ ***********************************************/
+
+/* form wrapper style */
+.pg_registration_form,
+.pg_custom_form {
+    margin: 0 auto 30px;
+    width: 335px;
+    padding: 17px;
+    border: 1px solid #D3D3D3;
+    background-color: #F4F4F4;
+    box-shadow:0px 0px 7px rgb(190,190,190);
+    border-radius: 4px;
+}
+
+/* required */
+.pg_req_field {
+	color: #F30;	
+}
+
+/* form field list */
+.pg_form_flist {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+	clear: both;
+}
+.pg_form_flist li {
+	padding: 0;
+	margin: 0 15px 15px 0;
+	max-width: 320px;
+}
+
+/* label */
+.pg_form_flist li > label {
+	display: inline-block;
+	padding: 3px 10px 0 0;
+	max-width: 130px;	
+}
+.pg_textarea_label {
+	padding-right: 10px;
+	width: auto;	
+}
+label.pg_textarea_label {
+	display: block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+/* checkbox wrapper */
+.pg_check_wrap {
+	float: right;
+	width: 176px;
+}
+
+/* checkbox label */
+.pg_check_wrap .pg_check_label {
+	display: inline-block;
+	width: 152px;	
+	margin: 0;
+	padding: 0;
+}
+
+/* single checkbox */
+.pg_check_wrap input {
+	vertical-align: top;
+	margin: 5px 4px 0 3px;	
+}
+
+/* input, select and textarea format */
+.pg_form_flist input[type=text],
+.pg_form_flist input[type=password],
+.pg_form_flist select {
+	width: 166px;
+	padding: 3px;
+	box-sizing: content-box;
+	-ms-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box; 	
+	border: 1px solid #ddd;
+	float: right;
+}
+.pg_form_flist textarea {
+	width: 314px;
+	min-height: 65px;
+	border: 1px solid #ddd;
+	padding: 3px;	
+}
+
+
+/****************************
+   SUCCESS AND ERROR MESSAGES
+ *****************************/
+  
+/* standard form messages */
+.pg_error_mess,
+.pg_success_mess {
+    display: block;
+    color: #444;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    font-size: 85%;
+}
+ 
+/* widget form messages */
+.widget .pg_error_mess,
+.widget .pg_success_mess {
+    display: block;
+    color: #444;
+    padding: 2px 3px;
+    border-radius: 2px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-size: 95%;
+    max-width: 168px;
+}
+ 
+/* messages color */
+.pg_error_mess {
+    border: 1px solid #FFA6A6;
+    background-color: #FFCACA;
+}
+.pg_success_mess {
+    background-color: #EAF5DC;
+    border: 1px solid #BFE098;
+}

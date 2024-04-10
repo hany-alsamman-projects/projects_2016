@@ -1,0 +1,439 @@
+[05-May-2011 23:43:44] PHP Fatal error:  Call to a member function doLogin() on a non-object in C:\AppServ\www\tune\public\application\models\signup.php on line 119
+[07-May-2011 18:28:40] PHP Fatal error:  Undefined class constant 'SITE_CDN' in C:\AppServ\www\tune\public\application\views\admin\add_page.php on line 33
+[07-May-2011 18:28:43] PHP Fatal error:  Undefined class constant 'SITE_CDN' in C:\AppServ\www\tune\public\application\views\admin\add_page.php on line 33
+[07-May-2011 18:28:50] PHP Fatal error:  Undefined class constant 'SITE_CDN' in C:\AppServ\www\tune\public\application\views\admin\add_page.php on line 33
+[07-May-2011 19:38:16] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in C:\AppServ\www\tune\public\application\views\admin\show_pages.php on line 183
+[07-May-2011 20:40:07] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[07-May-2011 20:41:13] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[07-May-2011 20:41:18] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[07-May-2011 20:42:52] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\AppServ\www\tune\public\application\views\main.php on line 9
+[08-May-2011 14:49:56] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:51:35] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:51:46] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:51:47] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:52:15] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:52:34] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:53:12] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:53:58] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:54:43] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:55:35] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:55:47] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:56:02] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:56:51] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:57:01] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:57:12] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:57:21] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:57:48] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:58:02] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:58:42] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:58:58] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 14:59:17] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 15:00:19] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 15:01:34] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[08-May-2011 15:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:37:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:37:31] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:37:40] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:37:48] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:37:59] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:38:04] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:42:36] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:42:46] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:43:27] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:43:58] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[09-May-2011 22:44:10] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 14:58:38] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 14:58:45] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 14:59:52] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:01:22] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:01:32] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:02:27] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:02:33] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:02:46] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:02:52] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:03:08] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:05:13] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:05:21] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:06:53] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:07:01] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:07:46] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:07:51] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:08:20] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:11:35] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:12:17] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:13:23] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:13:28] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:13:41] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:13:44] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:13:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 15:13:52] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 14 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:16:56] PHP Parse error:  syntax error, unexpected T_STRING in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 478
+[10-May-2011 16:17:02] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:17:14] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:17:20] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:17:23] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:17:23] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:17:55] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[10-May-2011 16:17:59] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[15-May-2011 21:17:45] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\AppServ\www\tune\public\admin\FOREX_CPANEL.php on line 447
+[21-May-2011 16:03:19] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 244
+[21-May-2011 16:03:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\library\functions.php on line 121
+[21-May-2011 16:20:45] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[21-May-2011 16:20:46] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[21-May-2011 16:20:55] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[21-May-2011 16:20:56] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[21-May-2011 16:20:56] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[21-May-2011 16:20:56] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[21-May-2011 16:20:57] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\controllers\controllers.php on line 30
+[23-May-2011 13:53:06] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 257
+[23-May-2011 13:53:06] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\library\functions.php on line 138
+[23-May-2011 14:04:10] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 257
+[23-May-2011 14:04:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\library\functions.php on line 138
+[23-May-2011 14:04:45] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 257
+[23-May-2011 14:04:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\library\functions.php on line 138
+[23-May-2011 16:54:16] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\application\views\home.php on line 179
+[23-May-2011 20:58:02] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:58:02] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 12 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:58:36] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 12 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:58:36] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:58:59] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 12 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:58:59] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:59:13] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 12 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 20:59:13] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 13 in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 21:21:12] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\views\home.php on line 163
+[23-May-2011 21:21:12] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\myglobals.php on line 82
+[23-May-2011 21:21:12] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\views\page.php on line 11
+[23-May-2011 21:21:14] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) in C:\server\apache\htdocs\tune\public\application\controllers\dbconnector.php on line 23
+[23-May-2011 21:21:15] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) in C:\server\apache\htdocs\tune\public\application\controllers\dbconnector.php on line 23
+[23-May-2011 21:21:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) in C:\server\apache\htdocs\tune\public\application\controllers\dbconnector.php on line 23
+[23-May-2011 21:24:53] PHP Fatal error:  Call to undefined function is_true() in C:\server\apache\htdocs\tune\public\application\views\home.php on line 165
+[23-May-2011 22:50:47] PHP Fatal error:  Call to undefined method CONTROLLERS::CHECK_MEMBER_LOGIN() in C:\server\apache\htdocs\tune\public\application\models\login.php on line 213
+[24-May-2011 14:34:28] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in C:\server\apache\htdocs\tune\public\application\models\login.php on line 238
+[24-May-2011 14:34:39] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in C:\server\apache\htdocs\tune\public\application\models\login.php on line 238
+[24-May-2011 14:34:39] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in C:\server\apache\htdocs\tune\public\application\models\login.php on line 238
+[24-May-2011 14:34:40] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in C:\server\apache\htdocs\tune\public\application\models\login.php on line 238
+[24-May-2011 14:34:40] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in C:\server\apache\htdocs\tune\public\application\models\login.php on line 238
+[24-May-2011 16:45:27] PHP Parse error:  syntax error, unexpected T_STRING in C:\server\apache\htdocs\tune\public\application\views\home.php on line 163
+[24-May-2011 16:54:27] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in C:\server\apache\htdocs\tune\public\application\views\quick_singup.php on line 84
+[24-May-2011 16:55:58] PHP Parse error:  syntax error, unexpected '=' in C:\server\apache\htdocs\tune\public\application\views\quick_singup.php on line 84
+[24-May-2011 16:56:20] PHP Parse error:  syntax error, unexpected '=' in C:\server\apache\htdocs\tune\public\application\views\quick_singup.php on line 84
+[24-May-2011 16:56:49] PHP Parse error:  syntax error, unexpected '=' in C:\server\apache\htdocs\tune\public\application\views\quick_singup.php on line 84
+[24-May-2011 16:57:11] PHP Parse error:  syntax error, unexpected '=' in C:\server\apache\htdocs\tune\public\application\views\quick_singup.php on line 84
+[27-May-2011 01:17:59] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:18:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:17] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:19:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:22:39] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:22:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:22:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:34:23] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:34:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:34:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:34:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:34:29] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:48:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:48:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:06] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:52] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:56] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:49:56] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:50:03] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:50:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:50:05] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:50:59] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:51:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:52:56] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:52:57] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:52:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:53:56] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:54:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:54:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:54:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:54:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:54:29] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:54:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:55:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:55:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:56:36] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 01:56:38] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 115
+[27-May-2011 18:28:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 116
+[27-May-2011 18:28:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 116
+[27-May-2011 18:32:29] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 116
+[27-May-2011 18:36:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[27-May-2011 18:36:36] PHP Warning:  fopen(file.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: File exists in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 100
+[27-May-2011 18:36:36] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 101
+[27-May-2011 18:36:36] PHP Warning:  fclose(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 102
+[27-May-2011 18:36:36] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[27-May-2011 18:36:41] PHP Warning:  fopen(file.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: File exists in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 100
+[27-May-2011 18:36:41] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 101
+[27-May-2011 18:36:41] PHP Warning:  fclose(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 102
+[27-May-2011 18:36:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[27-May-2011 18:36:52] PHP Warning:  fopen(file.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: File exists in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 100
+[27-May-2011 18:36:52] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 101
+[27-May-2011 18:36:52] PHP Warning:  fclose(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 102
+[27-May-2011 18:36:52] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[27-May-2011 18:37:04] PHP Warning:  fopen(file.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: File exists in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 100
+[27-May-2011 18:37:04] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 101
+[27-May-2011 18:37:04] PHP Warning:  fclose(): supplied argument is not a valid stream resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 102
+[27-May-2011 18:37:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[27-May-2011 18:37:14] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[27-May-2011 18:37:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\models\usercp.php on line 124
+[30-May-2011 14:09:09] PHP Warning:  include(C:/server/apache/htdocs\tune\public\application\views\admin/add_member.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 585
+[30-May-2011 14:09:09] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/server/apache/htdocs\tune\public\application\views\admin/add_member.php' for inclusion (include_path='.;C:\php5\pear') in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 585
+[30-May-2011 14:11:09] PHP Warning:  include(C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:09] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php' for inclusion (include_path='.;C:\php5\pear') in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:11] PHP Warning:  include(C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php' for inclusion (include_path='.;C:\php5\pear') in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:20] PHP Warning:  include(C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php' for inclusion (include_path='.;C:\php5\pear') in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:20] PHP Warning:  include(C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php' for inclusion (include_path='.;C:\php5\pear') in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:32] PHP Warning:  include(C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:32] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'C:/server/apache/htdocs\tune\public\application\views\admin/show_members.php' for inclusion (include_path='.;C:\php5\pear') in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 595
+[30-May-2011 14:11:50] PHP Fatal error:  Call to undefined function site_url() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 111
+[30-May-2011 14:11:50] PHP Fatal error:  Call to undefined function site_url() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 111
+[30-May-2011 14:15:25] PHP Fatal error:  Call to undefined function anchor() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 60
+[30-May-2011 14:15:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\library\functions.php on line 138
+[30-May-2011 14:15:43] PHP Fatal error:  Call to undefined function site_url() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 111
+[30-May-2011 14:15:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\library\functions.php on line 138
+[30-May-2011 14:15:53] PHP Fatal error:  Call to undefined function site_url() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 111
+[30-May-2011 14:16:10] PHP Fatal error:  Call to undefined function anchor() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 60
+[30-May-2011 14:16:11] PHP Fatal error:  Call to undefined function anchor() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 60
+[30-May-2011 14:16:13] PHP Fatal error:  Call to undefined function anchor() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 60
+[30-May-2011 14:20:02] PHP Fatal error:  Call to undefined function anchor() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 60
+[30-May-2011 14:20:07] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 93
+[30-May-2011 14:20:42] PHP Fatal error:  Call to undefined function mailto() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 61
+[30-May-2011 14:21:15] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 63
+[30-May-2011 14:22:19] PHP Parse error:  syntax error, unexpected ';' in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 63
+[30-May-2011 14:22:30] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:06] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:08] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:27] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:28] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:28] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:44] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:23:48] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:24:02] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:24:26] PHP Parse error:  syntax error, unexpected '<' in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 56
+[30-May-2011 14:24:27] PHP Parse error:  syntax error, unexpected '<' in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 56
+[30-May-2011 14:24:31] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:25:17] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:25:50] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:25:51] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:26:00] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:26:20] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:27:02] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:28:19] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:17] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:22] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:27] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:30] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:41] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:49] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:55] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:29:59] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:31:12] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:31:19] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:32:19] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:32:49] PHP Fatal error:  Call to undefined function lang() in C:\server\apache\htdocs\tune\public\application\views\admin\show_accounts.php on line 99
+[30-May-2011 14:36:52] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:36:52] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:36:52] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:36:52] PHP Fatal error:  Call to undefined method FUNCTIONS::clean_url() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 924
+[30-May-2011 14:36:57] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:36:57] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:36:57] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:36:57] PHP Fatal error:  Call to undefined method FUNCTIONS::clean_url() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 924
+[30-May-2011 14:37:36] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:37:36] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:37:36] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:37:36] PHP Fatal error:  Call to undefined method FUNCTIONS::clean_url() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 924
+[30-May-2011 14:37:37] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:37:37] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:37:37] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:37:37] PHP Fatal error:  Call to undefined method FUNCTIONS::clean_url() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 924
+[30-May-2011 14:41:20] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:41:20] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:41:20] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:41:20] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:41:20] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:41:20] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:41:23] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:41:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:41:23] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:42:31] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:42:31] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:42:31] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:43:28] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:43:28] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:43:28] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:43:34] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:43:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 790
+[30-May-2011 14:43:34] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 831
+[30-May-2011 14:43:40] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:43:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 789
+[30-May-2011 14:43:40] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 830
+[30-May-2011 14:43:40] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:43:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 789
+[30-May-2011 14:43:40] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 830
+[30-May-2011 14:43:43] PHP Warning:  Division by zero in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 765
+[30-May-2011 14:43:43] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 789
+[30-May-2011 14:43:43] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 830
+[30-May-2011 14:48:58] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:48:58] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:48:58] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:48:58] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:50:27] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:50:27] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:50:27] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:50:27] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:20] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:20] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:20] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:20] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:24] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:24] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:24] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:24] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:26] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:26] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:26] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:26] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:36] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:36] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:36] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:51:36] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 842
+[30-May-2011 14:55:17] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:17] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:17] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:17] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:54] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:54] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:54] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:55:54] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:04] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:04] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:04] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:04] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:43] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:43] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:43] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:43] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:49] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:49] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:49] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:49] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:56] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:56] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:56] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:56:56] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:05] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:05] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:05] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:05] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:09] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:09] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:09] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:09] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:25] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:25] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:25] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:25] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:39] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:39] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:39] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:57:39] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:58:47] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:58:47] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:58:47] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:58:47] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:59:02] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:59:02] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:59:02] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 14:59:02] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:13] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:13] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:13] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:13] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:22] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:22] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:22] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:22] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:28] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\edit_topic.php on line 21
+[30-May-2011 15:00:30] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:30] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:30] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:00:30] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:01:29] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:01:29] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:01:29] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:01:29] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 845
+[30-May-2011 15:18:39] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 83
+[30-May-2011 15:19:10] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 83
+[30-May-2011 15:37:07] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1156
+[30-May-2011 15:37:10] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1156
+[30-May-2011 15:37:20] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1156
+[30-May-2011 15:38:51] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1127
+[30-May-2011 15:38:56] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1127
+[30-May-2011 15:39:24] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1129
+[30-May-2011 15:40:43] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1129
+[30-May-2011 15:41:47] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1129
+[30-May-2011 15:44:41] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1129
+[30-May-2011 15:44:44] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1129
+[30-May-2011 15:45:16] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1129
+[30-May-2011 16:36:25] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 83
+[30-May-2011 16:36:46] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 83
+[30-May-2011 16:37:26] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 83
+[30-May-2011 16:47:21] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 349
+[30-May-2011 16:47:47] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in C:\server\apache\htdocs\tune\public\application\views\admin\add_topic.php on line 327
+[30-May-2011 16:59:49] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:00:10] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:00:34] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:01:30] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:02:20] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:04:12] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 905
+[30-May-2011 17:04:39] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:04:48] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 904
+[30-May-2011 17:05:22] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 906
+[30-May-2011 17:05:47] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 905
+[30-May-2011 17:06:17] PHP Fatal error:  Call to undefined method CONTROLLERS::add_slashes() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 905
+[01-Jun-2011 14:19:04] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1128
+[01-Jun-2011 14:19:20] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\edit_topic.php on line 21
+[01-Jun-2011 14:19:29] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\edit_topic.php on line 21
+[01-Jun-2011 14:21:32] PHP Warning:  require_once(AjaxFileUploader.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\server\apache\htdocs\tune\public\application\views\admin\edit_topic.php on line 21
+[01-Jun-2011 14:21:38] PHP Fatal error:  Call to undefined method FOREX_CPANEL::USE_ONLY_FOR_SUPER() in C:\server\apache\htdocs\tune\public\admin\FOREX_CPANEL.php on line 1002
+[03-Jun-2011 20:47:11] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 83
+[03-Jun-2011 20:47:11] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 83
+[03-Jun-2011 20:50:12] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 78
+[03-Jun-2011 20:50:12] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 78
+[03-Jun-2011 20:50:50] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 20:50:50] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 20:52:48] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 20:52:48] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 21:04:44] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 21:04:44] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 21:05:57] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 21:05:58] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[03-Jun-2011 21:06:43] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69
+[05-Jun-2011 19:08:32] PHP Warning:  Invalid argument supplied for foreach() in C:\server\apache\htdocs\tune\public\application\views\tradingaccount.php on line 69

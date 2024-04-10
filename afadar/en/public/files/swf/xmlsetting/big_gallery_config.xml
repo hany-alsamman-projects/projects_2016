@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gallery>
+	<!-- banner style -->
+	<style>
+		<!-- show width/height -->
+		<width>960</width>
+		<height>420</height>
+		<!-- category scroll number -->
+		<categoryscroll>1</categoryscroll>
+		<!-- items scroll number -->
+		<itemsscroll>2</itemsscroll>
+	</style>
+	
+	<!-- gallery category -->
+	<categorys>
+		
+        <category title='People' src='../upload/cover1.jpg' >
+			<item title='Here is image Title' src='../upload/cover1.jpg' path='../upload/cover1.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+			<item title='Here is image Title' src='assets/gallery/c1/2.jpg' path='assets/gallery/c1/bg2.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+		</category>
+        
+        <category title='People' src='../upload/cover1.jpg' >
+			<item title='Here is image Title' src='../upload/cover1.jpg' path='../upload/cover1.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+			<item title='Here is image Title' src='assets/gallery/c1/2.jpg' path='assets/gallery/c1/bg2.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+		</category>
+        
+        <category title='People' src='../upload/cover1.jpg' >
+			<item title='Here is image Title' src='../upload/cover1.jpg' path='../upload/cover1.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+			<item title='Here is image Title' src='assets/gallery/c1/2.jpg' path='assets/gallery/c1/bg2.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+		</category>
+        
+        <category title='People' src='../upload/cover1.jpg' >
+			<item title='Here is image Title' src='../upload/cover1.jpg' path='../upload/cover1.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+			<item title='Here is image Title' src='assets/gallery/c1/2.jpg' path='assets/gallery/c1/bg2.jpg'>
+				<![CDATA[<font size="12" face="Arial" color="#ffffff">For four years the Envato Marketplaces have helped authors around the world earn an income selling their digital wares. Along the way we’ve grown from one marketplace to seven, with more on the way. We’ve gone from hundreds of members to hundreds  of thousands. Items from our marketplaces have appeared in projects for companies big and small, all around the world. And most importantly of all, we’ve had thousands of authors cash out earnings, ranging from a bit of money for a big weekend to sums in the tens of thousands of dollars a month!
+It’s been an amazing ride, and here at Envato we are completely committed to making these the best damn marketplaces around. That’s why I’m very excited today to announce that as of the end of September we are rolling out some dramatically improved rates for all our exclusive authors!
+As the sites have grown, so has our revenue. As we increase in volume and size we’re able to push back more and more to the authors. This is in fact our third rates increase now, and it’s always a really happy day when we get to make the changeover and start putting more money in author’s hands.</font>]]>
+			</item>
+		</category>
+        
+	</categorys>
+</gallery>

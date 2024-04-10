@@ -1,0 +1,72 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+## internal Link
+
+RewriteRule ^codexCP/(.*)$ public/admin/$1 [L,NC]
+RewriteRule ^admin/(.*)$ public/admin/$1 [L,NC]
+
+
+RewriteRule ^(.*)/css/(.*)$ public/files/css/$2 [L,NC]
+RewriteRule ^(.*)/images/(.*)$ public/files/img/$2 [L,NC]
+RewriteRule ^(.*)/js/(.*)$ public/files/js/$2 [L,NC]
+RewriteRule ^(.*)/upload/(.*)$ public/upload/$2 [L,NC]
+RewriteRule ^(.*)/library/(.*)$ public/library/$2 [L,NC]
+
+# view page link
+RewriteRule ^([a-z]+)/([page]+)/([0-9]+)/(.*)/? public/home.php?action=page&id=$3 [L,NC]
+
+# http://www.tune-forex.com/en/partners.html
+RewriteRule ^([a-z]+)/partners.html/? public/home.php?in_partners=true [L,NC]
+
+RewriteRule ^([a-z]+)/([partners]+)/([0-9]+)/(.*)/? public/home.php?partner=$3 [L,NC]
+
+#RewriteRule viewpage.html public/home.php?action=page&id=3 [L,NC]
+
+RewriteRule ^(.*)/ public/home.php?lang=$1 [L,NC,QSA]
+
+
+##RewriteRule ^library/(.*)$ public/library/$1 [L,NC]
+##RewriteRule ^css/(.*)$ public/files/css/$1 [L,NC]
+##RewriteRule ^images/(.*)$ public/files/img/$1 [L,NC]
+##RewriteRule ^js/(.*)$ public/files/js/$1 [L,NC]
+##RewriteRule ^swf/(.*)$ public/files/swf/$1 [L,NC]
+
+<IfModule mod_rewrite.c>
+
+<Files "controllers.php">
+Order Allow,Deny
+Deny from All
+</Files>
+
+<Files "FOREX_CPANEL.php">
+Order Allow,Deny
+Deny from All
+</Files>
+
+<Files "configs.php">
+Order Allow,Deny
+Deny from All
+</Files>
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.codex|/[^.]*)$  [NC]
+RewriteRule ^(index.php|index.html||index.htm||index.codex)?(.*)$ index.php?$1
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+
+# Block out any script trying to set a mosConfig value through the URL
+RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
+# Block out any script trying to base64_encode crap to send via URL
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+# Block out any script that includes a <script> tag in URL
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+# Send all blocked request to homepage with 403 Forbidden error!
+RewriteRule ^(.*)$ public/home.php [F,L]
+
+</IfModule>

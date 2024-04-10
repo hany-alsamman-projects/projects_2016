@@ -1,0 +1,100 @@
+a:3:{s:16:"__cache_contents";O:8:"stdClass":25:{s:2:"id";s:2:"22";s:4:"slug";s:1:"2";s:5:"title";s:27:"الخطة الدراسية";s:3:"uri";s:32:"drama-makers/higherinstitute/2/2";s:9:"parent_id";s:2:"19";s:11:"revision_id";s:3:"137";s:9:"layout_id";s:1:"1";s:3:"css";s:0:"";s:2:"js";s:0:"";s:10:"meta_title";s:0:"";s:13:"meta_keywords";s:0:"";s:16:"meta_description";s:0:"";s:11:"rss_enabled";s:1:"0";s:16:"comments_enabled";s:1:"0";s:6:"status";s:4:"live";s:10:"created_on";s:10:"1316271169";s:10:"updated_on";s:10:"1316271589";s:13:"restricted_to";s:0:"";s:7:"is_home";s:1:"0";s:5:"order";s:10:"1316271169";s:8:"owner_id";s:2:"22";s:10:"table_name";s:5:"pages";s:4:"body";s:3205:"<p>
+	<span style="font-size: 20px;"><strong>الخطة الدرسية لقسم الرقص</strong></span></p>
+<table cellpadding="0" cellspacing="0" class="blog">
+	<tbody>
+		<tr>
+			<td valign="top">
+				<div>
+					<table class="contentpaneopen">
+						<tbody>
+							<tr>
+								<td colspan="2" valign="top" width="70%">
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="createdate" colspan="2" valign="top">
+									<strong><span style="font-size: 20px;">السنة الأولى </span></strong></td>
+							</tr>
+							<tr>
+								<td colspan="2" valign="top">
+									<p dir="rtl" style="text-align: justify;">
+										عدد المقررات /12/, عدد الساعات /32/<br />
+										<img src="http://drami.sy/arabic/images/stories/dance/studiesplan/year01.jpg" style="border-width: 0px; border-style: solid; height: 250px;" /></p>
+								</td>
+							</tr>
+							<tr>
+								<td class="modifydate" colspan="2">
+									&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<table class="contentpaneopen">
+						<tbody>
+							<tr>
+								<td colspan="2" valign="top" width="70%">
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="createdate" colspan="2" valign="top">
+									<span style="font-size: 20px;"><strong>السنة الثانية </strong></span></td>
+							</tr>
+							<tr>
+								<td colspan="2" valign="top">
+									<p dir="rtl">
+										عدد المقررات /11/, عدد الساعات /32/<br />
+										<img src="http://drami.sy/arabic/images/stories/dance/studiesplan/year02.jpg" style="border-width: 0px; border-style: solid; height: 234px;" /></p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<table class="contentpaneopen">
+						<tbody>
+							<tr>
+								<td colspan="2" valign="top" width="70%">
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="createdate" colspan="2" valign="top">
+									<span style="font-size: 20px;"><strong>السنة الثالثة </strong></span></td>
+							</tr>
+							<tr>
+								<td colspan="2" valign="top">
+									<p dir="rtl">
+										عدد المقررات /11/, عدد الساعات /32/<br />
+										<img src="http://drami.sy/arabic/images/stories/dance/studiesplan/year03.jpg" style="border-width: 0px; border-style: solid; width: 503px; height: 250px;" /></p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<table class="contentpaneopen">
+						<tbody>
+							<tr>
+								<td colspan="2" valign="top" width="70%">
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="createdate" colspan="2" valign="top">
+									<span style="font-size: 20px;"><strong>السنة الرابعة</strong></span></td>
+							</tr>
+							<tr>
+								<td colspan="2" valign="top">
+									<p dir="rtl">
+										عدد المقررات /11/, عدد الساعات /32/<br />
+										<img src="http://drami.sy/arabic/images/stories/dance/studiesplan/year04.jpg" style="border-width: 0px; border-style: solid; height: 240px;" /></p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>";s:13:"revision_date";s:10:"1316271588";s:9:"author_id";s:1:"2";}s:15:"__cache_created";i:1318608824;s:20:"__cache_dependencies";a:0:{}}

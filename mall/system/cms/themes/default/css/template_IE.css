@@ -1,0 +1,9 @@
+@font-face {
+ font-family: "ge_ss_two_medium";
+ font-style: normal;
+ font-weight: normal;
+ src: url('../fonts/ge_ss_two_medium.eot');
+ src: local("ge_ss_two_medium"), url("../fonts/ge_ss_two_medium.woff") format("woff"), url("../fonts/ge_ss_two_medium.ttf") format("truetype"), url("../fonts/ge_ss_two_medium.svg") format("svg");
+}
+
+html,h1,h2,h3,h4,h5,h6,a,ul,li,span,input,button,.article_title,.boxes div.box_title span{font-family:ge_ss_two_medium, Tahoma, Geneva, sans-serif;}

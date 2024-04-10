@@ -1,0 +1,132 @@
+/* Form styles */
+
+.formline{
+	padding:3px;
+}
+
+label{
+	font-size:14px;
+	display:block;
+	text-align:right;
+    margin-right: 10px;
+}
+
+.input-container{
+	padding:1px;
+}
+
+#div-regForm,.registered{	
+	border:3px solid #eeeeee;
+	padding:15px;
+    font-size: 10pt;
+	background-color: #FFF;
+	color:#203360;	
+	margin:20px auto 10px 50px;
+	width:450px;
+    float: left;
+}
+
+#regForm td{	
+	padding-bottom: 15px;
+}
+
+.form-title,
+.form-sub-title{
+	font-size:20px;	
+	font-family:"Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.form-sub-title{
+	font-weight:normal;
+	padding:6px 0 15px 0;
+}
+
+.greenButton{
+	width:auto;
+	margin:10px 0 0 2px;
+	padding:3px 4px 3px 4px;
+	color:white;
+	background-color:#589d39;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:bold;
+}
+
+.greenButton:active{
+	background-color:#006600;
+	padding:4px 3px 2px 5px;
+    
+}
+
+#loading{
+	left:10px;
+	position:relative;
+	top:3px;
+	visibility:hidden;
+}
+
+#error{
+	visibility:hidden;
+    display: none;
+}
+
+/* error/information messages */
+.msg {
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	border: 1px solid; margin: 0 0 15px 0; padding: 8px 10px 0 10px;
+}
+.msg p {margin: 0 0 8px 0; padding-left: 25px;}
+.msg-ok {border-color: #a6d877; background: #d2ecba url("../images/admin/msg-ok.png") repeat-x; color: #336801;}
+.msg-error {border-color: #f3abab; background: #f9c9c9 url("../images/admin/msg-error.png") repeat-x; color: #8d0d0d;}
+.msg-warn {border-color: #d7e059; background: #f3f7aa url("../images/admin/msg-warn.png") repeat-x; color: #6c6600;}
+.msg-info {border-color: #9fd1f5; background: #c3e6ff url("../images/admin/msg-info.png") repeat-x; color: #005898;}
+.msg-ok p {background: url("../images/admin/led-ico/accept.png") 0 50% no-repeat;}
+.msg-error p {background: url("../images/admin/led-ico/cross_octagon.png") 0 50% no-repeat;}
+.msg-warn p {background: url("../images/admin/led-ico/exclamation_octagon_fram.png") 0 50% no-repeat;}
+.msg-info p {background: url("../images/admin/led-ico/exclamation.png") 0 50% no-repeat;}
+
+
+/**
+ * Password Strength Indicator 
+ */
+
+#iSM
+{margin:0 0 15px 0;padding:0;height:14px;}
+#iSM ul
+{border:0;margin:4px 0 0 0;padding:0;list-style-type:none;text-align:center;}
+#iSM ul li
+{display:block;float:left;text-align:center;padding:1px 0 0 0;margin:0;height:14px;}
+#iWeak,#iMedium,#iStrong
+{width:84px;font-size:.7em;color:#adadad;text-align:center;padding:2px;background-color:#F1F1F1;display:block;}
+#iWeak,#iMedium
+{border-right:solid 1px #DEDEDE;}
+#iMedium
+{width:84px;}
+#iMedium,#iStrong
+{border-left-width:0;}
+
+div.strong #iWeak, div.strong #iMedium, div.strong #iStrong  {
+	background: #00CC66;
+	color: #00CC66;
+}
+
+div.medium #iWeak, div.medium #iMedium {
+	background: #FFFF99;
+	color: #FFFF99;
+}
+
+div.medium #iWeak, div.medium #iMedium {
+	background: #FFFF99;
+	color: #FFFF99;
+}
+
+div.weak #iWeak {
+	background: #FF0000;
+	color: #FF0000;
+}
+
+div.strong #iStrong, div.medium #iMedium, div.weak #iWeak {
+	color:#000;
+}

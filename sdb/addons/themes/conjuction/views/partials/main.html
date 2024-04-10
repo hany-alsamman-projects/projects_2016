@@ -1,0 +1,312 @@
+<div id="film_bg">
+	<div id="page-wrap">
+		<div class="slider-wrap">
+			<div id="main-photo-slider" class="csw">
+				<div class="panelContainer">
+                    
+                    {pyro:query:run query="SELECT * FROM `blog` WHERE `status` = 'live' ORDER BY created_on DESC LIMIT 4"}            
+					<div class="panel" title="Panel {id}">
+						<div class="wrapper">
+							{pyro:theme:image file="img-cover.png" class="cover" alt="{title}"}
+                            <img src="{pyro:url:base}uploads/news/{picture}" />
+							<div class="photo-meta-data">
+								<p></p>
+								<h3>{title}</h3>
+								{intro}
+                                <a href="blog/{pyro:helper:blog_date timestamp='{created_on}'}/{slug}">اقرأ المزيد </a>
+								<p></p>
+							</div>
+						</div>
+					</div>
+                    {/pyro:query:run}
+                    
+				</div>
+			</div>
+            
+    <script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true,
+				continuous: true 
+			});
+		});	
+	</script>
+			<div id="movers-row">
+                     <div id="slider"> 
+                   <ul><li>    
+                {pyro:query:run query="SELECT * FROM `blog` WHERE `status` = 'live' ORDER BY created_on DESC LIMIT 4"}
+                
+				<div class="min_frame"><a class="cross-link" href="#{count}"><img src="/uploads/news/{picture}" class="nav-thumb" /></a></div>
+                {/pyro:query:run}
+                </li></ul> 
+ 			            </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{pyro:theme:js file="jquery.coolautosuggest.js"}
+
+{pyro:theme:css file="jquery.coolautosuggest.css"}
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	//reset the search bar
+	$('#SearchInput').remove();
+	$(".links_1").find("input").attr('checked', false);
+
+    // check if user selected and redirect to wall page
+	$(".suggest_item").live('click', function () {
+        
+        var myfiled = $(this).attr("id_field");
+        
+        var dept_checked = $('input[name=quick_search]:checked').val();
+        
+        if( dept_checked == 1 || dept_checked == 2 ){
+            
+            eval("document.location='"+BASE_URI+"users/profile/view/"+myfiled+"'");
+                    
+        }else if ( dept_checked == 3 ){
+            
+            eval("document.location='"+BASE_URI+"vcard/view/"+myfiled+"'");
+            
+        }
+        
+       // eval("document.location='"+BASE_URI+"users/profile/view/"+myfiled+"'");
+ 
+	});
+    
+	$(".links_1 input:radio").live('click', function () {
+        
+//        var myfiled = $(this).val();
+      
+        //alert($('input[name=quick_search]:checked').val());
+        
+        $('#SearchInput').remove();
+        
+        $('<input id="SearchInput" name="SearchInput" type="text" autocomplete="off" />').appendTo("#search_area");
+        
+        //change the selected radio txt to bold
+        $(".links_1").find("span").attr("style","font-weight: normal");
+        $(this).next("span").attr("style","font-weight: bold");
+        
+        //get the search
+        $("#SearchInput").coolautosuggest({
+    		url: BASE_URI + "ajax/advanced_search?search_in="+$('input[name=quick_search]:checked').val()+"&user_match=",
+        	showThumbnail:true,
+        	showDescription:true,
+            idField: $("#uid"),
+        	width:280,
+        	minChars:2
+    	});
+
+        
+//        
+//        //$(this).attr("value", myfiled);
+//        
+//        
+//        //$("#SearchDept").attr("value", $('input[name=quick_search]:checked').val());
+//        
+//        //alert($("#SearchDept").val());
+//        
+         
+//        
+//        //return false;
+// 
+	});
+ 
+    
+});   
+</script>
+
+<div id="search_bar">
+	<div id="l_search_bar">
+	</div>
+	<div id="m_search_bar">
+		<div id="search_area">
+			<form>
+				<input name="SearchInfput" id="SearchInput" type="text" />
+			</form>
+		</div>
+		<div class="links_1">
+			<ul>
+				<span><b>أختر ماتريد البحث ضمنه</b>:</span>
+<!--
+				<li style="border: none"><a href="#">الأخبار</a></li>
+				<li><a href="#">الأعضاء </a></li>
+				<li><a href="#">الصور </a></li>
+				<li><a href="#">الفيديو </a></li>
+				<li><a href="#">الوجوه الجديدية </a></li>
+-->
+				<li style="border: none"> <input type="radio" name="quick_search" value="1" class="quick_search" /> <span>مشتركين <small>Plus</small></span></li>
+                <li> &nbsp; <input type="radio" name="quick_search" value="2" /> <span>الوجوه الجديدية</span></li>
+                <li> &nbsp; <input type="radio" name="quick_search" value="3" /> <span>أرشيف الدراما </span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="r_search_bar"></div>
+<!--
+	<div id="search_resault">
+		<div id="l_resault"></div>
+		<div id="m_resault">
+        
+			<a href="#"><div id="user_rs"><p id="user_rs_name">سلمى المصري</p></div></a>
+            
+			<div class="more_res"><a href="#">المزيد من النتائج عن ""</a></div>
+		</div>
+		<div id="r_resault"></div>
+		<div id="bottom_res"></div>
+	</div>
+-->
+</div>
+<div id="Updates_1">
+	<div id="lofslidecontent45" class="lof-slidecontent">
+		<div class="preload">
+			<div>
+			</div>
+		</div>
+		<!-- MAIN CONTENT -->
+<div class="lof-main-outer">
+			<ul class="lof-main-wapper">
+            
+				<li>
+				<div id="losection">
+					<!---------slide content 1------------------>
+					<div id="photo">
+                    {pyro:query:run query="SELECT user_id,display_name,gravatar FROM `profiles` WHERE `gravatar` != 'no_avatar.jpg' and `gravatar` != ''  and `user_power` = '2' ORDER BY updated_on ASC LIMIT 3"} 
+						<div class="photo">
+							<a href="{pyro:url:base}users/profile/view/{user_id}"><img src="{pyro:url:base}files/thumb/{gravatar}" />
+							<h4>{display_name}</h4></a>
+						</div>
+                    {/pyro:query:run}
+					</div>
+					<!--------- end of slide content 1------------------>
+					<div class="lof-main-item-desc">
+						<h3>آخر تحديثات الصور</h3>
+					</div>
+				</div>
+				</li>
+                
+<!--
+				<li>
+				<div id="losection">
+					<div id="photo">
+                        {pyro:query:run query="SELECT id,filename FROM `files` WHERE `extension` = '.flv' ORDER BY id DESC LIMIT 3"} 
+    						<div class="photo">
+    							<a href="#"><img src="" /></a>
+    							<h4>{filename}</h4>
+    						</div>
+                        {/pyro:query:run}
+					</div>
+					<div class="lof-main-item-desc">
+						<h3>آخر تحديثات الفيديو</h3>
+					</div>
+				</div>
+				</li>
+-->
+                
+				<li>
+				<div id="losection">
+					<!---------slide content ------------------>
+					<div id="photo">
+                     
+    						{pyro:main:lasts_wall_messages}
+                                                        
+					</div>
+					<!---------end of slide content 3------------------>
+					<div class="lof-main-item-desc">
+						<h3>التحديثات </h3>
+					</div>
+				</div>
+				</li>
+                
+				<li>
+				<div id="losection">
+					<!---------slide content 4------------------>
+					<div id="photo">
+                    {pyro:query:run query="SELECT user_id,display_name,gravatar FROM `profiles` WHERE `user_power` = '2' ORDER BY user_id DESC LIMIT 3"} 
+						<div class="photo">
+							<a href="{pyro:url:base}users/profile/view/{user_id}"><img src="{pyro:url:base}files/thumb/{gravatar}" />
+							<h4>{display_name}</h4></a>
+						</div>
+                    {/pyro:query:run}
+					</div>
+					<!---------end of slide content 4------------------>
+					<div class="lof-main-item-desc">
+						<h3>plus مشتركين</h3>
+					</div>
+				</div>
+				</li>
+                                                
+			</ul>
+		</div>
+		<!-- END MAIN CONTENT -->
+		<!-- NAVIGATOR -->
+		<div class="lof-navigator-outer">
+			<ul class="lof-navigator">
+				<li>
+				<div>
+					<img src="{pyro:url:base}addons/themes/conjuction/img/photos.png" />
+					<h3>الصور</h3>
+				</div>
+				</li>
+                
+<!--
+				<li>
+				<div>
+					<img src="{pyro:url:base}addons/themes/conjuction/img/videos.png" />
+					<h3>الفيديو</h3>
+				</div>
+				</li>
+-->
+                
+				<li>
+				<div>
+					<img src="{pyro:url:base}addons/themes/conjuction/img/comments.png" />
+					<h3>التحديثات</h3>
+				</div>
+				</li>
+				<li>
+				<div style="border-bottom: none">
+					<img src="{pyro:url:base}addons/themes/conjuction/img/commenters.png" />
+					<h3>Plus مشتركين</h3>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--end of lof-navigator-outer-->
+ </div>
+
+<!--UPDATES-->
+<!--
+<div id="advertise_area">
+
+<object width="730" height="90">
+<param name="movie" value="/banners/syriatel730x90.swf">
+<embed src="/banners/syriatel730x90.swf" width="730" height="90"></embed>
+</object>
+
+</div>
+-->
+<div id="advertise_area_1">
+	<a href="http://www.syriandramabook.com/ApplicationOnline.doc">{pyro:theme:image 
+	file="reg_plus.jpg" alt="اشتراك بلس"}</a></div>
+<div id="new_drama">
+	<h3>جديد الدراما السورية</h3>
+	<div id="new_videos">
+		<div class="play">
+		</div>
+		<a href="#"><img src="{pyro:url:base}addons/themes/conjuction/img/video2.jpg" /></a></div>
+	<div id="new_videos">
+		<a href="#">
+		<div class="play">
+		</div>
+		<img src="{pyro:url:base}addons/themes/conjuction/img/video3.jpg" /></a></div>
+	<div id="new_videos">
+		<a href="#">
+		<div class="play">
+		</div>
+		<img src="{pyro:url:base}addons/themes/conjuction/img//video1.jpg" /></a></div>
+</div>

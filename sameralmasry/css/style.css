@@ -1,0 +1,151 @@
+﻿body{
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: #FFF url(../images/bg1.jpg) center center no-repeat;
+	}
+	
+.smallFont{ font-family: tahoma, Arial; font-size: 11px; }
+.white{ color: #fff; }
+.black{ color: #000; }
+.largeFont{ font-family: verdana; font-size: 13px; }
+.floatLeft{ float: Left; }
+.floatRight{ float: right; }
+
+.whiteBG{ background-color: #fff; }
+.blackBG{ background-color: #000; }
+.clear{ clear: both; }
+
+a:link, a:visited{
+	color: #fff;
+	text-decoration:none;
+}
+
+a:hover{
+	color:aa3939;
+	text-decoration:none;
+}
+
+#wrapper{
+	width:1170px;
+	height:702px;
+	overflow: hidden;
+	margin: 0px auto 0px auto;
+}
+
+#header
+{
+	width:100%;
+	height:60px;
+	position:relative;
+	margin-top:150px;
+}
+#root
+{
+	width:100%;
+	height:400px;
+    margin: 0px;
+	position:relative;
+	float:right;
+}
+
+
+#nav{
+	width:650px; 
+	height: 31px;
+	font-size: 10pt;
+	font-family: tahoma;
+	float:right;
+	border-radius: 15px;
+	background-color:#656464;
+}
+.links{
+	margin:5px 0 0 60px;
+}
+.links ul li{
+	display:inline;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:15px;
+}
+.links ul li a:link{
+	color:#fff;
+}
+.links ul li a:visited{
+	color:#fff;
+}
+.links ul li a:hover{
+	color:#832d0f;
+}
+
+#logo{
+	background:url(../images/samer2.jpg) no-repeat;
+	width: 660px;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+#content
+{
+	width:650px;
+	background:url(../images/aa.png) repeat-x bottom center;
+	height: 303px;
+	font-size: 10pt;
+	font-family: tahoma;
+	float:right;
+	border-radius:10px;
+}
+
+#biographi{
+	width:97%;
+	background:url(../images/biog.png) no-repeat;
+	height: 22px;
+	font-size: 10pt;
+	font-family: tahoma;
+	float:left;
+	margin:10px 0 0 10px;;
+}
+
+.readmore{
+	float:right;
+	}
+.readmore a:link{
+	color:#000;
+	}
+.readmore a:visited{
+	color:#000;
+	}
+	.readmore a:hover{
+	color:#aa3939;
+	}
+	
+/*end of wrapper*/
+#footer{
+	width:100%;
+	bottom:0;
+	height:30px;	
+	background-color:#656464;
+	float:right;
+
+	}
+	#copyright{
+    height:20px;
+	color:#FFF;
+	font-size:9pt;
+	direction: rtl;
+    text-align: center;
+    width: 800px;
+	margin: 5px auto;
+}
+#by_codeXc{
+	float:right;
+	color:#929292;
+	font-size:6pt;
+}
+.highlight {
+	color: #aa3939;
+	
+}
+/*end of footer*/

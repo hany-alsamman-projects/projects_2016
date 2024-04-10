@@ -1,0 +1,29 @@
+{
+    "name": "scubaclick/pages",
+    "description": "Static and chronological pages for Laravel 4",
+    "keywords": ["pages", "laravel", "blog"],
+    "homepage": "https://github.com/ScubaClick/scubaclick-pages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris Glumpler",
+            "email": "tech@scubaclick.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x",
+        "illuminate/database": "4.1.x",
+        "mews/purifier": "dev-master",
+        "scubaclick/feeder": "dev-develop"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "ScubaClick\\Pages": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,37 @@
+<table border="0" width="100%" cellspacing="0" cellpadding="3">
+	<form method="POST">
+	<tr>
+		<td colspan="2" align="center">
+		«÷«›… Õ”«»</td>
+	</tr>
+	<tr>
+		<td width="129">«·«”„</td>
+		<td width="465"><input type="text" name="account_name"/></td>
+	</tr>
+	<tr>
+		<td width="129">ﬂ·„… «·”—</td>
+		<td width="465"><input type="text" name="account_password"/></td>
+	</tr>
+	<tr>
+		<td width="129">«·»—Ìœ «·«·ﬂ —Ê‰Ì</td>
+		<td width="465"><input type="text" name="account_mail"/></td>
+	</tr>
+	<tr>
+		<td width="129">«·„Ã„Ê⁄…</td>
+		<td width="465"><select size="1" name="account_group">
+<!--
+		<option value="1" selected>„Õ——</option>
+		<option value="2">„Õ—— „ÊÀÊﬁ</option>
+-->
+		<option value="3">„Õ—— «œ«—Ì</option>
+		<option value="4" selected="true">«œ«—… ⁄«„…</option>
+		
+		</select></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+		<input type="hidden" name="sub_ok" value="1">
+		<input type="submit" value="«÷«›…" name="sub"> <input type="reset" value="„”Õ" name="res"></td>
+	</tr>
+	</form>
+</table>

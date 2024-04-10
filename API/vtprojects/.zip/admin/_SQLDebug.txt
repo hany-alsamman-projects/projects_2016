@@ -1,0 +1,8 @@
+Aug 14, 3:44 pm CLASS:  (MYSQL ERROR ON LINE 50)'Unknown column 'd_name' in 'field list''
+Aug 14, 3:44 pm CLASS:  (MYSQL ERROR ON LINE 50)'Unknown column 'd_name' in 'field list''
+Aug 14, 3:44 pm CLASS:  (MYSQL ERROR ON LINE 50)'Unknown column 'd_name' in 'field list''
+May 12, 4:59 am CLASS:  (MYSQL ERROR ON LINE 26)'Unknown column 'in_dept' in 'order clause''
+May 12, 5:00 am CLASS:  (MYSQL ERROR ON LINE 26)'Unknown column 'in_dept' in 'order clause''
+Jun 23, 8:03 am CLASS:  (MYSQL ERROR ON LINE 26)'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `activated` = '0' ORDER BY group_id' at line 1'
+Jun 23, 8:03 am CLASS:  (MYSQL ERROR ON LINE 26)'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `activated` = '1' ORDER BY group_id' at line 1'
+Jun 23, 8:03 am CLASS:  (MYSQL ERROR ON LINE 26)'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `activated` = '0' ORDER BY group_id' at line 1'

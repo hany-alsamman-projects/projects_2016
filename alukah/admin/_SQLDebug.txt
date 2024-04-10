@@ -1,0 +1,8 @@
+Aug 31, 3:35 am CLASS:  (MYSQL ERROR ON LINE 27)'Table 'alukah.tour_requests' doesn't exist'
+Sep 5, 12:45 pm CLASS:  (MYSQL ERROR ON LINE 30)'Query was empty'
+Sep 9, 8:49 am CLASS: LINKS_CPANEL (MYSQL ERROR ON LINE 422)'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'png,
+                        `book_name` = haaaa,
+                        `boo' at line 3'
+Sep 9, 8:50 am CLASS: LINKS_CPANEL (MYSQL ERROR ON LINE 422)'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'png,
+                        `book_name` = haaaa,
+                        `boo' at line 3'

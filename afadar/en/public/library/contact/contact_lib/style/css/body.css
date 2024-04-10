@@ -1,0 +1,35 @@
+/*
+You can remove this file if you already have
+a body style in your site. If you wish to remove this file,
+remove also the below line from the file contact.php:
+<link rel="stylesheet" type="text/css" href="contact_lib/style/css/body.css" media="screen" />
+*/
+
+body {
+	background-color: #cecece;
+	
+}
+
+* {
+	font-family: "Century Gothic", Verdana, Arial, Georgia,Serif, Helvetica, sans-serif;
+	text-rendering: optimizelegibility;
+	padding:0;
+	margin:0;
+}
+
+h2 {
+    color: #403D3A;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 2px #EFEBE7, 0 4px 2px #CFC8C2;
+	margin-bottom: 30px;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+}
+
+img{  
+	border-style: none;
+}

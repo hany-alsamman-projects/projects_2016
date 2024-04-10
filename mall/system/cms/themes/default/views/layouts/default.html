@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    {{ theme:partial name="metadata" }}
+
+<body>
+
+    <div class="top_border">
+      <div class="top_border1"></div>
+      <div class="top_border2"></div>
+      <div class="top_border3"></div>
+      <div class="top_border4"></div>
+    </div>
+
+    <div class="main">
+      <div class="page_container"> 
+    	<!-- HEADER BEGIN -->
+
+        {{ if global:current_language == 'en' }}
+
+             {{ theme:partial name="header" }}
+
+        {{ else }}
+
+             {{ theme:partial name="header_ar" }}
+
+        {{ endif }}
+
+    	<!-- HEADER END -->
+       
+        <!--Top Slider-->
+
+    	{{ if page:is_home }}
+
+        	<div class="top_slider" style="position:relative;">  {{ theme:partial name="slider" }} </div>
+        
+	{{ endif }}	
+        <!-- CONTENT BEGIN -->
+        <div id="content" class="content">
+
+            {{ if page:is_home }}
+
+		{{ if global:current_language == 'ar' }}
+
+		      {{ theme:partial name="content_ar" }}
+
+		{{ else }}
+
+		     {{ theme:partial name="content" }}
+
+		{{ endif }}
+                    
+
+                {{ else }}		
+
+		{{ if global:current_language == 'ar' }}
+
+		     {{ theme:partial name="inside_ar" }}
+
+		{{ else }}
+
+		    {{ theme:partial name="inside" }}
+
+		{{ endif }}
+                
+
+            {{ endif }}
+        </div>
+    	<!-- CONTENT END -->
+
+        <!-- FOOTER BEGIN -->
+        {{ if global:current_language == 'en' }}
+
+            {{ theme:partial name="footer" }}
+
+        {{ elseif global:current_language == 'ar' }}
+
+            {{ theme:partial name="footer_ar" }}
+
+        {{ endif }}
+        <!-- FOOTER END -->
+        <div class="clear"></div>
+        
+        </div>
+    </div>
+    
+</body>
+
+</html>

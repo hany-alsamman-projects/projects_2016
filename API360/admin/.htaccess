@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+
+Options +FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule ^css/(.*)$ ../files/css/$1 [L,NC]
+RewriteRule ^images/(.*)$ ../files/img/admin/$1 [L,NC]
+RewriteRule ^flags/(.*)$ ../files/img/flags/$1 [L,NC]
+RewriteRule ^js/(.*)$ ../files/js/$1 [L,NC]
+
+
+ </IfModule>
+

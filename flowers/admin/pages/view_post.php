@@ -1,0 +1,17 @@
+		<!-- POST -->
+		<table cellpadding="3" cellspacing="0" style="width: 100%; margin-bottom:10px">
+			<tr>
+				<td colspan="5" style="height: 10px; text-align:right"><?=stripslashes($row->title)?></td>
+			</tr>
+			<tr>
+				<td colspan="5" style="height: 50px; width: 575px; text-align:right"><?=stripslashes($row->post)?></td>
+			</tr>
+			<tr>
+			<td style="height: 20px; width: 20px"><input type="checkbox" value="<?=$row->pid?>" name="pid[]"></td>
+			<td style="height: 20px; width: 20px"><a title=" ⁄œÌ· —œ" href="index.php?section=EditPost&id=<?=$row->pid?>"><img src="images/admin/edit.png"></a></td>
+			<td style="height: 20px; width: 20px"><a title="Õ–› —œ" href="index.php?section=DeletePost&id=<?=$row->pid?>"><img src="images/admin/delete.gif"></a></td>
+			<td style="height: 20px; width: 20px"><a title=" €ÌÌ— Õ«·… «·—œ" href="index.php?section=ChangeApprove&id=<?=$row->pid?>"><img src="images/admin/<?=$approve?>"></a></td>
+				<td style="height: 20px; width: 475px">«÷«›… „‰ <?=parent::truncate(stripslashes($row->author_name),10, ' ...')?> Ê  »⁄ «·„Ê÷Ê⁄ ( <a title="«ŸÂ«— Ã„Ì⁄ «·—œÊœ «· Ì   »⁄ Â–« «·„Ê÷Ê⁄" href="index.php?section=ShowPosts&in_topic=<?=$row->in_topic?>"><?=parent::truncate(stripslashes($topic_title),50, ' ...')?></a> )</td>
+			</tr>
+		</table>
+		<!-- POST -->

@@ -1,0 +1,40 @@
+<!-- HEADER -->
+<div id="outerheader">
+
+    <header id="top">
+        <div class="main">
+            <div id="logo" class="six columns alpha"><a href="{{ url:site  }}">{{ theme:image file="logo.png"  alt="{{ settings:site_slogan }}" }}</a></div>
+            <div id="headerright" class="six columns omega">
+                <ul id="sn">
+                    <li><a href="http://youtube.com/" title="Youtube"><span class="icon-img" style="background:url(system/cms/themes/default/img/social/youtube.png)"></span></a></li>
+                    <li><a href="http://facebook.com/" title="Facebook"><span class="icon-img" style="background:url(system/cms/themes/default/img/social/fb.png)"></span></a></li>
+                    <li><a href="http://twitter.com/" title="Twitter"><span class="icon-img" style="background:url(system/cms/themes/default/img/social/twitter.png)"></span></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <section id="navigation">
+            <div class="main container">
+                <nav id="nav-wrap">
+                    <ul id="topnav" class="sf-menu">
+				{{ navigation:links group="header_en" }}
+				<li><a href="{{ url }}" class="{{ class }}">{{ title }}</a>
+				    {{ if children }}
+				    <ul>
+				    {{ children }}
+					<li><a href="{{ url }}">{{ title }}</a></li>
+				    {{ /children }}
+				    </ul>
+				    {{ endif }}
+				</li>
+				{{ /navigation:links }}
+                    </ul><!-- topnav -->
+                </nav><!-- nav -->
+                <div class="clear"></div>
+            </div>
+        </section>
+        <div class="clear"></div>
+    </header>
+</div>
+<!-- END HEADER -->

@@ -1,0 +1,117 @@
+<div id="header">
+	<div id="top_nav">
+		<div id="l_top_nav">
+		</div>
+		<div id="m_top_nav">
+				<!--
+<div id="new-user"><a href="#"><img src="img/newuser.png" /></a></div>
+-->	
+
+                {if '{pyro:user:logged_in}'}
+                
+                 <div id="user_info">
+                 <div id="user_photo">
+                 
+                	{if '{pyro:settings:enable_profiles}'}
+                		<a href="{pyro:url:site uri='my-profile'}">
+                            {if '{pyro:user:gravatar}' == ''}
+                            <img width="25" height="25" src="{pyro:url:base}uploads/files/{pyro:user:gravatar}" />
+                            {else}
+                            <img src="{pyro:url:base}files/thumb/{pyro:user:gravatar}/50/50" />
+                            {/if}
+                			<h3>{pyro:user:display_name}</h3>
+                		</a>
+                	{else}                		
+                		<h3>{pyro:user:display_name}</h3>
+                	{/if}
+                    <small>{if '{pyro:user:last_login}' > '0'} {pyro:helper:date timestamp='{pyro:user:last_login}'}  {/if} </small>
+                    
+                 </div>
+                     <div class="user_links">
+                         <ul>
+                        	{if '{pyro:settings:enable_profiles}'}
+                        		<li><a href="{pyro:url:site uri='edit-profile'}">{pyro:helper:lang line="edit_profile_label"}</a></li>
+                        	{/if}
+                        
+                        	<li><a href="{pyro:url:site uri='edit-settings'}">{pyro:helper:lang line="settings_label"}</a></li>
+                        
+                        	{if '{pyro:user:has_cp_permissions}'}
+                        		<li><a href="{pyro:url:site uri='admin'}" target="_blank">{pyro:helper:lang line="cp_title"}</a></li>
+                        	{/if}
+        
+                        	<li><a href="{pyro:url:site uri='users/logout'}">{pyro:helper:lang line="logout_label"}</a></li>
+                         </ul>
+                     </div>
+                </div>
+                
+                {else}
+			
+                <?php if (isset($redirect_hash) && $redirect_hash): ?>
+                <?php echo form_hidden('redirect_hash', $redirect_hash); ?>
+                <?php endif; ?>
+					<form action="{pyro:url:site}users/login" method="post" accept-charset="utf-8" id="login-small">
+                                           
+	<input type="text" id="email" name="email" maxlength="120" value="{pyro:helper:lang line='user_email'}" onblur="if (this.value == '') { this.value = '{pyro:helper:lang line="user_email"}'; }"  onfocus="if (this.value == '{pyro:helper:lang line="user_email"}') { this.value = ''; }" />
+   <input type="password" id="password" name="password" maxlength="20" value="{pyro:helper:lang line='user_password'}" onblur="if (this.value == '') { this.value = '{pyro:helper:lang line="user_password"}'; }"  onfocus="if (this.value == '{pyro:helper:lang line="user_password"}') { this.value = ''; }" />
+						
+                        <input style="padding-top: 10px;" type="image" src="/addons/themes/conjuction/img/enter.jpg" value="{pyro:helper:lang line='user_login_btn'}" name="btnLogin" />
+                        <input type="checkbox" id="remember-checksidebar" name="remember" value="1"  /><span>{pyro:helper:lang line="user_remember"}</span>                       
+					</form>
+                
+                {/if}
+			</div>
+		<div id="r_top_nav">
+			<div style="width: 30px; height: 30px; float: LEFT; margin-top: 10px;">
+				<img src="/addons/themes/conjuction/img/man.png" /></div>
+		</div>
+		<div id="m_s_top_nav">
+		</div>
+		<div id="r_s_top_nav">
+		</div>
+	</div>
+	<!--top nav-->
+	<div id="logo">
+	</div>
+	<div id="nav">
+		<div id="l_nav">
+		</div>
+		<div id="m_nav">
+			<div class="links">
+				<ul>
+					{pyro:navigation:links group="header"}
+				</ul>
+			</div>
+			<!--linls--></div>
+		<!--m_nav-->
+		<div id="r_nav">
+		</div>
+	</div>
+	<!--nav-->
+    
+    {if '{pyro:url:segments segment="1"}' == 'home' || '{pyro:url:segments segment="1"}' == ''}
+    
+	<div class="follow_us">
+		<a href="">{pyro:theme:image file="face_logo3.png"}</a> 
+        <a href="">{pyro:theme:image file="t_logo3.png"}</a> 
+        <a href="">{pyro:theme:image file="rss_logo3.png"}</a> </div>
+        
+    {/if}
+    
+	<div id="short_news">
+		<div id="l_lshort_news">
+		</div>
+		<div id="m_short_news">
+			<marquee direction="right">
+            {pyro:query:run query="SELECT * FROM `blog` WHERE `status` = 'live' ORDER BY created_on DESC LIMIT 5"}    
+             {title} &nbsp; <span style="color: red;"> SDB </span>  &nbsp;
+            {/pyro:query:run}
+             </marquee>
+		</div>
+		<div id="l2_short_news">
+			<h4 style="margin-top: 10px;">أخبار قصيرة </h4>
+		</div>
+		<div id="r_short_news">
+		</div>
+	</div>
+	<!--short news-->
+    </div>

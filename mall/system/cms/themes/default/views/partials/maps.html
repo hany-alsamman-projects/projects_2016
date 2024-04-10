@@ -1,0 +1,81 @@
+
+{{ theme:js file="smoothScroll.min.js" }}
+
+<script type="text/javascript">
+
+$(document).ready( function() {
+
+ 	smoothScroll(document.getElementById('imageContainer'), {timerDelta:25});
+	smoothScroll(document.getElementById('imageContainer2'), {timerDelta:25});
+
+	$('#printicon').prepend('<li style="position: absolute; margin:15px" class="print"><a title="alt="click me to print the MAP" href="#print"><img  style="width:75px; height:75px;" src="system/cms/themes/default/img/printer-orange.png" ></a></li>');
+	
+	$('#imageContainer li.print a').click(function() {
+	  printContents('imageContainer');
+	});
+
+	function printContents(id)
+	{
+	    var contents = $("#"+id).html();
+
+	    if ($("#printDiv").length == 0)
+	    {
+	    var printDiv = null;
+	    printDiv = document.createElement('div');
+	    printDiv.setAttribute('id','printDiv');
+	    printDiv.setAttribute('class','printable');
+	    $(printDiv).appendTo('body');
+	    }
+		
+
+	    $("#printDiv").html(contents);
+
+	    window.print();
+
+	    $("#printDiv").remove();
+	 	return false;
+	}
+});
+
+</script>
+
+<style>
+    
+	#imageContainer {
+	width: 100%;
+	height: 500px;	
+	overflow: hidden;
+	margin: auto;
+	color: #fff;
+	cursor: default;
+	}
+
+	#imageContainer2 {
+	width: 100%;
+	height: 500px;	
+	overflow: hidden;
+	margin: auto;
+	color: #fff;
+	cursor: default;
+	}
+
+	@media print {
+	.non-printable, .fancybox-outer { display: none; }
+	.printable, #printDiv { 
+	display: block; 
+	font-size: 26pt;
+	}
+  }
+     
+</style>
+
+	<div id="imageContainer">
+		<div id="printicon" style="position: fixed"></div>
+	       {{ theme:image file="map1.jpg" }}
+	</div>
+
+
+	<div id="imageContainer2">
+		<div id="printicon" style="position: fixed"></div>
+	       {{ theme:image file="map2.jpg" }}
+	</div>

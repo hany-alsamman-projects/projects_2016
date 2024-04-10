@@ -1,0 +1,13 @@
+/* State colors table */
+#state-colors {
+	width: auto;
+}
+
+#state-colors th {
+	padding: 7px 7px 8px;
+}
+
+#state-colors td {
+	padding: 4px 7px 2px;
+}
+

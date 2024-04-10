@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-23 12:04+0100\n"
+"PO-Revision-Date: 2012-05-23 12:08+0100\n"
+"Last-Translator: Luca Montanari <l.montanari@lcweb.it>\n"
+"Language-Team: LCweb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+
+#: private-content/functions.php:71
+msgid "Name"
+msgstr "Nome"
+
+#: private-content/functions.php:79
+msgid "Surname"
+msgstr "Sobrenome"
+
+#: private-content/functions.php:87
+#: private-content/public_api.php:122
+#: private-content/user_registration.php:50
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: private-content/functions.php:96
+#: private-content/public_api.php:127
+msgid "Password"
+msgstr "Senha"
+
+#: private-content/functions.php:105
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: private-content/functions.php:113
+msgid "Telephone"
+msgstr "Telefone"
+
+#: private-content/functions.php:200
+#: private-content/functions.php:253
+msgid "Repeat"
+msgstr "Repetir"
+
+#: private-content/public_api.php:83
+#: private-content/shortcodes.php:25
+msgid "You must be logged in to view this content"
+msgstr "Você deve estar logado para ver este conteúdo"
+
+#: private-content/public_api.php:98
+#: private-content/shortcodes.php:32
+#: private-content/user_auth.php:46
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Desculpe, você não tem as permissões corretas para visualizar este conteúdo"
+
+#: private-content/public_api.php:133
+msgid "Login"
+msgstr "Login"
+
+#: private-content/public_api.php:150
+msgid "Logout"
+msgstr "Sair"
+
+#: private-content/public_api.php:177
+msgid "You have to set the default category for registered users."
+msgstr "Você tem que definir a categoria padrão para usuários registrados."
+
+#: private-content/public_api.php:203
+msgid "Submit"
+msgstr "Enviar"
+
+#: private-content/pvt_content_manage.php:67
+msgid "You don't have a reserved area"
+msgstr "Você não tem uma área reservada"
+
+#: private-content/shortcodes.php:20
+#, fuzzy
+msgid "login"
+msgstr "Login"
+
+#: private-content/user_auth.php:41
+msgid "Username or password incorrect"
+msgstr "Nome de usuário ou senha incorreta"
+
+#: private-content/user_auth.php:65
+msgid "Logged succesfully, welcome!"
+msgstr "logado com sucesso, bem-vindo!"
+
+#: private-content/user_registration.php:42
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: private-content/user_registration.php:42
+msgid "wasn't entered correctly"
+msgstr "não foi digitado corretamente"
+
+#: private-content/user_registration.php:50
+msgid "Another user already has this username"
+msgstr "Já existe um usuário com este nome"
+
+#: private-content/user_registration.php:85
+msgid "Error during user registration, contact the website administrator"
+msgstr "Erro durante o registro do usuário, contate o administrador do site"
+
+#: private-content/user_registration.php:125
+msgid "Registration was succesful. Welcome!"
+msgstr "Registo foi bem sucedido. Bem-vindo!"
+
+#: private-content/classes/simple_form_validator.php:326
+msgid "minimum value is"
+msgstr "valor mínimo é"
+
+#: private-content/classes/simple_form_validator.php:339
+msgid "maximum value is"
+msgstr "valor máximo é"
+
+#: private-content/classes/simple_form_validator.php:352
+msgid "minimum"
+msgstr "mínimo"
+
+#: private-content/classes/simple_form_validator.php:352
+#: private-content/classes/simple_form_validator.php:365
+msgid "characters allowed"
+msgstr "Caracteres permitidos"
+
+#: private-content/classes/simple_form_validator.php:365
+msgid "maximum"
+msgstr "máximo"
+
+#: private-content/classes/simple_form_validator.php:378
+msgid "has to be long"
+msgstr "tem de ser maior"
+
+#: private-content/classes/simple_form_validator.php:378
+msgid "characters"
+msgstr "caracteres"
+
+#: private-content/classes/simple_form_validator.php:422
+msgid "Select"
+msgstr "selecionar"
+
+#: private-content/classes/simple_form_validator.php:422
+msgid "options"
+msgstr "opções"
+
+#: private-content/classes/simple_form_validator.php:434
+msgid "Maximum"
+msgstr "Máximo"
+
+#: private-content/classes/simple_form_validator.php:434
+msgid "options allowed"
+msgstr "opções permitidas"
+
+#: private-content/classes/simple_form_validator.php:510
+msgid "are required"
+msgstr "são necessários"
+
+#: private-content/classes/simple_form_validator.php:510
+msgid "is required"
+msgstr "é necessário"
+
+#: private-content/classes/simple_form_validator.php:514
+msgid "are not valid integers"
+msgstr "não são inteiros válidos"
+
+#: private-content/classes/simple_form_validator.php:514
+msgid "is not a valid integer"
+msgstr "não é um número inteiro válido"
+
+#: private-content/classes/simple_form_validator.php:518
+msgid "are not valid floating numbers"
+msgstr "não são válidos números flutuantes"
+
+#: private-content/classes/simple_form_validator.php:518
+msgid "is not a valid floating number"
+msgstr "o é um número válido flutuante"
+
+#: private-content/classes/simple_form_validator.php:522
+msgid "are not valid e-mail addresses"
+msgstr "não são endereços de e-mail válidos"
+
+#: private-content/classes/simple_form_validator.php:522
+msgid "is not a valid e-mail address"
+msgstr "não é um endereço de e-mail válido"
+
+#: private-content/classes/simple_form_validator.php:526
+msgid "are not valid dates"
+msgstr "não são datas válidas"
+
+#: private-content/classes/simple_form_validator.php:526
+msgid "is not a valid date"
+msgstr "não é uma data válida"
+
+#: private-content/classes/simple_form_validator.php:530
+msgid "are not valid times"
+msgstr "horas não válidas"
+
+#: private-content/classes/simple_form_validator.php:530
+msgid "is not a valid time"
+msgstr "não é uma hora válida"
+
+#: private-content/classes/simple_form_validator.php:534
+msgid "are not valid urls"
+msgstr "não são urls válido"
+
+#: private-content/classes/simple_form_validator.php:534
+msgid "is not a valid url"
+msgstr "não é uma URL válida"
+
+#: private-content/classes/simple_form_validator.php:538
+msgid "are not valid hexadecimal colors"
+msgstr "não são válidos cores hexadecimais"
+
+#: private-content/classes/simple_form_validator.php:538
+msgid "is not a valid hexadecimal color"
+msgstr "não é uma cor hexadecimal válida"
+
+#: private-content/classes/simple_form_validator.php:542
+msgid "are not valid IP addresses"
+msgstr "não são endereços IP válidos"
+
+#: private-content/classes/simple_form_validator.php:542
+msgid "is not a valid IP address"
+msgstr "não é um endereço IP válido"
+
+#: private-content/classes/simple_form_validator.php:546
+msgid "are not valid ZIP codes"
+msgstr "não são códigos postais válidos"
+
+#: private-content/classes/simple_form_validator.php:546
+msgid "is not a valid ZIP code"
+msgstr "não é um código ZIP válido"
+
+#: private-content/classes/simple_form_validator.php:550
+msgid "are not valid telephone numbers"
+msgstr "não são números de telefone válidos"
+
+#: private-content/classes/simple_form_validator.php:550
+msgid "is not a valid telephone number"
+msgstr "não é um número de telefone válido"
+
+#: private-content/classes/simple_form_validator.php:553
+msgid "invalid data inserted"
+msgstr "dados inválidos inseridos"
+
+#: private-content/classes/simple_form_validator.php:557
+msgid "values are not between the allowed"
+msgstr "valores não são entre o permitido"
+
+#: private-content/classes/simple_form_validator.php:557
+msgid "value is not between the allowed"
+msgstr "valor não é entre o permitido"
+
+#: private-content/classes/simple_form_validator.php:561
+msgid "values are between the forbidden"
+msgstr "valores estão entre o proibido"
+
+#: private-content/classes/simple_form_validator.php:561
+msgid "values is between the forbidden"
+msgstr "valores é entre o proibido"
+
+#: private-content/classes/simple_form_validator.php:564
+msgid "the value doesn't match"
+msgstr "o valor não corresponde"
+
+#: private-content/classes/simple_form_validator.php:567
+msgid "file size is wrong"
+msgstr "tamanho do arquivo está errado"
+
+#: private-content-user-data/cust_form_handle.php:90
+msgid "Data saved succesfully"
+msgstr "Dados salvos com sucesso"
+
+#: private-content-user-data/cust_form_handle.php:98
+msgid "Form submitted successfully. You are not logged as an user so nothing has been saved"
+msgstr "Form enviado com sucesso. Você não está logado como um usuário para que nada tenha sido salvo"
+

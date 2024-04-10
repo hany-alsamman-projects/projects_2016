@@ -1,0 +1,907 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+audio:not([controls]) {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+html, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222
+}
+
+body {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+
+a {
+    color: #00e
+}
+
+a:visited {
+    color: #551a8b
+}
+
+a:hover {
+    color: #06e
+}
+
+a:focus {
+    outline: thin dotted
+}
+
+a:hover, a:active {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: bold
+}
+
+blockquote {
+    margin: 1em 40px
+}
+
+dfn {
+    font-style: italic
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+ins {
+    background: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, serif;
+    _font-family: "courier new", monospace;
+    font-size: 1em
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+q {
+    quotes: none
+}
+
+q:before, q:after {
+    content: "";
+    content: none
+}
+
+small {
+    font-size: 85%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px
+}
+
+dd {
+    margin: 0 0 0 40px
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 0
+}
+
+form {
+    margin: 0
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+label {
+    cursor: pointer
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    *margin-left: -7px
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle
+}
+
+button, input {
+    line-height: normal
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    *overflow: visible
+}
+
+button[disabled], input[disabled] {
+    cursor: default
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *width: 13px;
+    *height: 13px
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td {
+    vertical-align: top
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0
+}
+
+@font-face {
+    font-family: Bariol;
+    src: url("../fonts/Bariol_Regular.otf");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: HandOfSeanRegular;
+    src: url("../fonts/handsean.eot");
+    src: url("../fonts/handsean.eot?#iefix") format("embedded-opentype"), url("../fonts/handsean.woff") format("woff"), url("../fonts/handsean.ttf") format("truetype"), url("../fonts/handsean.svg#HandOfSeanRegular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+    background: #f0f0f0 url("../img/dots.gif") repeat fixed left top;
+    color: #444;
+    font-family: Bariol, sans-serif
+}
+
+body .scroll-me {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    z-index: 1;
+    background: url("../img/scroll-me.png") repeat-x scroll left top
+}
+
+body.fun * {
+    font-family: ComicSansMS !important
+}
+
+body.fun #intro:after {
+    display: block;
+    content: "";
+    background: url("../img/the.foxes-4b.png") no-repeat scroll center center;
+    height: 250px
+}
+
+body.fun #what-i-do:after {
+    display: block;
+    content: "";
+    background: url("../img/the.foxes-4c.png") no-repeat scroll center center;
+    height: 250px
+}
+
+body.fun #wait-what {
+    background: purple url("../img/purple-fun.gif") repeat scroll left top;
+    color: purple !important
+}
+
+body.fun #prequel .script {
+    display: none
+}
+
+body.fun #prequel p:last-child:after {
+    content: "comic sans"
+}
+
+body.fun #prequel:after {
+    display: block;
+    content: "";
+    background: url("../img/the.foxes-4d.png") no-repeat scroll center center;
+    height: 250px
+}
+
+body.fun #main-reason {
+    background: gold url("../img/atwork.gif") repeat top left
+}
+
+body.fun #main-reason p {
+    background: gold
+}
+
+body.fun #main-reason:after {
+    display: block;
+    content: "";
+    background: url("../img/the.foxes-4e.png") no-repeat scroll center center;
+    height: 250px
+}
+
+body.fun #problem-solving .chunky-bacon {
+    display: none
+}
+
+body.fun #problem-solving p:last-child:after {
+    content: "chunky bacon"
+}
+
+body.fun #problem-solving:after {
+    display: block;
+    content: "";
+    background: url("../img/the.foxes-4f.png") no-repeat scroll center center;
+    height: 250px
+}
+
+body.fun #what-i-learned:after {
+    display: block;
+    content: "";
+    background: url("../img/the.foxes-4g.png") no-repeat scroll center center;
+    height: 250px
+}
+
+body.fun #skills .editor .function, body.fun #skills .editor .symbol, body.fun #skills .editor .method {
+    display: none
+}
+
+body.fun #skills .editor .lolcode, body.fun #skills .editor .whitespace, body.fun #skills .editor .brainfuck {
+    display: inline
+}
+
+body.fun #contact {
+    background: #000 url("../img/space-fun.gif") repeat fixed center center;
+    background-size: contain
+}
+
+body.fun #contact:after {
+    display: block;
+    content: "No foxes were harmed during the development of this spoof.";
+    color: #fff;
+    padding: 1em 0;
+    background: #000
+}
+
+.awwwards-nominee {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    display: block;
+    background: url("../img/awwwards_nominee.png") top left no-repeat;
+    width: 69px;
+    height: 105px;
+    text-indent: -9999em;
+    -moz-transition: opacity 0.2s ease-in;
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in
+}
+
+.awwwards-nominee:hover {
+    opacity: 0.75
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-size: 2.25em
+}
+
+.ss-container {
+    font-size: 2.25em
+}
+
+.script {
+    font-family: HandOfSeanRegular
+}
+
+.mono {
+    font-family: Menlo, Monaco, monospace
+}
+
+#root {
+    overflow: hidden
+}
+
+section {
+    padding: 72px 0;
+    text-align: center
+}
+
+#intro {
+    background: #888 url("../img/gray.gif") repeat scroll left top;
+    border-bottom: 1px solid #666
+}
+
+#intro .you-can-call-me {
+    display: none
+}
+
+#intro h1 {
+    font-weight: normal;
+    color: #111
+}
+
+#intro img {
+    height: 256px;
+    width: 256px;
+    margin: 30px auto;
+    border-radius: 50%;
+    box-shadow: #fff 0 0 0 10px, #aaa 0 0 0 11px;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in
+}
+
+#what-i-do {
+    padding: 1em 0 0;
+    background: #000 url("../img/black.png") repeat scroll left top;
+    border-top: 1px solid #777;
+    color: #fff;
+    padding-bottom: 0
+}
+
+#airport-board {
+    margin-top: 72px;
+    overflow: hidden;
+    line-height: 1em;
+    margin: 0 auto 1em;
+    border-radius: 4px
+}
+
+#airport-board span {
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    background: #111;
+    color: #fff;
+    margin: 1em 0 1em 0.75em;
+    padding: 4px 0;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #000;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 -1px 0, rgba(255, 255, 255, 0.1) 0 1px 0;
+    font-weight: 900
+}
+
+#airport-board span:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50%;
+    margin-top: -1px;
+    height: 0;
+    width: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+}
+
+#airport-board span:nth-child(n+13) {
+    color: gold
+}
+
+#map-canvas {
+    height: 288px;
+    width: 100%;
+    position: relative
+}
+
+#map-canvas:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 288px;
+    background: rgba(0, 0, 0, 0)
+}
+
+#wait-what {
+    background: purple url("../img/purple.gif") repeat left top;
+    color: #fff
+}
+
+#prequel {
+    background: #dc143c;
+    border-bottom: #c46405 2px dashed;
+    color: #fff
+}
+
+#prequel .slide-in {
+    padding: 36px 0
+}
+
+#main-reason {
+    background: #c46405;
+    color: #222
+}
+
+#main-reason .ampersand {
+    font-family: Baskerville, GoudyBookletter1911, "Goudy Old Style", Palatino, "Book Antiqua", serif;
+    font-style: italic;
+    font-size: 78px;
+    color: #FFF;
+    text-shadow: rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.3) 0 -1px 0
+}
+
+#problem-solving {
+    border-top: #c46405 2px dashed;
+    background: #09f url("../img/blue.gif") repeat fixed left top;
+    color: #eee;
+    text-shadow: #003d66 0 1px 0
+}
+
+#what-i-learned {
+    background: #bada55;
+    color: #3b4d00;
+    text-shadow: #d7e99f 0 1px 0
+}
+
+#skills {
+    padding-bottom: 0;
+    color: #444
+}
+
+#skills p {
+    padding-bottom: 2em
+}
+
+#skills p.editor {
+    padding-bottom: 6em
+}
+
+#ia p, #vd p, #usability p, #html-css p {
+    padding: 8em 0
+}
+
+#ia span, #vd span, #usability span, #html-css span {
+    padding: 3px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+#ia {
+    background: url("../img/ia-detail.jpg") no-repeat fixed;
+    background-size: cover
+}
+
+#vd {
+    background: url("../img/vd.jpg") no-repeat fixed;
+    background-size: cover
+}
+
+#usability {
+    background: url("../img/books.jpg") no-repeat fixed;
+    background-size: cover
+}
+
+#html-css {
+    background: url("../img/css-html.jpg") no-repeat fixed;
+    background-size: cover
+}
+
+p.editor {
+    background: #011B2D;
+    color: #e4e4e4;
+    padding: 6em 0;
+    font-size: 2em;
+    line-height: 1.3
+}
+
+p.editor .symbol, p.editor .lolcode {
+    color: #dc322f
+}
+
+p.editor .function, p.editor .whitespace {
+    color: #859900
+}
+
+p.editor .method, p.editor .brainfuck {
+    color: #cb4b16
+}
+
+p.editor .function, p.editor .symbol, p.editor .method {
+    display: inline
+}
+
+p.editor .lolcode, p.editor .whitespace, p.editor .brainfuck {
+    display: none
+}
+
+.block-cursor {
+    display: inline-block;
+    background: #444;
+    height: 1.35em;
+    width: 0.65em;
+    vertical-align: bottom;
+    -moz-animation: blink 0.9s infinite;
+    -webkit-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite
+}
+
+@keyframes blink {
+    0% {
+        background: #e4e4e4
+    }
+    50% {
+        background: #073642
+    }
+    100% {
+        background: #e4e4e4
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        background: #e4e4e4
+    }
+    50% {
+        background: #073642
+    }
+    100% {
+        background: #e4e4e4
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background: #e4e4e4
+    }
+    50% {
+        background: #073642
+    }
+    100% {
+        background: #e4e4e4
+    }
+}
+
+#contact {
+    background: url("../img/space.jpg") no-repeat fixed;
+    background-size: cover;
+    padding: 0;
+    color: #fff;
+    border-top: 1px solid #333
+}
+
+#contact p {
+    margin: 6em 0;
+    display: inline-block;
+}
+
+#contact a {
+    color: #333;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 0 4px;
+    padding: 0 8px;
+    background: #fff;
+    text-decoration: none;
+    font-size: 0.75em;
+    -moz-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in
+}
+
+#contact a:hover {
+    background: #09f;
+    color: #fff
+}
+
+#contact a:active {
+    background: #000;
+    color: #fff
+}
+
+#social {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3em 0 3em;
+    text-align: center
+}
+
+#social p {
+    background: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+    display: block
+}
+
+#social div {
+    margin: 0 auto 1em
+}
+
+#social .contact {
+    width: 450px
+}
+
+@media only screen and (max-device-width: 480px) {
+    #intro img {
+        width: 128px;
+        height: 128px;
+        box-shadow: #fff 0 0 0 0.5em, #aaa 0 0 0 0.6em
+    }
+
+    #airport-board {
+        font-size: 0.5em
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        font-size: 1.25em
+    }
+
+    .ss-container {
+        font-size: 1.25em
+    }
+
+    #ia, #vd, #usability, #html-css {
+        background-attachment: scroll;
+        background-size: auto 100%
+    }
+}
+
+.ir {
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: transparent
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+    }
+
+    a, a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")"
+    }
+
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: ""
+    }
+
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+    thead {
+        display: table-header-group
+    }
+
+    tr, img {
+        page-break-inside: avoid
+    }
+
+    img {
+        max-width: 100% !important
+    }
+
+    @page {
+        margin: 0.5cm
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2, h3 {
+        page-break-after: avoid
+    }
+}
+
+.ss-container {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    float: left;
+    overflow: hidden
+}
+
+.ss-row {
+    width: 100%;
+    clear: both;
+    float: left;
+    position: relative
+}
+
+.ss-left, .ss-right {
+    float: left;
+    width: 49%;
+    position: relative;
+    -webkit-transition-property: left, right;
+    -webkit-transition-duration: .1s;
+    -webkit-transition-timing-function: easeIn
+}
+
+.ss-right {
+    padding-left: .5%
+}
+
+.ss-left {
+    text-align: right;
+    padding-right: .5%
+}
+
+.ss-container span {
+    padding: 0 0 10px 0
+}

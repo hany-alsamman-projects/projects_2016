@@ -1,0 +1,1 @@
+<iframe allowfullscreen style="width: 100%; border: 0; height: 650px"  src="{{URL::to('assets/flash/HamraTour.html')}}" ></iframe>

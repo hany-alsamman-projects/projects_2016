@@ -1,0 +1,49 @@
+a:3:{s:16:"__cache_contents";O:8:"stdClass":23:{s:2:"id";s:2:"12";s:4:"slug";s:13:"ar-contact-us";s:5:"class";s:0:"";s:5:"title";s:15:"اتصل بنا";s:3:"uri";s:13:"ar-contact-us";s:9:"parent_id";s:1:"0";s:11:"revision_id";s:1:"1";s:9:"layout_id";s:1:"1";s:3:"css";s:129:"#register-form label.error {
+    display: inline-block;
+    color: #E68D00;
+    padding: 10px 0 10px 5px;
+    text-align: left;
+}";s:2:"js";s:1312:"(function($,W,D)
+{
+    var JQUERYHany = {};
+
+    JQUERYHany.UTIL =
+    {
+        setupFormValidation: function()
+        {
+            //form validation rules
+            $("#register-form").validate({
+                rules: {
+                    name: "required",
+                    message: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    subject: {
+                      required: {
+                        depends: function(element) {
+                          return $("#contact_subject").val() == '';
+                        }
+                      }
+                    }
+                },
+                messages: {
+                    name: "Please enter your full name",
+                    subject: "Please select the message subject",
+                    email: "Please enter a valid email address",
+                    message: "Please enter a valid message"
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        }
+    }
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+        JQUERYHany.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);";s:10:"meta_title";s:0:"";s:13:"meta_keywords";s:0:"";s:16:"meta_description";s:0:"";s:11:"rss_enabled";s:1:"0";s:16:"comments_enabled";s:1:"0";s:6:"status";s:4:"live";s:10:"created_on";s:10:"1355644715";s:10:"updated_on";s:10:"1358067772";s:13:"restricted_to";s:1:"0";s:7:"is_home";s:1:"0";s:10:"strict_uri";s:1:"1";s:5:"order";s:2:"13";s:8:"base_uri";s:13:"ar-contact-us";}s:15:"__cache_created";i:1358196796;s:20:"__cache_dependencies";a:0:{}}

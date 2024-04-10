@@ -1,0 +1,57 @@
+<!-- SLIDER -->
+<div id="outerslider">
+    <div id="slidercontainer">
+        <section id="slider">
+            <div class="opacitytop"></div>
+            <div id="layerslider" class="slideritems">
+                <div class="ls-layer" id="ls-layer-1" data-rel="slidedelay: 5000;">
+                    <img class="ls-bg" src="system/cms/themes/default/img/slider/slide1.jpg" alt="layer">
+
+                    <h1 class="ls-s2" id="slide1text1" data-rel="durationin: 2000; easingin: easeOutElastic; slidedirection: top; delayin: 1000" style="left: 50%;">
+                        Solution for your business</h1>
+                    <p class="slidetext ls-s3" id="slide1p1" data-rel="durationin: 2000; easingin: easeOutExpo; slidedirection: bottom; delayin: 1500" style="left: 50%;">
+                        Company is the leading consulting partner to the private equity industry and its key stakeholders</p>
+
+                </div>
+
+
+
+                <div class="ls-layer" id="ls-layer-3" data-rel="slidedelay: 5000;">
+                    <img class="ls-bg" src="system/cms/themes/default/img/slider/slide3.jpg" alt="layer">
+
+                    <h1 class="ls-s2" id="slide3text1" data-rel="delayin: 2000; slidedirection: fade; slideoutdirection: top; durationin: 1000;" style="left: 50%;">
+                        We bring deep, functional expertise</h1>
+                    <p class="slidetext ls-s3" id="slide3p1" data-rel="durationin: 2000; easingin: easeOutExpo; slidedirection: bottom; delayin: 1500" style="left: 50%;">
+                        we capture value across boundaries and between the silos of any organization. </p>
+
+                </div>
+
+
+
+
+                <div class="ls-layer" id="ls-layer-4" data-rel="slidedelay: 5000; delayout:500;">
+                    <img class="ls-bg" src="system/cms/themes/default/img/slider/slide4.jpg" alt="layer">
+
+
+                    <img class="ls-s2 slideimg" id="slide4p1" data-rel="durationin: 2000; slidedirection: fade; slideoutdirection: fade; delayin: 1000; delayout:0;" style="left:50%" src="system/cms/themes/default/img/slider/img2.png" alt="">
+
+                    <h1 class="ls-s3" id="slide4text1" data-rel="durationin: 2000;  slidedirection: fade; slideoutdirection: fade; delayin: 2000; delayout:0;" style="left: 50%;">
+                        Welcome to Tressling</h1>
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+</div>
+<!-- END SLIDER -->
+
+
+{{ if global:current_language == 'en' }}
+{{ pages:display slug="home" }}
+{{body}}
+{{ /pages:display }}
+
+{{ endif }}

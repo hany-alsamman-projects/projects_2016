@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-23 12:04+0100\n"
+"PO-Revision-Date: 2012-05-23 12:05+0100\n"
+"Last-Translator: Luca Montanari <l.montanari@lcweb.it>\n"
+"Language-Team: LCweb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+
+#: private-content/functions.php:71
+msgid "Name"
+msgstr "Voornaam"
+
+#: private-content/functions.php:79
+msgid "Surname"
+msgstr "Achternaam"
+
+#: private-content/functions.php:87
+#: private-content/public_api.php:122
+#: private-content/user_registration.php:50
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: private-content/functions.php:96
+#: private-content/public_api.php:127
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: private-content/functions.php:105
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: private-content/functions.php:113
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: private-content/functions.php:200
+#: private-content/functions.php:253
+msgid "Repeat"
+msgstr "Herhaal"
+
+#: private-content/public_api.php:83
+#: private-content/shortcodes.php:25
+msgid "You must be logged in to view this content"
+msgstr "Je moet ingelogd zijn om deze inhoud te bekijken"
+
+#: private-content/public_api.php:98
+#: private-content/shortcodes.php:32
+#: private-content/user_auth.php:46
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "U heeft niet de juiste rechten om deze inhoud te bekijken"
+
+#: private-content/public_api.php:133
+msgid "Login"
+msgstr "Login"
+
+#: private-content/public_api.php:150
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: private-content/public_api.php:177
+msgid "You have to set the default category for registered users."
+msgstr "U dient de standaard categorie in te stellen voor geregistreerde gebruikers."
+
+#: private-content/public_api.php:203
+msgid "Submit"
+msgstr "Verzenden"
+
+#: private-content/pvt_content_manage.php:67
+msgid "You don't have a reserved area"
+msgstr "U heeft geen gereserveerde ruimte"
+
+#: private-content/shortcodes.php:20
+#, fuzzy
+msgid "login"
+msgstr "Login"
+
+#: private-content/user_auth.php:41
+msgid "Username or password incorrect"
+msgstr "Gebruikersnaam of wachtwoord is niet correct"
+
+#: private-content/user_auth.php:65
+msgid "Logged succesfully, welcome!"
+msgstr "Succescol ingelogd. "
+
+#: private-content/user_registration.php:42
+msgid "reCAPTCHA"
+msgstr "reCaptcha"
+
+#: private-content/user_registration.php:42
+msgid "wasn't entered correctly"
+msgstr "is niet correct ingevoerd"
+
+#: private-content/user_registration.php:50
+msgid "Another user already has this username"
+msgstr "Deze gebruikersnaam is al in gebruik"
+
+#: private-content/user_registration.php:85
+msgid "Error during user registration, contact the website administrator"
+msgstr "Er ging iets fout tijdens de registratie, neem contact op met de website beheerder."
+
+#: private-content/user_registration.php:125
+msgid "Registration was succesful. Welcome!"
+msgstr "De registratie is succesvol, welkom!"
+
+#: private-content/classes/simple_form_validator.php:326
+msgid "minimum value is"
+msgstr "Minimale waarde is"
+
+#: private-content/classes/simple_form_validator.php:339
+msgid "maximum value is"
+msgstr "Maximale waarde is"
+
+#: private-content/classes/simple_form_validator.php:352
+msgid "minimum"
+msgstr "Minimum"
+
+#: private-content/classes/simple_form_validator.php:352
+#: private-content/classes/simple_form_validator.php:365
+msgid "characters allowed"
+msgstr "karakters toegestaan"
+
+#: private-content/classes/simple_form_validator.php:365
+msgid "maximum"
+msgstr "maximum"
+
+#: private-content/classes/simple_form_validator.php:378
+msgid "has to be long"
+msgstr "moet lang zijn"
+
+#: private-content/classes/simple_form_validator.php:378
+msgid "characters"
+msgstr "karakters"
+
+#: private-content/classes/simple_form_validator.php:422
+msgid "Select"
+msgstr "selecteerd"
+
+#: private-content/classes/simple_form_validator.php:422
+msgid "options"
+msgstr "opties"
+
+#: private-content/classes/simple_form_validator.php:434
+msgid "Maximum"
+msgstr "Maximum"
+
+#: private-content/classes/simple_form_validator.php:434
+msgid "options allowed"
+msgstr "opties toegestaan"
+
+#: private-content/classes/simple_form_validator.php:510
+msgid "are required"
+msgstr "zijn verplicht"
+
+#: private-content/classes/simple_form_validator.php:510
+msgid "is required"
+msgstr "is verplicht"
+
+#: private-content/classes/simple_form_validator.php:514
+msgid "are not valid integers"
+msgstr "zijn geen correcte waardes"
+
+#: private-content/classes/simple_form_validator.php:514
+msgid "is not a valid integer"
+msgstr "is geen correcte waarde"
+
+#: private-content/classes/simple_form_validator.php:518
+msgid "are not valid floating numbers"
+msgstr "zijn geen aansluitende nummers"
+
+#: private-content/classes/simple_form_validator.php:518
+msgid "is not a valid floating number"
+msgstr "is geen aansluitend nummer"
+
+#: private-content/classes/simple_form_validator.php:522
+msgid "are not valid e-mail addresses"
+msgstr "zijn geen correcte e-mail adressen"
+
+#: private-content/classes/simple_form_validator.php:522
+msgid "is not a valid e-mail address"
+msgstr "is geen correct e-mail adres"
+
+#: private-content/classes/simple_form_validator.php:526
+msgid "are not valid dates"
+msgstr "zijn geen correcte datums"
+
+#: private-content/classes/simple_form_validator.php:526
+msgid "is not a valid date"
+msgstr "is geen correcte datum"
+
+#: private-content/classes/simple_form_validator.php:530
+msgid "are not valid times"
+msgstr "zijn geen correcte tijden"
+
+#: private-content/classes/simple_form_validator.php:530
+msgid "is not a valid time"
+msgstr "is geen correcte tijd"
+
+#: private-content/classes/simple_form_validator.php:534
+msgid "are not valid urls"
+msgstr "zijn geen correcte URLs"
+
+#: private-content/classes/simple_form_validator.php:534
+msgid "is not a valid url"
+msgstr "is geen correcte url"
+
+#: private-content/classes/simple_form_validator.php:538
+msgid "are not valid hexadecimal colors"
+msgstr "zijn geen juiste hexadecimalen (kleuren)"
+
+#: private-content/classes/simple_form_validator.php:538
+msgid "is not a valid hexadecimal color"
+msgstr "is geen juiste hexadecimaal (kleur)"
+
+#: private-content/classes/simple_form_validator.php:542
+msgid "are not valid IP addresses"
+msgstr "zijn geen correcte IP adressen"
+
+#: private-content/classes/simple_form_validator.php:542
+msgid "is not a valid IP address"
+msgstr "is geen correct IP adres"
+
+#: private-content/classes/simple_form_validator.php:546
+msgid "are not valid ZIP codes"
+msgstr "zijn geen correcte postcodes"
+
+#: private-content/classes/simple_form_validator.php:546
+msgid "is not a valid ZIP code"
+msgstr "is geen correcte postcode"
+
+#: private-content/classes/simple_form_validator.php:550
+msgid "are not valid telephone numbers"
+msgstr "Zijn geen correcte telefoonnumers"
+
+#: private-content/classes/simple_form_validator.php:550
+msgid "is not a valid telephone number"
+msgstr "Is geen correct telefoonnummer"
+
+#: private-content/classes/simple_form_validator.php:553
+msgid "invalid data inserted"
+msgstr "Ongeldige data ingevoerd"
+
+#: private-content/classes/simple_form_validator.php:557
+msgid "values are not between the allowed"
+msgstr "waardes zijn niet toegestaan"
+
+#: private-content/classes/simple_form_validator.php:557
+msgid "value is not between the allowed"
+msgstr "waarde is niet toegestaan"
+
+#: private-content/classes/simple_form_validator.php:561
+msgid "values are between the forbidden"
+msgstr "waardes zijn niet toegestaan"
+
+#: private-content/classes/simple_form_validator.php:561
+msgid "values is between the forbidden"
+msgstr "waarde is niet toegestaan"
+
+#: private-content/classes/simple_form_validator.php:564
+msgid "the value doesn't match"
+msgstr "De waardes komen niet overeen"
+
+#: private-content/classes/simple_form_validator.php:567
+msgid "file size is wrong"
+msgstr "bestandsgrootte is foutief"
+
+#: private-content-user-data/cust_form_handle.php:90
+msgid "Data saved succesfully"
+msgstr "Gegevens die met succes"
+
+#: private-content-user-data/cust_form_handle.php:98
+msgid "Form submitted successfully. You are not logged as an user so nothing has been saved"
+msgstr "Form ingediend met succes. U bent niet ingelogd als gebruiker, zodat er niets is opgeslagen"
+

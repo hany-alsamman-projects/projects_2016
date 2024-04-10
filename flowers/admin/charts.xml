@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?><root><type><chart type=""2DPie"><animation enabled="yes" appearance="size" speed="10" type="step" /><names show="yes" ><font type="Verdana" size="12"  bold="yes" color="0x49563A"/></names><values show="yes" decimal_places="0" prefix="" postfix="" ><font type="Verdana" size="12" color="0x49563A"/></values><captions show="yes"></captions><hints enabled="yes" width="100" height="30" auto_size="yes" horizontal_position="center" vertical_position="top" ><background enabled="yes" color="0xFEE7C0"/><border enabled="yes" color="0x68838B"/><font type="Verdana" size="12" color="Black" /></hints><pie_chart x="426" y="265"  radius="165" rotation="0" captions_radius="1.1" protrusion_radius="10"
+	  ><border enabled="yes" size="1" color="0xF4E1C4" /><background enabled="yes" color="0xFFFFFF" alpha="100" auto_color="yes" /></pie_chart></chart><workspace 
+	width="700" 
+	height="530" 
+	x="0" y="0"><chart_area enabled="yes" 
+	width="680" 
+	height="490" 
+	x="10" y="20" deep="0" block_space="0" rotation_grade="45"><background enabled="yes" type="gradient" gradient_type="linear"><colors><color>0xC7CDC1</color> <color>0xECF0E8</color> </colors><alphas><alpha>100</alpha> <alpha>100</alpha> </alphas><ratios><ratio>127</ratio> <ratio>0xFF</ratio> </ratios><matrix r="-1.7" /></background><border enabled="yes" color="0x68838B" /></chart_area><base_area enabled="no" /><name text=""><font type="Verdana" size="14"  /></name><subname text=""></subname></workspace><legend enabled="yes" x="30" y="50"><background enabled="no" /><border enabled="no" /><scroller enabled="no" /><header values="TotalInStock" names="CategoryName" /><names><font type="Verdana" size="12"  bold="yes" color="0x49563A"/></names><values></values></legend></type><data><block>
+<set value='34' name='admin' color='0xD69367'/>
+</block>
+	</data><objects><text text="" auto_size="yes" x="40" y="20" 
+	width="700" 
+	height="20">
+<font align="center" bold="yes" color="0x48505A" size="14" type="Verdana" /></text><text text="" auto_size="yes" x="40" 
+	y="490"
+	><font align="center" color="0x45595F" size="14" type="Verdana" /></text></objects></root>

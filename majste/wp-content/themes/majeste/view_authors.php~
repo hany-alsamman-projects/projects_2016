@@ -1,0 +1,11 @@
+<?php
+/*
+Template Name: List of authors
+*/
+?>
+
+<div id="main" role="main">
+
+<?php wp_list_authors('sort_column=name&optioncount=1&hierarchical=0'); ?>
+
+</div><!-- End #main -->

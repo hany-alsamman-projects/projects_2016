@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<banner>
+	<!-- banner style -->
+	<style>
+		<!-- show width/height -->
+		<width>480</width>
+		<height>240</height>
+		<!-- auto play image -->
+		<autoplay>true</autoplay>
+		<!-- auto delay 3 secs -->
+		<delay>4</delay>
+		<!-- banner show background color -->
+		<bgcolor>0x666666</bgcolor>
+	</style>
+
+	<!-- banner image/swf data -->
+	<items>
+		<item src='assets/home/1.jpg' link='' target='_blank' effect='5' transition="easeoutcubic" number="10" delay='1'>
+		</item>
+
+		<item src='assets/home/2.jpg' link='' target='_blank' effect='9' transition="easeoutback" number="20" delay='1'>
+		</item>
+
+		<item src='assets/home/3.jpg' link='' target='_blank' effect='7' transition="easeoutbounce" number="20" delay='1'>
+		</item>
+
+		<item src='assets/home/4.jpg' link='' target='_blank' effect='11' transition="easeoutback" number="10" delay='1'>
+		</item>
+	</items>
+</banner>

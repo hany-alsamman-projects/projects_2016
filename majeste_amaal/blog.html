@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Esatto - One Page Responsive Bootstrap Template</title>
+
+<!-- Bootstrap CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap-responsive.min.css" />
+
+<!-- Esatto CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/esatto.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/white.css" id="swap-bg" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/color/red.css" id="swap-color" />
+
+<!-- Masonry CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/masonry.css" />
+
+<!-- Fancybox CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/fancybox.css" />
+
+<!-- Google WebFont -->
+<link type="text/css" rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" />
+
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="shortcut icon" />
+
+<!-- jQuery Scripts -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<!-- Bootstrap Scripts -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- ScrollBar Script -->
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+<!-- Masonry Script -->
+<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+
+<!-- Fancybox Script -->
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+
+<!-- FullScreen Script -->
+<script type="text/javascript" src="js/jquery.fullscreen-min.js"></script>
+
+<!-- Settings Script -->
+<script type="text/javascript">
+$(document).ready(function() {
+
+/* --- ScrollBar --- */
+var nice = $("html").niceScroll();
+var obj = window;
+
+/* --- NavBar Search --- */
+$('.navbar form input[type=text]').click(function () {
+  $(".navbar form").addClass("form-hover");
+  return false;
+});
+$('.navbar form input[type=text]').blur(function () {
+  $(".navbar form").removeClass("form-hover");
+  return false;
+});
+
+/* --- Opacity effect --- */
+$('.single').mouseover(function () {
+  $(this).siblings().css({
+    opacity: 0.35
+  });
+}).mouseout(function () {
+  $(this).siblings().css({
+    opacity: 1
+  });
+});
+
+/* --- Fancybox --- */
+$('.fancybox').fancybox();
+
+/* --- FullScreen --- */
+$(".fullscreen-supported").toggle($(document).fullScreen() != null);
+$(".fullscreen-not-supported").toggle($(document).fullScreen() == null);
+$(document).bind("fullscreenchange", function (e) {
+  $("#status").text($(document).fullScreen() ?
+    "Full screen enabled" : "Full screen disabled");
+});
+$(document).bind("fullscreenerror", function (e) {
+  $("#status").text("Browser won't enter full screen mode for some reason.");
+});
+
+/* --- Swap color --- */
+$('.swap').click(function () {
+  $('#swap-bg').attr('href','css/'+$(this).data('bg')+'.css');
+  $('#swap-color').attr('href','css/color/'+$(this).data('color')+'.css');
+  return false;
+});
+
+/* --- toTop --- */
+$(window).scroll(function () {
+  if ($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+  } else {
+    $('#toTop').fadeOut();
+  }
+});
+$('#toTop').click(function () {
+  $('body,html').animate({
+    scrollTop: 0
+  }, 1000);
+});
+
+});
+
+/* --- Masonry --- */
+window.onload = function () {
+  var wall = new Masonry(document.getElementById('masonry'), {
+    columnWidth: 240
+  });
+};
+</script>
+</head>
+<body>
+
+<!-- NavBar container -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+  
+      <!-- NavBar logo -->
+      <img src="img/logo.png" alt="logo" class="logo" />
+      
+      <!-- NavBar Title --> 
+      <a class="brand" data-toggle="collapse" data-target=".nav-collapse"><span class="sosa">m</span>Menu</a>
+      <div class="nav-collapse collapse navbar-responsive-collapse"> 
+        
+        <!-- NavBar section list -->
+        <ul id="nav" class="nav nav-main pull-left">
+          <li class="home-icon"><a href="esatto.html#home"><span class="sosa">Ç</span></a></li>
+          <li><a href="esatto.html#about">About</a></li>
+          <li><a href="esatto.html#services">Services</a></li>
+          <li><a href="esatto.html#portfolio">Portfolio</a></li>
+          <li><a href="esatto.html#contact">Contact</a></li>
+        </ul>
+        
+        <!-- NavBar right list -->
+        <ul class="nav nav-divider pull-left">
+          <li><a href="#"><i class="icon-cog icon-white"></i>Settings</a>
+            <ul>
+              <li><a href="#" onClick="$(document).toggleFullScreen()">Fullscreen mode</a></li>
+              <li><a href="#"><i class="icon-chevron-right icon-white"></i>White background</a>
+                <ul>
+                  <li><a href="#" class="swap" data-bg="white" data-color="red">White Red</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="yellow">White Yellow</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="green">White Green</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="blue">White Blue</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="violet">White Violet</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="icon-chevron-right icon-white"></i>Black background</a>
+                <ul>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="red">Black Red</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="yellow">Black Yellow</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="green">Black Green</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="blue">Black Blue</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="violet">Black Violet</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+        <!-- NavBar search -->
+        <form action="search" class="form-search pull-right">
+          <input type="text" class="input-medium" />
+          <button type="submit" class="btn"><span class="sosa">]</span></button>
+        </form>
+        
+        <!-- NavBar social -->
+        <ul class="nav social-nav pull-right">
+          <li><a href="#"><span class="sosa">v</span></a></li>
+          <li><a href="#"><span class="sosa">t</span></a></li>
+          <li><a href="#"><span class="sosa">x</span></a></li>
+        </ul>
+        
+        <!-- NavBar Blog list -->
+        <ul class="nav nav-divider-right pull-right">
+          <li class="current"><a href="blog.html">Blog</a>
+            <ul>
+              <li class="current"><a href="blog.html">Home Blog</a></li>
+              <li><a href="blog-detail.html">Single Post</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Template container -->
+<div class="wrapper-blog">
+  <h1>Masonry <span>Blog</span></h1>
+  <p class="lead">Lorem ipsum dolor sit amet, <span>consectetuer</span> adipiscing elit.<br />
+    Sed diam <span>nonummy nibh</span> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  
+  <!-- Masonry container -->
+  <div id="masonry"> 
+    
+    <!-- Masonry single box -->
+    <div class="single big">
+      <h4><a href="#">Cyril Hahn</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Cyril%20Hahn%20sized.jpg" title="Cyril Hahn" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Cyril%20Hahn%20sized.jpg" alt="Cyril Hahn" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong>.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">RA Loves Lea Peckre</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Lea%20Peckre%20Rachael.jpg" title="Lea Peckre Rachael" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Lea%20Peckre%20Rachael.jpg" alt="Lea Peckre Rachael" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+      <a href="blog-detail.html" class="btn btn-primary">Continue</a></div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">The Box Boutique’s New Shoe Classic</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/BOX_BOUTIQUE_5514.jpg" title="Box Boutique" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/BOX_BOUTIQUE_5514.jpg" alt="Box Boutique" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Craig-Lawrence</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Craig-Lawrence.jpg" title="Craig Lawrence" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Craig-Lawrence.jpg" alt="Craig Lawrence" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small> </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Trine Lindegaard</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Trine-Lindegaard.jpg" title="Trine Lindegaard" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Trine-Lindegaard.jpg" alt="Trine Lindegaard" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit morem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong>.</p>
+      <a href="blog-detail.html" class="btn btn-primary">Continue</a></div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">She and Him</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/She%20And%20Him%20-%20photocredit%20Autumn%20De%20Wilde%20lo%20res_thumb.jpg" title="She and Him" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/She%20And%20Him%20-%20photocredit%20Autumn%20De%20Wilde%20lo%20res_thumb.jpg" alt="She and Him" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br />
+        <br />
+        Consectetuer adipiscing elit, ipsum dolor sit diam <strong>nonummy nibh euismod</strong>. Consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong>.</p>
+      <a href="blog-detail.html" class="btn btn-primary">Continue</a></div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Black Celebration</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Black-Celebration.jpg" title="Black Celebration" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Black-Celebration.jpg" alt="Black Celebration" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Smash Knits</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/schwitt-CHRISTIAN_WIJNANTS_SS13_Credit_Jef_Jacobs_1.jpg" title="Smash Knits" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/schwitt-CHRISTIAN_WIJNANTS_SS13_Credit_Jef_Jacobs_1.jpg" alt="Smash Knits" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Address Book</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/LeMill-Britannia-and-co.jpg" title="Address Book" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/LeMill-Britannia-and-co.jpg" alt="Address Book" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small> </div>
+    
+    <!-- Masonry single box -->
+    <div class="single big">
+      <h4><a href="#">Phoenix</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/phoenix-Phoenix2.jpg" title="Phoenix" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/phoenix-Phoenix2.jpg" alt="Phoenix" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Carlo Mollino</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Mollino%20carlo%20mollino.jpg" title="Carlo Mollino" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Mollino%20carlo%20mollino.jpg" alt="Carlo Mollino" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong>.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Quarry Man</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/James%20Long%20Quarry%20sized.jpg" title="Quarry Man" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/James%20Long%20Quarry%20sized.jpg" alt="Quarry Man" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+      <a href="blog-detail.html" class="btn btn-primary">Continue</a></div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Christopher Kane</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/feathers%20shopping%20christopher%20kane.jpg" title="Christopher Kane" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/feathers%20shopping%20christopher%20kane.jpg" alt="Christopher Kane" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+    </div>
+    
+    <!-- Masonry single box -->
+    <div class="single big">
+      <h4><a href="#">Made in the USA</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Made%20In%20The%20USA%20Anthem.jpg" title="Made in the USA" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Made%20In%20The%20USA%20Anthem.jpg" alt="Made in the USA" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small> </div>
+    
+    <!-- Masonry single box -->
+    <div class="single">
+      <h4><a href="#">Henrik Vibskov</a></h4>
+      <em class="data-time">by <a href="#">Admin</a> on <span>April 20th</span>, 2013</em> <a href="http://www.farfetch.com/peoplepics/Henrik%20Vibskov%2013%20sized.jpg" title="Henrik Vibskov" rel="tag" class="fancybox"><img src="http://www.farfetch.com/peoplepics/Henrik%20Vibskov%2013%20sized.jpg" alt="Henrik Vibskov" /> <span class="sosa">]</span></a> <small class="blog-comments"><span class="sosa">g</span> 12 Comments</small>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer section -->
+<div class="footer">
+  <p class="text-center">&copy; 2013 <a href="esatto.html">Esatto</a></p>
+</div>
+
+<!-- Go to top page -->
+<div id="toTop"><i class="icon-chevron-up icon-white"></i></div>
+</body>
+</html>

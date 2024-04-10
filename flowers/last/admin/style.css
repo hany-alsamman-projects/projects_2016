@@ -1,0 +1,113 @@
+﻿html
+{
+	overflow-x: auto; /* fixes MSIE scrollbar bug DO NOT REMOVE */
+}
+
+BODY {
+	font-size : 12px;
+	font-family : calibri,Arial,Verdana,sans-serif;
+	color : #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #D3D4D6;
+}
+tr, td
+{
+	color: #000;
+	font-family: "calibri", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 12px;
+	border-bottom: 1px dashed #C0C0C0;
+}
+
+TABLE {
+	border-collapse: collapse;
+}
+
+form
+{
+	border: 0px solid #000;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+textarea,
+input,
+select
+{
+	color: #555;
+	font-size: 12px;
+	padding: 2px;
+	direction: rtl;
+}
+
+
+input:focus,
+select:focus
+{
+	background: #e9f6fd;
+	border: 1px solid black;
+}
+
+
+a:link,
+a:visited,
+a:active
+{
+	background-color: transparent;
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	background-color: transparent;
+	color: #465584;
+	text-decoration: underline;
+}
+
+img, div { border: 0;}
+
+.menudottedline {
+	border: 1px #CCCCCC;
+	border-style: dashed;
+	background-color: #FFF;
+}
+
+.board_style{
+	background-color: #FFF;
+	border: 1px #CCCCCC;
+	border-style: dashed;
+	width: 785px;
+}
+
+#menu {
+  padding-left: 7px;
+  margin:0;
+  }
+#menu li {
+  list-style-type:none;
+  }
+  
+#menu a, #menu a:visited {
+  display:block;
+  font-family: calibri, verdana, sans-serif; /* ADDED */
+  font-size:12px; /* ADDED */
+  text-align:left; /* ADDED */
+  text-decoration:none; /* ADDED */
+  color: #000;
+  }
+  
+.pagetext {
+	visibility: hidden;
+	display: none;
+	top: 0;
+}
+
+.no_border{
+	border: 0;
+}
+
+.menulink2{
+	cursor: pointer;
+}

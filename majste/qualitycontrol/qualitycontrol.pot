@@ -1,0 +1,1004 @@
+# Copyright (C) 2012 AppThemes
+# This file is distributed under the same license as the Quality Control package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Quality Control 0.5.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/qualitycontrol\n"
+"POT-Creation-Date: 2012-02-26 22:22:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:10
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: 404.php:11
+msgid "Sorry, the page you are looking for could not be located."
+msgstr ""
+
+#: create-ticket.php:20
+msgid "You do not have permission to create tickets."
+msgstr ""
+
+#: footer.php:6
+msgid ""
+"<a href=\"http://www.appthemes.com/themes/qualitycontrol/\">Issue Tracking "
+"Software</a> powered by <a href=\"http://wordpress.org\">WordPress</a>"
+msgstr ""
+
+#: framework/admin/dashboard.php:18
+msgid "Latest News"
+msgstr ""
+
+#: framework/admin/dashboard.php:19
+msgid "Latest Tweets"
+msgstr ""
+
+#: framework/admin/dashboard.php:20
+msgid "Support Forum"
+msgstr ""
+
+#: framework/admin/dashboard.php:53 functions.php:253
+msgid "Dashboard"
+msgstr ""
+
+#: framework/admin/importer.php:89
+msgid "Import CSV"
+msgstr ""
+
+#: framework/admin/importer.php:104
+msgid ""
+"Below you will find the AppThemes import tool which allows you to import "
+"items from other systems via a .csv (comma-separated values) document. This "
+"is usually done with an Excel spreadsheet saved as a .csv. The formatting of "
+"the .csv file must be mapped correctly otherwise the import tool will not "
+"work. Use the .csv templates found in the \"examples\" theme folder."
+msgstr ""
+
+#: framework/admin/importer.php:105
+msgid "Choose a CSV file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/admin/importer.php:139
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/importer.php:147
+msgid "All done. <a href=\"%s\">Have fun!</a>"
+msgstr ""
+
+#: framework/admin/settings.php:59 framework/scb/AdminPage.php:178
+#: framework/scb/AdminPage.php:189 includes/admin/options.php:98
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/updater.php:67
+msgid ""
+"<strong>IMPORTANT</strong>: If you have made any modifications to the "
+"AppThemes files, they will be overwritten if you proceed with the automatic "
+"update. Those with modified theme files should do a manual update instead. "
+"Visit your <a href=\"%1$s\" target=\"_blank\">customer dashboard</a> to "
+"download the latest version."
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:21
+#: framework/custom-forms/form-builder.php:31
+msgid "Custom Forms"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:22
+msgid "Custom Form"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:23 includes/tickets.php:33
+msgid "Add New"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:24
+msgid "Add New Custom Form"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:25
+msgid "Edit Form"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:26
+msgid "New Form"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:27
+msgid "View Forms"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:28
+msgid "Search Forms"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:29
+msgid "No forms found"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:30
+msgid "No forms found in Trash"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:57
+msgid "Save"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:58
+msgid "Add New Field..."
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:59
+#: framework/custom-forms/form-builder.php:65
+msgid "Text Field"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:60
+msgid "Title"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:61
+msgid "Paragraph"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:62
+msgid "Checkboxes"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:63
+msgid "Radio"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:64
+msgid "Select List"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:66
+msgid "Label"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:67
+msgid "Paragraph Field"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:68
+msgid "Select Options"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:69
+msgid "Add"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:70
+msgid "Checkbox Group"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:71
+msgid "Are you sure you want to remove this element?"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:72
+msgid "Remove"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:73
+msgid "Radio Group"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:74
+msgid "Allow Multiple Selections"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:75
+msgid "Hide"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:76
+msgid "Required"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:77
+msgid "Show"
+msgstr ""
+
+#: framework/custom-forms/form-builder.php:84
+msgid "Form Builder"
+msgstr ""
+
+#: framework/includes/functions.php:84
+msgid "Page %s"
+msgstr ""
+
+#: framework/includes/functions.php:108
+msgid "Lost password?"
+msgstr ""
+
+#: framework/includes/functions.php:114
+msgid "Register"
+msgstr ""
+
+#. #-#-#-#-#  qualitycontrol.pot (Quality Control 0.5.2)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: framework/includes/page-edit-profile.php:8
+msgid "Edit Profile"
+msgstr ""
+
+#: framework/includes/page-edit-profile.php:41
+msgid "User updated."
+msgstr ""
+
+#: framework/includes/stats.php:26
+msgid "total views"
+msgstr ""
+
+#: framework/includes/stats.php:26
+msgid "today"
+msgstr ""
+
+#: framework/includes/stats.php:28
+msgid "No views yet"
+msgstr ""
+
+#: framework/scb/AdminPage.php:165
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: framework/scb/AdminPage.php:351 includes/admin/options.php:28
+msgid "Settings"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary Widget Area"
+msgstr ""
+
+#: functions.php:69
+msgid "The primary widget area"
+msgstr ""
+
+#: functions.php:87
+msgid "This field is required."
+msgstr ""
+
+#: functions.php:88
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: functions.php:89
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: functions.php:90
+msgid "Please enter a valid date."
+msgstr ""
+
+#: functions.php:91
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: functions.php:92
+msgid "Please enter a valid number."
+msgstr ""
+
+#: functions.php:93
+msgid "Please enter only digits."
+msgstr ""
+
+#: functions.php:94
+msgid "Please enter the same value again."
+msgstr ""
+
+#: functions.php:95
+msgid "Please enter a value with a valid extension."
+msgstr ""
+
+#: functions.php:133
+msgid "New"
+msgstr ""
+
+#: functions.php:136
+msgid "Closed"
+msgstr ""
+
+#: functions.php:143
+msgid "Low"
+msgstr ""
+
+#: functions.php:144
+msgid "Medium"
+msgstr ""
+
+#: functions.php:145
+msgid "High"
+msgstr ""
+
+#: functions.php:247
+msgid "Containing \"%s\""
+msgstr ""
+
+#: functions.php:249
+msgid "Ticket #%d"
+msgstr ""
+
+#: functions.php:251
+msgid "Assigned to %s"
+msgstr ""
+
+#: functions.php:290
+msgid "Anonymous"
+msgstr ""
+
+#: header.php:23
+msgid "Visitor"
+msgstr ""
+
+#: header.php:30
+msgid "Edit profile"
+msgstr ""
+
+#: includes/admin/admin.php:14 includes/tickets.php:32
+#: templates/ticket-meta.php:4
+msgid "Ticket"
+msgstr ""
+
+#: includes/admin/admin.php:27
+msgid "Created"
+msgstr ""
+
+#: includes/admin/dashboard.php:4
+msgid "Quality Control Dashboard"
+msgstr ""
+
+#. #-#-#-#-#  qualitycontrol.pot (Quality Control 0.5.2)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: includes/admin/dashboard.php:5
+msgid "Quality Control"
+msgstr ""
+
+#: includes/admin/options.php:19
+msgid "Protected"
+msgstr ""
+
+#: includes/admin/options.php:20
+msgid "Read Only"
+msgstr ""
+
+#: includes/admin/options.php:21
+msgid "Readable/Editable"
+msgstr ""
+
+#: includes/admin/options.php:27
+msgid "Quality Control Settings"
+msgstr ""
+
+#: includes/admin/options.php:43
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/options.php:44
+msgid "Assignment Permissions"
+msgstr ""
+
+#: includes/admin/options.php:47 includes/modules/states.php:15 sidebar.php:35
+msgid "States"
+msgstr ""
+
+#: includes/admin/options.php:48
+msgid "Default State"
+msgstr ""
+
+#: includes/admin/options.php:49
+msgid "Resolved State"
+msgstr ""
+
+#: includes/admin/options.php:50
+msgid "Colors"
+msgstr ""
+
+#: includes/admin/options.php:127
+msgid "Tickets not assigned to the current user are "
+msgstr ""
+
+#: includes/admin/options.php:139
+msgid "This state will be selected by default when creating a ticket."
+msgstr ""
+
+#: includes/admin/options.php:145
+msgid "Tickets in this state are assumed to no longer need attention."
+msgstr ""
+
+#: includes/admin/options.php:153
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/admin/options.php:172
+msgid "Background"
+msgstr ""
+
+#: includes/admin/options.php:173
+msgid "Text"
+msgstr ""
+
+#: includes/admin/options.php:174
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/options.php:199
+msgid "Enter colors in a hexadecimal format (i.e. #F66 or #557544)."
+msgstr ""
+
+#: includes/classes/qc-taxonomy.php:90 includes/widgets.php:93
+msgid "View all tickets marked %s"
+msgstr ""
+
+#: includes/classes/qc-taxonomy.php:125
+msgid "none"
+msgstr ""
+
+#: includes/classes/qc-taxonomy.php:213
+msgid "<strong class=\"taxonomy\">%1$s</strong> set to <em>%2$s</em>."
+msgstr ""
+
+#: includes/classes/qc-taxonomy.php:216
+msgid "<strong class=\"taxonomy\">%1$s</strong> deleted."
+msgstr ""
+
+#: includes/classes/qc-taxonomy.php:219
+msgid ""
+"<strong class=\"taxonomy\">%1$s</strong> changed from <em>%2$s</em> to <em>"
+"%3$s</em>."
+msgstr ""
+
+#: includes/classes/qc-taxonomy.php:262
+msgid "&mdash;"
+msgstr ""
+
+#: includes/comments.php:14
+msgid "uploaded %s"
+msgstr ""
+
+#: includes/comments.php:29
+msgid "about <em title=\"%s\">%s</em> ago"
+msgstr ""
+
+#: includes/comments.php:29
+msgid " at "
+msgstr ""
+
+#: includes/modules/assignment.php:22
+msgid ""
+"Assigned To: <em>(Optional) Separated multiple usernames with commas.</em>"
+msgstr ""
+
+#: includes/modules/assignment.php:79
+msgid "Assignment"
+msgstr ""
+
+#: includes/modules/assignment.php:116
+msgid "Updated Ticket on %s"
+msgstr ""
+
+#: includes/modules/assignment.php:117
+msgid ""
+"A new ticket has been updated on %1$s, and you are currently assigned to it: "
+"%2$s"
+msgstr ""
+
+#: includes/modules/assignment.php:118
+msgid "From: %1$s <%2$s>"
+msgstr ""
+
+#: includes/modules/assignment.php:229
+msgid "Tickets by %s"
+msgstr ""
+
+#: includes/modules/changesets.php:57 includes/modules/changesets.php:68
+msgctxt "changeset"
+msgid "Changesets"
+msgstr ""
+
+#: includes/modules/changesets.php:58
+msgctxt "changeset"
+msgid "Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:59
+msgctxt "changeset"
+msgid "Add New"
+msgstr ""
+
+#: includes/modules/changesets.php:60
+msgctxt "changeset"
+msgid "Add New Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:61
+msgctxt "changeset"
+msgid "Edit Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:62
+msgctxt "changeset"
+msgid "New Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:63
+msgctxt "changeset"
+msgid "View Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:64
+msgctxt "changeset"
+msgid "Search Changesets"
+msgstr ""
+
+#: includes/modules/changesets.php:65
+msgctxt "changeset"
+msgid "No changesets found"
+msgstr ""
+
+#: includes/modules/changesets.php:66
+msgctxt "changeset"
+msgid "No changesets found in Trash"
+msgstr ""
+
+#: includes/modules/changesets.php:67
+msgctxt "changeset"
+msgid "Parent Changeset:"
+msgstr ""
+
+#: includes/modules/changesets.php:160
+msgid "Source Control"
+msgstr ""
+
+#: includes/modules/changesets.php:161
+msgid "Repository Type"
+msgstr ""
+
+#: includes/modules/changesets.php:228
+msgid "View Changesets"
+msgstr ""
+
+#: includes/modules/changesets.php:252
+msgid "Import changesets now"
+msgstr ""
+
+#: includes/modules/changesets.php:287
+msgid "Error while fetching changesets: %s."
+msgstr ""
+
+#: includes/modules/changesets.php:289
+msgid "Imported %d changests."
+msgstr ""
+
+#: includes/modules/changesets.php:307
+msgid "account"
+msgstr ""
+
+#: includes/modules/changesets.php:308
+msgid "repository"
+msgstr ""
+
+#: includes/modules/changesets.php:326
+msgid "Example: %s"
+msgstr ""
+
+#: includes/modules/changesets.php:385
+msgid "Password is set in <code>wp-config.php</code>:"
+msgstr ""
+
+#: includes/modules/changesets.php:388
+msgid "Please set the password in your <code>wp-config.php</code> file:"
+msgstr ""
+
+#: includes/modules/changesets.php:405
+msgid "Beanstalk"
+msgstr ""
+
+#: includes/modules/changesets.php:453 includes/modules/changesets.php:513
+msgid "Repository URL"
+msgstr ""
+
+#: includes/modules/changesets.php:454
+msgid "Beanstalk User"
+msgstr ""
+
+#: includes/modules/changesets.php:455
+msgid "Beanstalk Password"
+msgstr ""
+
+#: includes/modules/changesets.php:469
+msgid "Github"
+msgstr ""
+
+#: includes/modules/changesets.php:514
+msgid "Github User"
+msgstr ""
+
+#: includes/modules/changesets.php:515
+msgid "Github Password"
+msgstr ""
+
+#: includes/modules/milestones.php:17 sidebar.php:52
+msgid "Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:18
+msgid "Milestone"
+msgstr ""
+
+#: includes/modules/milestones.php:19
+msgid "Search Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:20
+msgid "Popular Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:21
+msgid "All Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:22
+msgid "Update Milestone"
+msgstr ""
+
+#: includes/modules/milestones.php:23
+msgid "Add New Milestone"
+msgstr ""
+
+#: includes/modules/milestones.php:24
+msgid "New Milestone Name"
+msgstr ""
+
+#: includes/modules/milestones.php:25
+msgid "Edit Milestone"
+msgstr ""
+
+#: includes/modules/priorities.php:15
+msgid "Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:16
+msgid "Priority"
+msgstr ""
+
+#: includes/modules/priorities.php:17
+msgid "Search Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:18
+msgid "Popular Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:19
+msgid "All Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:20
+msgid "Update Priority"
+msgstr ""
+
+#: includes/modules/priorities.php:21
+msgid "Add New Priority"
+msgstr ""
+
+#: includes/modules/priorities.php:22
+msgid "New Priority Name"
+msgstr ""
+
+#: includes/modules/priorities.php:23
+msgid "Edit Priority"
+msgstr ""
+
+#: includes/modules/states.php:16
+msgid "Status"
+msgstr ""
+
+#: includes/modules/states.php:17
+msgid "Search States"
+msgstr ""
+
+#: includes/modules/states.php:18
+msgid "Popular States"
+msgstr ""
+
+#: includes/modules/states.php:19
+msgid "All States"
+msgstr ""
+
+#: includes/modules/states.php:20
+msgid "Update Status"
+msgstr ""
+
+#: includes/modules/states.php:21
+msgid "Add New Status"
+msgstr ""
+
+#: includes/modules/states.php:22
+msgid "New Status Name"
+msgstr ""
+
+#: includes/modules/states.php:23
+msgid "Edit Status"
+msgstr ""
+
+#: includes/modules/tags.php:15 includes/modules/tags.php:16
+#: includes/modules/tags.php:69
+msgid "Tags"
+msgstr ""
+
+#: includes/modules/tags.php:17
+msgid "Search Tags"
+msgstr ""
+
+#: includes/modules/tags.php:18
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/modules/tags.php:19
+msgid "All Tags"
+msgstr ""
+
+#: includes/modules/tags.php:20
+msgid "Update Tag"
+msgstr ""
+
+#: includes/modules/tags.php:21
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/modules/tags.php:22
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/modules/tags.php:23
+msgid "Edit Tag"
+msgstr ""
+
+#. #-#-#-#-#  qualitycontrol.pot (Quality Control 0.5.2)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: includes/tickets.php:3 templates/form-create-ticket.php:69
+msgid "Create Ticket"
+msgstr ""
+
+#: includes/tickets.php:31
+msgid "Tickets"
+msgstr ""
+
+#: includes/tickets.php:34
+msgid "Add New Ticket"
+msgstr ""
+
+#: includes/tickets.php:35
+msgid "Edit Ticket"
+msgstr ""
+
+#: includes/tickets.php:36
+msgid "New Ticket"
+msgstr ""
+
+#: includes/tickets.php:37 includes/tickets.php:38
+msgid "View Ticket"
+msgstr ""
+
+#: includes/tickets.php:39
+msgid "Search Tickets"
+msgstr ""
+
+#: includes/tickets.php:40
+msgid "No Tickets Found"
+msgstr ""
+
+#: includes/tickets.php:41
+msgid "No Tickets found in trash"
+msgstr ""
+
+#: includes/utils.php:11
+msgid "%s added"
+msgstr ""
+
+#: includes/utils.php:16
+msgid "%s removed"
+msgstr ""
+
+#: includes/widgets.php:19
+msgid "QC: Taxonomy"
+msgstr ""
+
+#: includes/widgets.php:21
+msgid "Create a list of any taxonomy."
+msgstr ""
+
+#: includes/widgets.php:38 includes/widgets.php:197
+#: templates/form-create-ticket.php:18
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:45
+msgid "Taxonomy:"
+msgstr ""
+
+#: includes/widgets.php:52
+msgid "Show RSS Link"
+msgstr ""
+
+#: includes/widgets.php:58
+msgid "Show Ticket Count"
+msgstr ""
+
+#: includes/widgets.php:100
+msgid "No Results"
+msgstr ""
+
+#: includes/widgets.php:148
+msgid "Project Team"
+msgstr ""
+
+#: includes/widgets.php:151
+msgid "QC: Project Team"
+msgstr ""
+
+#: includes/widgets.php:152
+msgid ""
+"Lists all team members assigned to this project and the time of their last "
+"activity."
+msgstr ""
+
+#: includes/widgets.php:174
+msgid "Last activity: %s ago"
+msgstr ""
+
+#: sidebar.php:71
+msgid "Categories"
+msgstr ""
+
+#: single-ticket.php:18 templates/loop-ticket.php:35
+msgid "by <strong>%1$s</strong> on <em>%2$s</em>"
+msgstr ""
+
+#: single-ticket.php:22
+msgid "Delete Ticket"
+msgstr ""
+
+#: single-ticket.php:30 templates/loop-ticket.php:42
+#: templates/ticket-meta.php:5
+msgid "Permalink to %s"
+msgstr ""
+
+#: single-ticket.php:57
+msgid "Attachments:"
+msgstr ""
+
+#: single-ticket.php:60
+msgid "by %1$s on %2$s"
+msgstr ""
+
+#: templates/form-create-ticket.php:12
+msgid "Basic Information"
+msgstr ""
+
+#: templates/form-create-ticket.php:23
+msgid "Description:"
+msgstr ""
+
+#: templates/form-create-ticket.php:30
+msgid "Tags: <em>(Optional)</em>"
+msgstr ""
+
+#: templates/form-create-ticket.php:43
+msgid "Ticket Properties"
+msgstr ""
+
+#: templates/form-create-ticket.php:55 templates/form-update-ticket.php:61
+msgid "Attach a File"
+msgstr ""
+
+#: templates/form-edit-profile.php:13
+msgid "Profile"
+msgstr ""
+
+#: templates/form-edit-profile.php:16
+msgid "Display Name:"
+msgstr ""
+
+#: templates/form-edit-profile.php:21
+msgid "Email:"
+msgstr ""
+
+#: templates/form-edit-profile.php:26
+msgid "New Password:"
+msgstr ""
+
+#: templates/form-edit-profile.php:27
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: templates/form-edit-profile.php:29
+msgid "Type your new password again."
+msgstr ""
+
+#: templates/form-edit-profile.php:35
+msgid "Update profile"
+msgstr ""
+
+#: templates/form-update-ticket.php:24
+msgid "Leave a comment"
+msgstr ""
+
+#: templates/form-update-ticket.php:40
+msgid "Update ticket properties"
+msgstr ""
+
+#: templates/form-update-ticket.php:46
+msgid "Tags: <em>(Optional) Separated multiple tags with commas.</em>"
+msgstr ""
+
+#: templates/form-update-ticket.php:75
+msgid "Submit"
+msgstr ""
+
+#: templates/loop-ticket.php:72
+msgid "No tickets found."
+msgstr ""
+
+#: templates/navigation.php:10
+msgid "All Tickets"
+msgstr ""
+
+#: templates/navigation.php:17
+msgid "My Tickets"
+msgstr ""
+
+#: templates/navigation.php:20
+msgid "Tickets Started"
+msgstr ""
+
+#: templates/navigation.php:24
+msgid "Assigned Tickets"
+msgstr ""
+
+#: templates/ticket-meta.php:15
+msgid "Assigned to"
+msgstr ""
+
+#: templates/ticket-meta.php:24
+msgid "Last Updated"
+msgstr ""
+
+#: templates/ticket-meta.php:29
+msgid "Modified by"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.appthemes.com/themes/qualitycontrol"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Turn a basic WordPress install into a simple and straight-forward ticketing "
+"system. Quality Control allows users to create tickets, assign statuses, "
+"milestones, categories, and tags. Other users can then interact with the "
+"tickets, updating their state, milestone, or any other property."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.appthemes.com"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid ""
+"white, light, two-columns, flexible-width, custom-colors, custom-background, "
+"custom-menu, editor-style, theme-options"
+msgstr ""

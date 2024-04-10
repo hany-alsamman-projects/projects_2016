@@ -1,0 +1,148 @@
+.lcwp_form h3 {
+    border-bottom: 1px solid #DFDFDF;
+    font-size: 14px;
+    margin: 20px 0 0;
+    padding: 10px 0;
+}
+
+.pg_form label {
+	padding-right: 15px;
+}
+.pg_req_field {
+	color: #F30;	
+}
+#pg_ulist_filter {
+	width: 200px;	
+}
+#pg_ulist_action {
+	width: 130px;
+}
+.v_divider {
+	padding: 0 5px;	
+}
+.pg_trigger {
+	cursor: pointer;	
+}
+.del_pg_user {
+	color: #21759B;	
+}
+.del_pg_user:hover {
+	color: #d54e21;	
+}
+
+.pg_table {
+	margin-bottom: 35px;	
+}
+.pg_table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+	overflow: visible;
+}
+.pg_table .pg_label_td {
+	width: 27%;	
+}
+.pg_table .pg_field_td {
+	width: 250px;	
+}
+.pg_table .pg_field_td > input,
+.pg_table .pg_field_td > textarea,
+.pg_table .pg_field_td > select {
+	width: 90%;
+}
+.pg_table .pg_field_td > select {
+	width: 221px;
+}
+.pg_table .info {
+	font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+	color: #999;	
+	vertical-align: middle;
+}
+
+#pg_cats_wrap input {
+	margin-bottom: -2px;	
+}
+#pg_tinymce_table .tbl_last {
+	border-bottom: none !important;	
+}
+#pg_tinymce_table textarea {
+	width: 340px;	
+}
+
+.pg_loading {
+	display: inline-block;
+	background: url(../img/loader.gif) no-repeat top left transparent;
+	width: 20px;
+	height: 20px;	
+}
+
+.tax_cat_list {
+	margin-top: 0px;	
+	float: left;
+}
+.tax_cat_list label {
+	display: inline-block;	
+}
+.tax_cat_list input {
+	margin-bottom: -1px;	
+	margin-left: 4px;
+	width: auto !important;
+}
+
+#icon-pg_user_manage {
+	background: url(../img/pg_page_icon.png) no-repeat center center transparent;	
+}
+
+.pg_sidemeta_catlist {
+	border: 1px solid #DFDFDF;
+    overflow: auto;
+    padding: 0.5em 0.9em;	
+	background-color: #FFFFFF;
+}
+
+#pg_form_creator input {
+	display: block;
+	margin: auto;	
+}
+#pg_form_creator span {
+	display: block;
+	text-align: center;	
+}
+.pg_checkbox_list {
+	margin: 0;	
+}
+.pg_checkbox_list > li {
+	margin: 0;
+	padding: 4px 0;
+}
+.pg_checkbox_list > li > label {
+	padding-left: 15px;	
+	vertical-align: middle;
+	position: relative;
+	top: -4px;
+	display: inline-block;
+}
+.pg_page_title {
+	background: url("../img/lcweb_logo.png") no-repeat scroll right bottom transparent;	
+}
+
+.pg_move_field {
+	display: block;
+	margin: auto;
+	height: 15px;
+	width: 15px;
+	background: url(../img/move_icons.png) no-repeat bottom left transparent;
+	cursor: move;		
+}
+.pg_move_field:hover {
+	background: url(../img/move_icons.png) no-repeat top left transparent;	
+}
+
+.pg_check_wrap > label {
+	display: block;
+    float: right;
+    padding: 5px;
+    width: 122px;	
+}

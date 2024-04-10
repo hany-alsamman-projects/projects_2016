@@ -1,0 +1,71 @@
+
+/*
+	SLIDER
+*/
+.slider-wrap								{  PADDING-left: 17px;margin: 0 auto;width: 860px; position: absolute; top: 191px; left:100px;font-family:Tahoma, Geneva, sans-serif }	
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; margin: 0 15px 0 30px; }
+.stripViewer								{ position: relative; overflow: hidden; width: 819px; height: 285px; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width: 819px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+
+#movers-row									{ z-index:1120; position:absolute ; bottom:-55px; left:0; }
+
+.photo-meta-data							{  height: 150px; width:50%; color: white; position:absolute; top:50px; right:20px; line-height:22px; text-align:right; 												font-size:10pt;}
+.photo-meta-data span 						{ font-size: 13px; }
+.photo-meta-data h3							{text-align:right; font-size:16pt;}
+.photo-meta-data p							{font-size:12pt; padding-bottom:10px;}
+.photo-meta-data a							{float:left; margin-top:20px; color:#fff; text-decoration:none}
+.photo-meta-data a:hover					{ color:#9c9c9c}
+.active-thumb img								{ background: transparent url(min_frame-act.png) top center no-repeat; }
+
+.min_frame									{ background:url(../img/min_frame.png) no-repeat; float:left; margin-left:8px; width:102px; height:76px;}
+.min_frame img								{ width:80px ; height:60px; margin:7px 0 0 10px;}
+
+.stripViewer .panelContainer .panel img	{
+
+}	
+
+.stripViewer .panelContainer .panel .cover{
+	position:absolute;
+	z-index:100;
+}	
+
+/* Easy Slider */
+
+	#slider{}	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:440px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-12px;
+		bottom:-20px;
+		}	
+	#nextBtn{ 
+		left:460px;
+		background:url(../img/right_arrow.png) no-repeat;
+		text-indent:-9999px;
+		}	
+	#prevBtn{
+		background:url(../img/left_arrow.png) no-repeat;
+		text-indent:-9999px;
+		}
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		width:30px;
+		height:77px;}

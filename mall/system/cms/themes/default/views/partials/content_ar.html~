@@ -1,0 +1,44 @@
+      <div class="boxes box1">
+        <div class="box_title"><span>النشرة البريدية</span></div>
+        <p> شارك معنا ليصلك كل ما هو جديد
+<form id="vipajax" method="post">
+          من عالم وعروض  فوراس مول ..</p>
+
+        <input name="first_name" type="text" value="ادخل الاسم الكامل" onclick="this.value=''" onblur="this.value=!this.value?'ادخل الاسم الكامل...':this.value;" />
+        <input name="email" type="text" value="ادخل بريدك الالكترونى هنا .." onclick="this.value=''" onblur="this.value=!this.value?'ادخل بريدك الالكترونى هنا ..':this.value;" />
+        <div class="checkbox">
+	 <input type="hidden" name="campaign_id[]" value="1">
+         <input type="checkbox" name="group_id[]" value="1" checked>
+          اشترك</div>
+        <input class="box_btn box1_btn" id="msubmit" type="submit" name="submit" value="موافق!"> </div>
+      <div class="boxes box2">
+        <div class="box_title"><span>معرض الصور</span></div>
+        <p>تصاميمه المعاصرة . . .<br />
+          وخدماته المشوقة . . .<br />
+          جعلت التسوق أكثر متعة</p>
+        <div class="preview"><img src="system/cms/themes/default/img/fawares_26.jpg" width="59" height="48" /> <img src="system/cms/themes/default/img/fawares_28.jpg" width="59" height="48" /> <img src="system/cms/themes/default/img/fawares_30.jpg" width="59" height="48" /> </div>
+        <a class="box_btn box2_btn" href="gallery.html">اعرض</a> </div>
+      <div class="boxes box3">
+        <div class="box_title"><span>عروض</span></div>
+        <p><img src="system/cms/themes/default/img/toty_town.png" width="89" height="161" /><span><strong>للترفيه معنى أخر مع توتى تاون للأطفال فى فوارس مول</strong> <br />
+          <br />
+          تسوق ومتع اطفالك الآن فى فوراس مول... أطفالكم هم اطفالنا قمنا بانشاء هذه المدينة
+          ليتسنى لكم التفرغ للتسوق بينما اطفالكم غارقون بأمتع الآوقات مع تونى</span></p>
+      </div>
+      <div class="boxes box4">
+        <div class="box_title"><span>منوعات</span></div>
+        <img src="system/cms/themes/default/img/fawares_20.png" width="239" height="193" /> </div>
+      <div class="clear"></div>
+      <div class="content_articles">
+        <div class="right_div">
+          <div class="article_title">التعريف بموقع المشروع</div>
+          <p>يقع في الوسط التجاري على طريق الملك عبدالعزيز، قلب مدينة الهفوف، بمساحة 27,000 م 2 وجوار سوق الذهب الوحيد في الأحساء بمحلاته التي تتجاوز 250 محلاً، وقربه المتناهي ( 20 م فقط)، هناك يقع مشروع فوارس مول. أما سوق القيصرية، وهو السوق الأقدم في شرق المملكة (منذ عام 1918 م) بتنوُّع نشاطاته من المشالح، العطارة، الأقمشة، العباءات والعطور، فقربُه يميِّز مشروع فوارس مول كذلك بلا أدنى شك.</p>
+          <a href="#" class="read_more">المزيد</a> </div>
+        <div class="left_div">
+          <div class="article_title">تعريف بمشروع فوارس مول</div>
+          <p>مساحة المشروع 27,000 م 2 ، حيث يشمل التالي :
+            الطابق الأرضي: وهو الجزء التجاري الأساسي، إذ يضم 150 محلاً تجارياً،مساحاتها ما بين ) 40 م 2- 100 م 2(، مع مساحة مخصصة.... </p>
+          <a href="#" class="read_more">المزيد</a> </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>

@@ -1,0 +1,21 @@
+<?
+
+$array1 = array (['new'] => 1  ['finish'] => 2 );
+
+
+
+$array2 = array('key2'=>'value2');
+$array3 = array();
+
+foreach($array1 as $k=>$v)
+{
+    if(array_key_exists($k, $array2))
+    {
+        $array3[$k] = array($v, $array2[$k]);
+    }else
+    {
+        $array3[$k] = array($v, null);
+    }
+}
+
+?>

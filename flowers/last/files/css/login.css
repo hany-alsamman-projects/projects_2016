@@ -1,0 +1,53 @@
+.wrap { width:800px; margin:0 auto; }
+.subWrap{ width: 800px; }
+.red{ color: #ca221f; font-size: 11pt; position:relative;}
+.floatLeft{ float: left; }
+.floatRight { float: right; }
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix {display: block; }* html .clearfix { height: 1%; }
+body { background: #242424 url(../images/admin/body_bg.jpg) repeat-x top; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+p { font-size: 0.75em; line-height: 2.0; }
+#logo{
+	width: 602px;
+	height: 150px;
+	background: url(../images/admin/slogo.jpg) no-repeat;
+}
+#content 
+#loginContainer {background-color: #d0d0d0;border: 1px solid #999999;padding: 10px;width: 602px;margin: 75px auto 10px auto;}
+#content #loginBox {background-color: #ffffff; height: 100%;position: relative;}
+#message{ width:100%; text-align:center}
+#loadingBox { width: 220px; margin: 0 auto;color: #999999; }
+#loginButton { width:119px; height:45px; border: none; padding: 0; float:right; margin: 0 15px 0 0;}
+#footer p {color: #666666;font-size: 0.70em;text-align: center;}
+input {background: transparent url(../images/admin/input_bg.jpg) no-repeat top;text-align:center;padding: 6px;border: 1px solid #cecece;width: 276px;color: #666666;}
+.formRow, 
+.buttonRow {width: 335px;margin: 8px auto;}
+.formImage {float:left;margin: 7px 8px 0 0;}.formField {float:left;padding: 3px;background-color: #f2f2f2;}
+
+.message {
+padding: 10px;
+border: 2px solid #ddd;
+background-color: #eee;
+color: #222;
+width: 80%;
+margin: 0px auto 0px auto;
+}
+
+.notice {
+background: #FFF6BF;
+color: #817134;
+border-color: #FFD324;
+}
+
+.success {
+  background: #E6EFC2;
+  color: #529214;
+  border-color: #C6D880;
+}
+
+.error {
+  background: #FBE3E4;
+  color: #D12F19;
+  border-color: #FBC2C4;
+}

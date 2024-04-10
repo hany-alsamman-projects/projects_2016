@@ -1,0 +1,28 @@
+h2. About
+
+The testimonials module is a simple module that let's users create client testimonials. 
+
+h2. Usage
+
+# Upload the testimonials directory to addons/modules
+# Go to http://www.yourwebsite.com/admin/modules
+# Click on 'install' next to the Testimonials Module in the 'Add-on Modules' section.
+# Once the installation process has been finished (should only take a few seconds) you can create and manage testimonials
+
+Default values for various methods are set within the config file - addons/modules/testimonials/config/testimonials_config.php
+
+There is a plugin included to allow you to pull the testimonials through to the frontend using a tag.
+{pyro:testimonials:entries} - will pull the latest testimonials, limited by the default limit set in the config file
+{pyro:testimonials:entries limit="5"} - will pull the latest 5 testimonial entries
+
+h2. Output
+
+The output creates a container div for each entry with three paragraphs inside. Each paragraph has been assigned a class for CSS styling.
+
+h2. Notice
+
+This is still in an beta stage so should not be used on a production site, all bugs, errors and feature requests should be sent to support@winkingfrog.com
+
+h2. License
+
+The testimonials module is licensed under the Apache v2.0 license.

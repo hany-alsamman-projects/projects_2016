@@ -1,0 +1,26 @@
+Usage
+
+{pyro:query:run query=“SELECT * FROM table”}
+{field_name}
+{/pyro:query:run}
+
+Simple provide your query as the query parameter, and the plugin will make all the fields returned by your query available as variables.
+
+In addition, PyroQuery returns two special variables:
+{query.odd_even}
+
+Returns “odd” or “even” based on the row being displayed.
+{query.last_row}
+
+Returns “yes” or “no” based on whether the row being displayed is the last one.
+Debugging
+
+If PyroQuery encounters a MySQL error, it will, by default, just return nothing. However, if you pass a debug parameter set to “on”, PyroQuery will display the database error.
+
+{pyro:query:run query=“SECT * FROM table” debug="on"}
+{field_name}
+{/pyro:query:run}
+
+This would return:
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ‘SECT * FROM table’ at line 1

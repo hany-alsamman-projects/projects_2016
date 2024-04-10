@@ -1,0 +1,293 @@
+h1{
+	text-align:center;
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	color:#CCC;
+	font-weight:200;
+	font-size:45px;
+	line-height:100px;
+	color: white;
+}
+h3{
+	text-align:center;
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	color:#CCC;
+	font-weight:200;
+	font-size:20px;
+	line-height:100px;
+	color: #EEEEEE;
+}
+
+form {
+	margin:0; 
+	padding:0;}
+
+.circles{
+	width:530px;
+	margin:50px auto; 
+	height:auto; 
+	position:relative; 
+	display:block;
+}
+
+.circles-container{
+	margin:50px auto 0 150px;
+	padding: 0;
+	text-align: left;
+	position: relative;
+	display: block;
+	height:570px;
+}
+
+.circles-container .tab-radio{
+	display: none;
+}
+
+.circles-container .tab{
+	margin: 0 0 10px 0;
+	width: 90px;
+	height: 90px;
+	line-height:80px;
+	position: relative;
+	top: -0;
+	color: #888;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Droid Arabic Kufi', cursive;
+	font-size:15px;
+	z-index:100;
+	-webkit-box-shadow:0 -3px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 -3px 1px rgba(0, 0, 0, 0.3);
+	box-shadow:0 -3px 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius:45px;
+	-moz-border-radius:45px;
+	border-radius:45px;
+	text-align:center;
+}
+
+.circles-container.left .tab, .circles-container.right .tab{
+	margin: 0 0 10px 0;
+	display:block;
+}
+
+.circles-container.left .tab{
+	left:-45px;
+}
+
+.tab-label .tab span{
+	position:absolute;
+	text-align:center;
+	color:rgba(255,255,255,0);
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:90px;
+	height:90px;
+	-moz-transition: all ease-out 0.4s;
+	-ms-transition: all ease-out 0.4s;
+	-o-transition: all ease-out 0.4s;
+	-webkit-transition: all ease-out 0.4s;
+	transition: all ease-out 0.4s;
+    font-size: 9pt;
+}
+
+.tab-label .tab i{
+	position:absolute;
+	text-align:center;
+	margin:auto;
+	font-size:25px;
+	line-height:90px;
+	left:0;
+	right:0;
+	-moz-transition: all ease-out 0.4s;
+	-ms-transition: all ease-out 0.4s;
+	-o-transition: all ease-out 0.4s;
+	-webkit-transition: all ease-out 0.4s;
+	transition: all ease-out 0.4s;
+	color:rgba(255,255,255,1);
+	
+}
+
+.tab-label .tab:hover span,
+.circles-container .tab-radio:checked  .tab span
+.circles-container .tab-radio:active  .tab span{
+	color:rgba(255,255,255,1);
+	-moz-transition: all ease-out 0.4s;
+	-ms-transition: all ease-out 0.4s;
+	-o-transition: all ease-out 0.4s;
+	-webkit-transition: all ease-out 0.4s;
+	transition: all ease-out 0.4s;
+}
+
+.tab-label .tab:hover i,
+.circles-container .tab-radio:checked  .tab i
+.circles-container .tab-radio:active  .tab i{
+	color:rgba(255,255,255,0);
+	-moz-transition: visibility 0s ease-out 0.4s;
+	-ms-transition: visibility 0s ease-out 0.4s;
+	-o-transition: visibility 0s ease-out 0.4s;
+	-webkit-transition: visibility 0s ease-out 0.4s;
+	transition: visibility 0s ease-out 0.4s;
+}
+
+.circles-container .tab:hover tab-radio .tab{
+	-webkit-box-shadow:0 0 0 2px rgb(160,160,160)
+}
+
+.circles-container .tab-radio:checked ~ .tab,
+.circles-container .tab-radio:active ~ .tab{
+	z-index: 100;
+	-webkit-box-shadow:0 -5px 1px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow:0 -5px 1px rgba(0, 0, 0, 0.7);
+	box-shadow:0 -5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.circles-container .tab-radio:checked ~ .tab:before{
+	content: "";
+}
+
+.circles-container .tab-radio:checked ~ .tab:before{
+ 	font-family: 'FontAwesome';
+	font-weight:normal;
+	content: "";
+}
+
+.circles-container .tab-page{
+	visibility: hidden;
+	z-index: 50;
+	display:block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	padding: 0 70px;
+	margin:0;
+	-moz-transition: visibility 0s ease-out 0.4s;
+	-ms-transition: visibility 0s ease-out 0.4s;
+	-o-transition: visibility 0s ease-out 0.4s;
+	-webkit-transition: visibility 0s ease-out 0.4s;
+	transition: visibility 0s ease-out 0.4s;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+	height: 550px;
+	width:420px;
+    text-align: center;
+    direction: rtl;
+}
+
+.circles-container .tab-page p.text_label{
+    width: 380px;
+    margin: 0 auto;
+}
+
+.circles-container .tab-page, .circles-container img{
+	-webkit-border-radius:999px;
+	-moz-border-radius:999px;
+	border-radius:999px;
+	-webkit-box-shadow:0 -5px 1px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow:0 -5px 1px rgba(0, 0, 0, 0.7);
+	box-shadow:0 -5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.circles-container .tab-page h3, .circles-container .tab-page h4  {
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	margin:0 0 10px 0;
+}
+
+.circles-container .tab-page h3 {
+	font-size:40px;
+	font-weight:200;
+	margin-top:50px;
+}
+
+.circles-container .tab-page h4 {
+	font-size:21px;
+	font-weight:400;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.circles-container img{
+	position:relative;
+	width:110px;
+	height:110px;
+	margin:10px;
+}
+
+.circles-container .tab-radio:checked ~ .tab-page{
+	visibility: visible;
+}
+
+.circles-container .tab-page > * {
+	-moz-opacity: 0;
+	-ms-opacity: 0;
+	-o-opacity: 0;
+	-webkit-opacity: 0;
+	opacity: 0;
+	-moz-transition: opacity 0.4s ease-out 0s;
+	-ms-transition: opacity 0.4s ease-out 0s;
+	-o-transition: opacity 0.4s ease-out 0s;
+	-webkit-transition: opacity 0.4s ease-out 0s;
+	transition: opacity 0.4s ease-out 0s;
+}
+.circles-container .tab-radio:checked ~ .tab-page > *{
+	-moz-opacity: 1;
+	-ms-opacity: 1;
+	-o-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+	-moz-transition: opacity 0.4s ease-in 0.15s;
+	-ms-transition: opacity 0.4s ease-in 0.15s;
+	-o-transition: opacity 0.4s ease-in 0.15s;
+	-webkit-transition: opacity 0.4s ease-in 0.15s;
+	transition: opacity 0.4s ease-in 0.15s;
+}
+
+.circles-container article{
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	text-align:center;
+	padding:20px 150px;
+}
+
+.circles-container .tab-radio ~ .tab:after{
+	position:absolute;
+	display:block;
+	z-index:200;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 50px 50px 0 0;
+	border-color: #ffffff transparent transparent transparent;
+}
+
+.circles-container .tab-radio ~ .tab{
+	background-color:rgb(160,160,160);
+}
+
+.circles-container .tab-radio:checked ~ .tab{
+	color:rgb(0,0,0);
+}
+
+.circles-container article p {
+	line-height:125%;
+}
+
+/*Color Variations - THIS IS A DEMO*/
+
+
+.circles-container.orange label, .circles-container.orange .tab-radio:checked ~ .tab,
+.circles-container.orange .tab-radio:active ~ .tab, .circles-container.orange article {
+	background: rgb(143, 82, 28);
+	color:#FFF;
+}
+.circles-container.orange .tab:hover {
+	background: rgb(143, 82, 28);
+	color:#FFF;
+}
+.circles-container.orange article p {
+	color:#FFF;
+}

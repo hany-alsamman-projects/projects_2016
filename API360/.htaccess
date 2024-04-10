@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+
+Options +FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule ^css/(.*)$ files/css/$1 [L,NC]
+RewriteRule ^images/(.*)$ files/img/$1 [L,NC]
+RewriteRule ^js/(.*)$ files/js/$1 [L,NC]
+    
+SetEnvIfNoCase X-Forwarded-For .+ proxy=yes
+SetEnvIfNoCase X-moz prefetch no_access=yes
+
+# block pre-fetch requests with X-moz headers
+RewriteCond %{ENV:no_access} yes
+RewriteRule .* - [F,L]
+
+#RewriteRule ^$ index.html [QSA]
+#RewriteRule ^(.+/)$ $1.html [QSA]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+
+#RewriteRule ^(.*)$ index.php [QSA,L]
+
+  
+ </IfModule>
+

@@ -1,0 +1,338 @@
+        <style type="text/css">
+			
+			#cj-fixed-container {
+			
+				width: 960px;
+				height: 550px;
+				margin: 30px auto 50px auto;
+				border: 5px solid #AAA;
+				-moz-box-shadow: 0px 0px 5px 2px #888;
+				-webkit-box-shadow: 0px 0px 5px 2px #888;
+				box-shadow: 0px 0px 5px 2px #888;
+				
+			}
+			
+			.page-chunk{
+				background-color:white;
+			}
+			
+		</style>
+        
+        <!-- **************************************************** -->
+        <!-- BEGIN CODE TO COPY INTO THE HEAD TAG OF YOUR WEBPAGE -->
+        <!-- **************************************************** -->
+
+        <!-- CSS urls for Google Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css" />
+
+        <!-- Core GalleryJack CSS Files -->
+        <link rel="stylesheet" type="text/css" href="system/cms/themes/default/css/cj_gallery.css?v=1" />
+        <link rel="stylesheet" type="text/css" href="system/cms/themes/default/css/cj_gallery_fixed_size.css?v=1" />
+        <link rel="stylesheet" type="text/css" href="system/cms/themes/default/css/cj_gallery_video.css?v=1" />
+    	<!--[if lte IE 8 ]><link href="system/cms/themes/default/css/cj_gallery_ie_8.css?v=1" rel="stylesheet" type="text/css" /><![endif]-->
+        <!--[if lte IE 7 ]><link href="system/cms/themes/default/css/cj_gallery_ie_7.css?v=1" rel="stylesheet" type="text/css" /><![endif]-->
+    	
+        <!-- Browser Scripts -->
+        <script src="system/cms/themes/default/js/modernizr.min.js" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/mdetect.min.js" type="text/javascript"></script>
+        
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        
+        <!-- GalleryJack Scripts -->
+        <script type='text/javascript'>jQuery.noConflict();</script>
+
+        <script src="system/cms/themes/default/js/jquery.address-1.4.min.js" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/jquery.clip-animation.min.js" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/cj-galleryjack-core.min.js?v=1" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/cj-top-right-buttons.min.js?v=1" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/cj-music-player.min.js?v=1" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/cj-contact-form.min.js?v=1" type="text/javascript"></script>
+        <script src="system/cms/themes/default/js/cj-html-video.min.js?v=1" type="text/javascript"></script>
+        
+        <!-- Custom gallery settings -->
+        <script type="text/javascript">
+			
+			// "true" for the fullscreen version, "false" for the fixed sized version
+			var cjFullScreenMode = false, 
+			
+			/* The custom width if "cjFullScreenMode" is set to "false" */
+			cjCustomWidth = 960,
+		
+			/* The custom height if "cjFullScreenMode" is set to "false" */
+			cjCustomHeight = 550,
+			
+			/* Choose to use thumbnails, true/false */
+			cjUseThumbs = true,
+			
+			/* Clicking the large image will load the next image, true/false */
+			cjBgClickLoadsNext = true,
+			
+			/* Choose to use deep-linking for images, true/false */
+			cjDeepLinkMode = false,
+			
+			/* "true" for the ajax version of the gallery, "false" for the regular version (see documentation for more details) */
+			cjAjaxVersion = false,
+			
+			/* Choose to autoplay the music, true/false */
+			cjAutoPlayMusic = false,
+			
+			/* Choose to show the image info when the gallery loads, true/false */
+			cjShowInfoByDefault = false;
+        
+        </script>
+        
+        <script src="system/cms/themes/default/js/cj-galleryjack-settings.js?v=1" type="text/javascript"></script>
+        
+        <!-- ************************************************** -->
+        <!-- END CODE TO COPY INTO THE HEAD TAG OF YOUR WEBPAGE -->
+        <!-- ************************************************** -->
+        
+        
+        <div id="cj-fixed-container">
+        
+            <!-- ******************** -->
+            <!-- BEGIN GALLERY MARKUP -->
+            <!-- ******************** -->
+            
+            <div id="cj-gallery">
+            
+            	<noscript><img src="system/cms/themes/default/img/cj_gallery/fixed/fashion/1.jpg" width="800" height="550" alt="alternate image" /></noscript>
+                
+                <!-- Audio tag required for Music Player.  Delete entirely for no music -->
+                <audio id="cj-music">
+                    
+                    <!-- Flash music player fallback.  Change the swf urls if swf path changes -->
+                    <object type="application/x-shockwave-flash" data="system/cms/themes/default/img/flash/gallery_music.swf" width="0" height="0" id="cj-fallback">
+                        
+                        <param name="movie" value="system/cms/themes/default/img/flash/gallery_music.swf" />
+                        <param name="allowScriptAccess" value="always" />
+                        <param name="bgcolor" value="#000000" />
+    
+                    </object>
+                
+                </audio>
+                
+                <!-- The image info container, delete entirely for no image info -->
+                <div id="cj-image-info">
+                    
+                    <!-- This can be deleted if you do not wish to use the close button icon -->
+                    <span class="cj-close-info"></span>
+                    
+                    <!-- Leave this element blank.  It will be populated dynamically with image info -->
+                    <p id="cj-image-info-text"></p>
+                
+                </div>
+                
+                <!-- BEGIN TOP RIGHT CIRCLE BUTTONS -->
+                <!-- All buttons are optional and can be removed -->
+                <div id="cj-author-info">
+                    
+                    <!-- The bg image preloader, delete entirely for no preloader -->
+                    <div id="cj-preloader"><img src="system/cms/themes/default/img/cj_gallery/graphics/preloader.png" width="19" height="19" alt="preloader" /></div>
+                    
+                    <!-- The author info button -->
+                    <div id="cj-info-button">
+                        
+                        <span class="cj-cursive-font">&copy; VIP Photography</span>
+    
+                    </div>
+                    
+                    <!-- The contact form button -->
+                    <div id="cj-email-button">
+                            
+                        <form method="POST" id="cj-contact-form" action="#">
+                                    
+                            <fieldset>
+                                        
+                                <input class="cj-field" type="text" value="Name" name="name-required" maxlength="30" /><br />
+                                <input class="cj-field" type="text" value="Email" name="email-required" maxlength="30" /><br />
+                                        
+                                <textarea name="message-required">Message</textarea><br />
+                                        
+                                <input id="cj-submit" type="submit" value="Send" name="submit" />
+                                        
+                            </fieldset>
+                                
+                        </form>
+                    
+                    </div>
+                    
+                    <!-- The social share button (leave empty here) -->
+                    <div id="cj-share-button"></div>
+                    
+                    <!-- The music player button -->
+                    <!-- 
+                         If multiple songs are set in the settings script, this button will toggle the player.
+                         Otherwise this button will acty as play/pause if only one song is found .
+                    -->
+                    <div id="cj-music-button">
+                        
+                        <!-- The song information, delete entirely for no song info -->
+                        <div id="cj-music-meta">
+                            
+                            <!-- The current song number, delete for no song numbers -->
+                            <span class="cj-music-numbers">/</span>
+                            
+                            <!-- The current song title, delete for no song title -->
+                            <span class="cj-current-song"></span>
+                            
+                        </div>
+                        
+                        <!-- The music player controls -->
+                        <div id="cj-music-controls">
+                            
+                            <span class="cj-music-left"></span>
+                            <span class="cj-music-pause"></span>
+                            <span class="cj-music-play"></span>
+                            <span class="cj-music-right"></span>
+                            
+                        </div>
+    
+                    </div>
+                
+                </div>
+                
+                <!-- BEGIN FOOTER SECTION -->
+                <div id="cj-footer">
+                    
+                    <!-- The gallery controls, delete entirely for no controls -->
+                    <div id="cj-gallery-controls">
+                        
+                        <!-- All controls are optional.  Delete any controls you do not wish to use -->
+                        <span class="cj-left-icon"></span>
+                        <span class="cj-info-icon"></span>
+                        <span class="cj-up-icon"></span>
+                        <span class="cj-close-icon"></span>
+                        <span class="cj-pause-icon"></span>
+                        <span class="cj-play-icon"></span>
+                        <span class="cj-right-icon"></span>
+                        
+                    </div>
+                    
+                    <!-- The thumbnail and category container, delete entirely for no thumbs and no categories -->
+                    <div id="cj-footer-container"> 
+                        
+                        <!-- The thumbnail container, delete entirely for no thumbs -->
+                        <div id="cj-thumb-container">
+                        
+                            <div id="cj-thumbnails"></div>
+                            
+                        </div>
+                        
+                        <!-- The category container, delete entirely for no categories -->
+                        <div id="cj-categories"></div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <!-- The thumbnail tool-tip container.  Delete entirely for no tool-tip -->
+                <div id="cj-thumb-tooltip"></div>
+                
+                
+                <!-- BEGIN HTML5 VIDEO, DELETE FOR NO HTML5 VIDEO -->
+                <div id="cj-video-player">
+        			
+                    <!-- Custom Video Controls -->
+                    <div id="cj-vid-controls">
+                        
+                        <!-- Play/Pause -->
+                        <div class="cj-vid-play-pause">
+                        
+                            <img class="cj-vid-play" src="system/cms/themes/default/img/cj_gallery/graphics/vid_play.png" width="6" height="12" alt="play video" />
+                            <img class="cj-vid-pause" src="system/cms/themes/default/img/cj_gallery/graphics/vid_pause.png" width="6" height="10" alt="pause video" />
+                            
+                        </div>
+                        
+                        <!-- Video Track/Progress -->
+                        <div class="cj-vid-lines">
+                        
+                            <span class="cj-vid-total"></span>
+                            <span class="cj-vid-progress"></span>
+                            
+                        </div>
+                        
+                        <!-- Video Volume Buttons -->
+                        <div class="cj-vid-vol-buttons">
+                        
+                            <img class="cj-vid-volume" src="system/cms/themes/default/img/cj_gallery/graphics/vid_volume.png" width="13" height="10" alt="video volume" />
+                            <img class="cj-vid-mute" src="system/cms/themes/default/img/cj_gallery/graphics/vid_mute.png" width="7" height="10" alt="volume mute" />
+                            
+                        </div>
+                        
+                        <!-- Video Volume Track -->
+                        <div class="cj-vid-vol-lines">
+                        
+                            <span class="cj-vid-vol-total"></span>
+                            <span class="cj-vid-vol-current"></span>
+                            
+                        </div>
+                        
+                        <!-- Video Fullscreen Buttons -->
+                        <div class="cj-vid-fullscreen">
+                        
+                            <img class="cj-vid-full" src="system/cms/themes/default/img/cj_gallery/graphics/fullscreen.png" width="10" height="10" alt="fullscreen" />
+                            <img class="cj-vid-normal" src="system/cms/themes/default/img/cj_gallery/graphics/normalscreen.png" width="10" height="10" alt="normal screen" />
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                <!-- ************************* -->
+                <!-- BEGIN GALLERY IMAGE LISTS -->
+                <!-- ************************* -->
+                <div id="cj-bg-images">
+                    
+                    <!-- BEGIN CATEGORY -->
+                    
+                    <ul title="models" class="cj-stretch cj-wipe" data-rel="100x57"> 
+<?php
+
+for ($i = 1; $i <= 53; $i++) {
+    echo '                        <li>                            
+                            <ul>                                    
+                                <li class="cj-large" title="system/cms/themes/default/img/cj_gallery/photos/models/'.$i.'.jpg"></li>
+                                <li class="cj-thumb" title="system/cms/themes/default/img/cj_gallery/photos/models/thumbs/'.$i.'.jpg">'.$i.'</li>                                   
+                                <li class="cj-info">                                    
+                                    <h2>PHOTO '.$i.'</h2>                                    
+                                    <p>Powred By <a href="http://vip4it.com/" target="_blank">VIP</a></p>                                   
+                                </li>                                    
+                            </ul>                            
+                        </li>  ';
+}
+
+?>                       
+
+      
+                    </ul>
+                    <!-- END CATEGORY -->
+                   
+                   
+                        
+                </div>
+                
+                <!-- Just preloading some images so there is no load loading delay if activated -->
+                <div id="cj-preload">
+                
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/video_play.png" width="50" height="110" alt="video play" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/video_close.png" width="26" height="54" alt="video close" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/thumb_left.png" width="14" height="60" alt="thumb left" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/thumb_right.png" width="14" height="60" alt="thumb right" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/music_play.png" width="22" height="46" alt="music play" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/vid_bg.png" width="30" height="28" alt="video bg" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/vid_progress.png" width="10" height="28" alt="video progress" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/vid_total.png" width="10" height="28" alt="video total" />
+                    <img src="system/cms/themes/default/img/cj_gallery/graphics/video_preloader.gif" width="31" height="31" alt="video preloader" />
+                      
+                </div>
+                
+            </div>
+            
+            <!-- ****************** -->
+            <!-- END GALLERY MARKUP -->
+            <!-- ****************** -->
+        
+        </div>

@@ -1,0 +1,82 @@
+<script>
+    var map;
+    function initialize() {
+        var mapOptions = {
+            zoom: 12,
+            center: new google.maps.LatLng(24.548841,46.912823)
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+<section id="contents">
+    <div class="container">
+        <div class="careers" style="clear: both;">
+            <div style="width: 950px">
+                <div style="width: 40%; float: right; margin-right: 15px; margin-top: 15px;">
+
+                <div id="map-canvas"></div>
+                <p style="clear: both"></p>
+                <div style="position: relative; width: 100%">
+                    <p>
+                        {{ Page::where('static', 1)->where('slug', Request::segment(3))->first()->content }}
+                    </p>
+                </div>
+                </div>
+                @if (Session::has('flash_error'))
+
+                <div id="contactus" style="margin-bottom: 15px; margin-left: 15px; margin-top: 15px">
+                    <div id="contactus-ct">
+                        <div id="contactus-header">
+                            <h2><img src="{{asset('assets/images/good.png')}}"> Your Message has been sent</h2>
+                        </div>
+                        <div style="padding: 5px">
+                            <p>we will get back to you soon as possible ..</p>
+                        </div>
+                    </div>
+                </div>
+
+                @else
+
+                <div id="contactus" style="margin-bottom: 15px; margin-left: 15px; margin-top: 15px">
+                    <div id="contactus-ct">
+                        <div id="contactus-header">
+                            <h2>Send us your detail inquiry and we will get back</h2>
+                            <p>to you as soon as possible</p>
+                        </div>
+                        <form action="{{ route('contactus') }}" method="post">
+                            <div class="txt-fld">
+                                <label>Full name:</label>
+                                <input type="text" name="full_name"/>
+                            </div>
+                            <div class="txt-fld">
+                                <label>Mobile Number:</label>
+                                <input type="text" name="phone_number"/>
+                            </div>
+                            <div class="txt-fld">
+                                <label>Country:</label>
+                                <input type="text" name="residence"/>
+                            </div>
+                            <div class="txt-fld">
+                                <label>Subject:</label>
+                                <input type="text" name="subject"/>
+                            </div>
+
+                            <div class="txt-fld">
+                                <label>Message:</label>
+                                <textarea cols="30" rows="4" name="message"></textarea>
+                            </div>
+                            <div class="btn-fld">
+                                <button type="submit">Send &raquo;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                @endif
+            </div>
+        </div>
+    </div>
+</section>

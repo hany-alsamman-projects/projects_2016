@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gallery>
+	<!-- banner style -->
+	<style>
+		<!-- show width/height -->
+		<width>520</width>
+		<height>320</height>
+		
+		<!-- category show number -->
+		<categoryhornumber>2</categoryhornumber>
+		<!-- category scroll number -->
+		<categoryscroll>1</categoryscroll>
+		<!-- items show number -->
+		<itemshornumber>2</itemshornumber>
+		<!-- items scroll number -->
+		<itemsscroll>2</itemsscroll>
+	</style>
+	
+	<!-- gallery category -->
+	<categorys>
+		
+		<category title='Bracelets' src='../upload/bracelets.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_6/1.jpg' path='../upload/p_6/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/2.jpg' path='../upload/p_6/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/3.jpg' path='../upload/p_6/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/4.jpg' path='../upload/p_6/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/5.jpg' path='../upload/p_6/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/6.jpg' path='../upload/p_6/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/7.jpg' path='../upload/p_6/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/8.jpg' path='../upload/p_6/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/9.jpg' path='../upload/p_6/9.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/10.jpg' path='../upload/p_6/10.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/11.jpg' path='../upload/p_6/11.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_6/12.jpg' path='../upload/p_6/12.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_6/13.jpg' path='../upload/p_6/13.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_6/14.jpg' path='../upload/p_6/14.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_6/15.jpg' path='../upload/p_6/15.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_6/16.jpg' path='../upload/p_6/16.jpg'><![CDATA[]]></item>
+		</category>
+        
+		<category title='Crowns' src='../upload/crowns.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_8/1.jpg' path='../upload/p_8/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/2.jpg' path='../upload/p_8/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/3.jpg' path='../upload/p_8/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/4.jpg' path='../upload/p_8/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/5.jpg' path='../upload/p_8/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/6.jpg' path='../upload/p_8/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/7.jpg' path='../upload/p_8/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/8.jpg' path='../upload/p_8/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/9.jpg' path='../upload/p_8/9.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/10.jpg' path='../upload/p_8/10.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/11.jpg' path='../upload/p_8/11.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_8/12.jpg' path='../upload/p_8/12.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_8/13.jpg' path='../upload/p_8/13.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_8/14.jpg' path='../upload/p_8/14.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_8/15.jpg' path='../upload/p_8/15.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_8/16.jpg' path='../upload/p_8/16.jpg'><![CDATA[]]></item>
+		</category>
+        
+        
+        
+		<category title='Accessory Sets' src='../upload/accessory.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_3/1.jpg' path='../upload/p_3/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/2.jpg' path='../upload/p_3/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/3.jpg' path='../upload/p_3/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/4.jpg' path='../upload/p_3/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/5.jpg' path='../upload/p_3/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/6.jpg' path='../upload/p_3/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/7.jpg' path='../upload/p_3/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/8.jpg' path='../upload/p_3/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/9.jpg' path='../upload/p_3/9.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/10.jpg' path='../upload/p_3/10.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/11.jpg' path='../upload/p_3/11.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_3/12.jpg' path='../upload/p_3/12.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_3/13.jpg' path='../upload/p_3/13.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_3/14.jpg' path='../upload/p_3/14.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_3/15.jpg' path='../upload/p_3/15.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_3/16.jpg' path='../upload/p_3/16.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_3/17.jpg' path='../upload/p_3/17.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_3/18.jpg' path='../upload/p_3/18.jpg'><![CDATA[]]></item>
+		</category>
+        
+        
+		<category title='Add-on Stones' src='../upload/stons.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_4/1.jpg' path='../upload/p_4/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/2.jpg' path='../upload/p_4/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/3.jpg' path='../upload/p_4/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/4.jpg' path='../upload/p_4/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/5.jpg' path='../upload/p_4/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/6.jpg' path='../upload/p_4/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/7.jpg' path='../upload/p_4/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/8.jpg' path='../upload/p_4/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/9.jpg' path='../upload/p_4/9.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_4/10.jpg' path='../upload/p_4/10.jpg'><![CDATA[]]></item>
+		</category>
+        
+		<category title='Belts' src='../upload/belts.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_5/1.jpg' path='../upload/p_5/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_5/2.jpg' path='../upload/p_5/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_5/3.jpg' path='../upload/p_5/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_5/4.jpg' path='../upload/p_5/4.jpg'><![CDATA[]]></item>
+		</category>
+        
+ 		<category title='Ear Rings' src='../upload/rings.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_9/1.jpg' path='../upload/p_9/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/2.jpg' path='../upload/p_9/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/3.jpg' path='../upload/p_9/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/4.jpg' path='../upload/p_9/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/5.jpg' path='../upload/p_9/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/6.jpg' path='../upload/p_9/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/7.jpg' path='../upload/p_9/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/8.jpg' path='../upload/p_9/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/9.jpg' path='../upload/p_9/9.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_9/10.jpg' path='../upload/p_9/10.jpg'><![CDATA[]]></item>
+		</category>
+        
+        
+ 		<category title='Favourite' src='../upload/favourite.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_10/1.jpg' path='../upload/p_10/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/2.jpg' path='../upload/p_10/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/3.jpg' path='../upload/p_10/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/4.jpg' path='../upload/p_10/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/5.jpg' path='../upload/p_10/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/6.jpg' path='../upload/p_10/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/7.jpg' path='../upload/p_10/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/8.jpg' path='../upload/p_10/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/9.jpg' path='../upload/p_10/9.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/10.jpg' path='../upload/p_10/10.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/11.jpg' path='../upload/p_10/11.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_10/12.jpg' path='../upload/p_10/12.jpg'><![CDATA[]]></item>
+            <item title='Click Here To Enlarge' src='../upload/p_10/13.jpg' path='../upload/p_10/13.jpg'><![CDATA[]]></item>
+		</category>
+        
+ 		<category title='Hair Combs' src='../upload/hair.jpg' >
+			<item title='Click Here To Enlarge' src='../upload/p_11/1.jpg' path='../upload/p_11/1.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/2.jpg' path='../upload/p_11/2.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/3.jpg' path='../upload/p_11/3.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/4.jpg' path='../upload/p_11/4.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/5.jpg' path='../upload/p_11/5.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/6.jpg' path='../upload/p_11/6.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/7.jpg' path='../upload/p_11/7.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/8.jpg' path='../upload/p_11/8.jpg'><![CDATA[]]></item>
+			<item title='Click Here To Enlarge' src='../upload/p_11/9.jpg' path='../upload/p_11/9.jpg'><![CDATA[]]></item>
+		</category>
+        
+	</categorys>
+</gallery>

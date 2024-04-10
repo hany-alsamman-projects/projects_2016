@@ -1,0 +1,40 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /flowers
+
+RewriteRule ^css/(.*)$ files/css/$1 [L,NC]
+RewriteRule ^images/(.*)$ files/img/$1 [L,NC]
+RewriteRule ^js/(.*)$ files/js/$1 [L,NC]
+RewriteRule ^upload/(.*)$ upload/$1 [L,NC]
+RewriteRule ^library/(.*)$ library/$1 [L,NC]
+
+#RewriteRule ^(.+)/(.*)/?$ index.php?action=$2 [L,NC]
+RewriteRule ^codexCP/(.*)$ admin/$1 [L,NC]
+#RewriteRule ^admin/(.*)$ admin/$1 [L,NC]
+
+RewriteRule ^(ar|en)/ index.php?lang=$1 [L,NC,QSA]
+
+# block pre-fetch requests with X-moz headers
+RewriteCond %{ENV:no_access} yes
+RewriteRule .* - [F,L]
+
+SetEnvIfNoCase X-Forwarded-For .+ proxy=yes
+SetEnvIfNoCase X-moz prefetch no_access=yes
+
+#RewriteRule ^$ index.html [QSA]
+#RewriteRule ^(.+/)$ $1.html [QSA]
+
+#RewriteRule    ^$    files/    [L]
+#RewriteRule    (.*) files/$1    [L]
+#RewriteRule ^/css/(.*)$ /files/css/$1 [L]
+#RewriteRule ([css|js|img])/(.*) files/$1/$2 [L,NC]
+#RewriteRule ^([css|js])/(.*)$ /files/$1/$2 [L,NC]
+#RewriteRule ^.*$ /redirect/ [R] 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.codex|/[^.]*)$  [NC]
+RewriteRule (.*) index.php
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+

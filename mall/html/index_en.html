@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<title>Introduction to Fawares Mall</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/template_ltr.css"/>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
+
+<script type="text/javascript" src="css/jquery-1.7.2.min.js"></script>
+
+<!-- jQuery KenBurn Slider  -->
+	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>    
+
+<!-- REVOLUTION BANNER CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/captions.css" media="screen" />
+
+<!--[if gt IE 8]>
+<link rel="stylesheet" type="text/css" href="css/template_IE.css"/>
+<![endif]-->
+</head>
+
+<script>
+
+$(document).ready( function() {
+	loadDate()
+});
+
+var count=0;
+function loadDate(){
+	KSA=3;
+	CAN=-4;
+	count++;
+	// --------KSA-------
+	//new Date(year, month, day, hours, minutes, seconds, milliseconds)
+	var DS = new Date(2013, 01, 7,17+KSA,54,(53+count),000000); 	
+	var SH= DS.getHours();	
+	var SM=DS.getMinutes();
+	var SS= DS.getSeconds();
+	var HTS="AM"; if(SH>12){SH=SH-12;HTS="PM";} if(SH==0){SH=12;}
+	// --------CA-------
+	var DC= new Date(2013, 01, 7,17+CAN,54,(53+count),000000); 	
+	var CH= DC.getHours();	
+	var CM=DC.getMinutes();
+	var CS= DC.getSeconds();	
+	var HTC="AM"; if(CH>12){CH=CH-12;HTC="PM";} if(CH==0){CH=12;} 
+	// ---------------------------------------		//getFullYear()	getDay()	getMonth()
+	var str='';
+
+        str+='<p><img src="images/clock.png" width="19" height="18" /> The Time now is '+SH+':'+SM+':'+SS+' in <span class="highlight">'+HTS+'</span> Riyadh</p>';
+
+	$('#siteDate').html(str);
+	var t=setTimeout('loadDate()',1000);
+}
+</script>
+
+<body>
+<div class="top_border">
+  <div class="top_border1"></div>
+  <div class="top_border2"></div>
+  <div class="top_border3"></div>
+  <div class="top_border4"></div>
+</div>
+<div class="main">
+  <div class="page_container"> 
+    <!--START HEADER-->
+    <div class="header"> <a class="lang_selector" href="#">عربى</a>
+      <div class="social">
+        <ul>
+          <li><a href="#" title="rss" class="rss">rss</a></li>
+          <li><a href="#" title="youtube" class="youtube">youtube</a></li>
+          <li><a href="#" title="twitter" class="twitter">twitter</a></li>
+          <li><a href="#" title="facebook" class="facebook">facebook</a></li>
+        </ul>
+      </div>
+      <!--TOP MENU-->
+      <div class="top_menu">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Mall News</a></li>
+          <li><a href="#">Our Plan!</a></li>
+          <li><a href="#">Default Roaming</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- END TOP MENU-->
+      <div class="logo"><a href="index.html" title="Fawares Mall"> <img src="images/logo.png" width="135" height="90" title="Fawares Mall" /></a></div>
+      <div class="clear"></div>
+      <!--MAIN MENU-->
+      <div class="main_menu">
+	<div id="siteDate"></div>
+
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Shopping</a></li>
+        </ul>
+      </div>
+      <!--END MAIN MENU--> 
+    </div>
+    <!--END HEADER--> 
+    
+    <!--Top Slider-->
+
+    <div class="top_slider" style="position:relative;"> 
+
+<div class="bannercontainer responsive">
+    <div class="banner">
+
+<ul>
+
+	<!-- THE SECOND SLIDE -->
+	<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/thumbs/thumb2.jpg">
+				<img src="images/slides/slide31.jpg" >
+
+				<div class="caption tp-caption.boxshadow large_text lfl stl"
+					 data-x="100"
+					 data-y="100"
+					 data-speed="300"
+					 data-start="500"
+					 data-easing="easeOutExpo" data-end="8800" data-endspeed="300" data-endeasing="easeInSine" >Fawares Design <br> Advantages</div>
+
+
+
+				<div class="caption lft ltb"
+					 data-x="500"
+					 data-y="200"
+					 data-speed="600"
+					 data-start="1100"
+					 data-easing="easeOutExpo" data-end="3100" data-endspeed="600" data-endeasing="easeInSine" ><img src="images/slides/drink1.png" alt="Image 3"></div>
+
+				<div class="caption big_orange sft stb"
+					 data-x="720"
+					 data-y="290"
+					 data-speed="300"
+					 data-start="1400"
+					 data-easing="easeOutExpo" data-end="3300" data-endspeed="300" data-endeasing="easeInSine" >Drink</div>
+
+				<div class="caption medium_grey sfb stb"
+					 data-x="720"
+					 data-y="330"
+					 data-speed="300"
+					 data-start="1700"
+					 data-easing="easeOutExpo" data-end="3200" data-endspeed="300" data-endeasing="easeInSine" >7.49 SR</div>
+
+				<div class="caption lft ltb"
+					 data-x="520"
+					 data-y="200"
+					 data-speed="600"
+					 data-start="3600"
+					 data-easing="easeOutExpo" data-end="5600" data-endspeed="600" data-endeasing="easeInSine" ><img src="images/slides/drink2.png" alt="Image 6"></div>
+
+				<div class="caption big_orange sft stb"
+					 data-x="720"
+					 data-y="290"
+					 data-speed="300"
+					 data-start="3900"
+					 data-easing="easeOutExpo" data-end="5800" data-endspeed="300" data-endeasing="easeInSine" >Drink</div>
+
+				<div class="caption medium_grey sfb stb"
+					 data-x="720"
+					 data-y="330"
+					 data-speed="300"
+					 data-start="4200"
+					 data-easing="easeOutExpo" data-end="5700" data-endspeed="300" data-endeasing="easeInSine" >5.99 SR</div>
+
+				<div class="caption lft ltb"
+					 data-x="450"
+					 data-y="200"
+					 data-speed="600"
+					 data-start="6100"
+					 data-easing="easeOutExpo" data-end="8100" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slides/drink3.png" alt="Image 9"></div>
+
+				<div class="caption big_orange sft stb"
+					 data-x="720"
+					 data-y="290"
+					 data-speed="300"
+					 data-start="6400"
+					 data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine" >Meal</div>
+
+				<div class="caption medium_grey sfb stb"
+					 data-x="720"
+					 data-y="330"
+					 data-speed="300"
+					 data-start="6700"
+					 data-easing="easeOutExpo" data-end="8200" data-endspeed="300" data-endeasing="easeInSine" >6.79 SR</div>
+												</li>
+									
+	<!-- THE THIRD SLIDE -->
+	<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="images/thumbs/thumb4.jpg">
+			<img src="images/slides/black.jpg" >
+
+			<div class="caption fade fullscreenvideo" data-autoplay="false" data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="easeOutBack"><iframe src="http://player.vimeo.com/video/54025599?title=0&amp;byline=0&amp;portrait=0;api=1" width="100%" height="100%"></iframe></div>
+
+			<div class="caption big_white sft stt"
+				 data-x="327"
+				 data-y="25"
+				 data-speed="300"
+				 data-start="500"
+				 data-easing="easeOutExpo" data-end="4000" data-endspeed="300" data-endeasing="easeInSine" >POWERD BY Virtual Integrated Projects</div>
+	</li>
+
+	<!-- THE FOURTH SLIDE -->
+	<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
+
+			<img src="images/slides/slide4.jpg" >
+
+			<div class="caption large_text sft"
+				 data-x="50"
+				 data-y="44"
+				 data-speed="300"
+				 data-start="800"
+				 data-easing="easeOutExpo"  >Introduction to the project location Fawares Mall  </div>
+
+			<div class="caption medium_text sfl"
+				 data-x="79"
+				 data-y="82"
+				 data-speed="300"
+				 data-start="1100"
+				 data-easing="easeOutExpo"  >commercial value and a rare realistic chance</div>
+
+			<div class="caption lfl"
+				 data-x="53"
+				 data-y="192"
+				 data-speed="300"
+				 data-start="1400"
+				 data-easing="easeOutExpo"  ><img src="images/slides/imac.png" alt="Image 4"></div>
+
+			<div class="caption lfl"
+				 data-x="253"
+				 data-y="282"
+				 data-speed="300"
+				 data-start="1500"
+				 data-easing="easeOutExpo"  ><img src="images/slides/ipad.png" alt="Image 5"></div>
+
+			<div class="caption lfl"
+				 data-x="322"
+				 data-y="313"
+				 data-speed="300"
+				 data-start="1600"
+				 data-easing="easeOutExpo"  ><img src="images/slides/iphone.png" alt="Image 6"></div>
+	</li>
+
+
+	<!-- THE FIFTH SLIDE -->
+	<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+			<img src="images/slides/slide51.jpg" >
+
+			<div class="caption large_text sfl"
+				 data-x="38"
+				 data-y="200"
+				 data-speed="300"
+				 data-start="1000"
+				 data-easing="easeOutExpo"  >A Happy</div>
+
+			<div class="caption large_text sfl"
+				 data-x="37"
+				 data-y="243"
+				 data-speed="300"
+				 data-start="1300"
+				 data-easing="easeOutExpo"  >Holiday Season</div>
+
+			<div class="caption randomrotate"
+				 data-x="610"
+				 data-y="74"
+				 data-speed="800"
+				 data-start="1600"
+				 data-easing="easeOutExpo"  ><img src="images/slides/TP_logo.png" alt="Image 4"></div>
+	</li>
+</ul>
+
+        <!-- CORRED -->
+        <div class="tp-bannertimer"></div>
+    </div>
+</div>
+
+<script>
+    jQuery(document).ready(function() {
+       jQuery('.banner').revolution(
+          {
+              delay:5000,
+              startheight:500,
+              startwidth:960,
+    
+              hideThumbs:300,
+    
+              thumbWidth:100,	
+              thumbHeight:50,
+              thumbAmount:5,
+    
+              navigationType:"both",					
+              navigationArrows:"verticalcentered",		
+              navigationStyle:"round",				
+    
+              touchenabled:"on",					
+              onHoverStop:"on",					
+    
+              navOffsetHorizontal:0,
+              navOffsetVertical:20,
+    
+              stopAtSlide:-1,
+              stopAfterLoops:-1,
+    
+              shadow:1,						
+              fullWidth:"off"					
+          });
+    });
+</script>
+
+    </div>
+
+
+    <!--End Top Slider--> 
+
+    <!--START CONTENT-->
+    <div class="content">
+      <div class="boxes box1">
+        <div class="box_title"><span>Newsletters</span></div>
+        <p> Join us and receive what is new
+          From the world of and Fawares Mall offers ..</p>
+        <input name="" type="text" value="enter your email address..." onclick="this.value=''" onblur="this.value=!this.value?'enter your email address...':this.value;" />
+        <div class="checkbox">
+          <input name="" type="checkbox" value="join" />
+          Join</div>
+        <div class="checkbox">
+          <input name="" type="checkbox" value="Cancel" />
+          Cancel</div>
+        <a class="box_btn box1_btn">OK</a> </div>
+      <div class="boxes box2">
+        <div class="box_title"><span>Photo Gallery</span></div>
+        <p>His contemporary designs. . .<br />
+          And exciting services. . .<br />
+          Made shopping more fun</p>
+        <div class="preview"><img src="images/fawares_26.jpg" width="59" height="48" /> <img src="images/fawares_28.jpg" width="59" height="48" /> <img src="images/fawares_30.jpg" width="59" height="48" /> </div>
+        <a class="box_btn box2_btn">View</a> </div>
+      <div class="boxes box3">
+        <div class="box_title"><span>Offers</span></div>
+        <p><img src="images/toty_town.png" width="89" height="161" /><span><strong>Entertainment has another meaning with Totti Town for children in Fawares Mall</strong> <br />
+          <br />
+          Shopping and pleasures of your children now in Fawares Mall with Toty</span></p>
+        <a class="box_btn box3_btn">Enjoy</a> </div>
+      <div class="boxes box4">
+        <div class="box_title"><span>News</span></div>
+        <img src="images/fawares_20.png" width="239" height="193" /> </div>
+      <div class="clear"></div>
+      <div class="content_articles">
+        <div class="right_div">
+          <div class="article_title">Definition of the project site</div>
+          <p>
+Is located in the commercial center on King Abdul Aziz Road, the heart of the city of Hofuf, with an area of 27,000 m 2 and next to the only gold market in Al-Ahsa بمحلاته exceeding 250 stores, and its proximity to the finite (only 20 m), there is a project Fuwaris Mall. The Tsarist market, which is the oldest market in the east of the kingdom (since 1918) the diversity of its activities of Mashaleh, spices, textiles, gowns and perfume, 'Fear distinguishes of Fuwaris Mall also undoubtedly.</p>
+          <a href="#" class="read_more">More</a> </div>
+        <div class="left_div">
+          <div class="article_title">Al Ehsaa Area</div>
+          <p>With a population of 1,200,000 people (which is equivalent to the population of Dammam and Al-Khobar and Dhahran combined). Hofuf and Mubarraz two most important cities in the province Baqrbhma neighboring villages. The near-Ahsa clearly states ..... </p>
+          <a href="#" class="read_more">More</a>
+          <div class="separator"></div>
+          <div class="clear"></div>
+          <div class="article_title">Definition of the project site</div>
+          <p>Project area 27,000 m 2, which includes the following:
+            Ground floor: which is the main commercial part, which includes 150 shops, spaces between) 40 m 2 - 100 m 2 (with dedicated space .... </p>
+          <a href="#" class="read_more">More</a> </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+      <div class="top_border">
+        <div class="top_border1"></div>
+        <div class="top_border2"></div>
+        <div class="top_border3"></div>
+        <div class="top_border4"></div>
+      </div>
+    </div>
+    <!--END CONTENT--> 
+    <!--START FOOTER-->
+  <a href="#" class="open">Open</a>
+    <div class="footer">
+    
+      <div class="menus sec1"><a href="#"><img src="images/logo_grp.png" width="52" height="92" /></a></div>
+      <div class="menus sec2">
+        <div class="article_title">Main Menu</div>
+        <ul>
+          <li><a href="#">» Home</a></li>
+          <li><a href="#">» About Us</a></li>
+          <li><a href="#">» News</a></li>
+        </ul>
+      </div>
+      <div class="menus sec3">
+        <div class="article_title">Services</div>
+        <ul>
+          <li><a href="#">» Restaurants</a></li>
+          <li><a href="#">» Offers</a></li>
+          <li><a href="#">» Services</a></li>
+        </ul>
+      </div>
+      <div class="menus sec4">
+        <div class="article_title">Offers</div>
+        <ul>
+          <li><a href="#">» Shopping</a></li>
+          <li><a href="#">» Entertainment</a></li>
+          <li><a href="#">» Roaming</a></li>
+        </ul>
+      </div>
+      <div class="menus sec5">
+        <p><img src="images/tel.png" width="33" height="29" /> <span>+966 (1) 462 4444</span></p>
+        <p><img src="images/email.png" width="34" height="18" /><span>info@fawaresmall.com</span></p>
+      </div>
+      <div class="clear"></div>
+      <div class="separator"></div>
+      <div class="separator"></div>
+      <p><a href="#">Fawaresmall.com</a> &copy; 2012 - 2013 All rights reserved of <a href="#"><strong>Virtual Integrated Projects</strong></a> ©  | <a href="#">Privacy Policy</a> </p>
+    </div>
+   
+    <!--END FOOTER-->
+    <div class="clear"></div>
+  </div>  
+
+</div>
+</body>
+</html>

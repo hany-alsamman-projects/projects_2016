@@ -1,0 +1,19 @@
+0.5.2 (2011-12-15)
+
+fixes:
+	- permissions for contributors
+	- ticket visibility
+	- child themes not able to overwrite header and footer
+	- styling issue with admin bar
+changes:
+	- basic HTML layout moved to wrapper.php template file
+
+0.5.1
+
+fixes:
+	- user can see titles of tickets that he can't view
+	- sub-categories not displayed correctly in the main menu
+
+0.5 (2011-10-21)
+
+initial release

@@ -1,0 +1,5 @@
+title for your website<?php
+
+    $SiteLang = array(
+                        ## HOME PAGE
+                        'BTN_HOME' => '

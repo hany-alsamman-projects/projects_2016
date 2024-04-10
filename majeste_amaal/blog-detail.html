@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Esatto - One Page Responsive Bootstrap Template</title>
+
+<!-- Bootstrap CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap-responsive.min.css" />
+
+<!-- Esatto CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/esatto.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/white.css" id="swap-bg" />
+<link type="text/css" rel="stylesheet" media="screen" href="css/color/red.css" id="swap-color" />
+
+<!-- Masonry CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/masonry.css" />
+
+<!-- Fancybox CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="css/fancybox.css" />
+
+<!-- Google WebFont -->
+<link type="text/css" rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" />
+
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="shortcut icon" />
+
+<!-- jQuery Scripts -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<!-- Bootstrap Scripts -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- ScrollBar Script -->
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+<!-- Masonry Script -->
+<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+
+<!-- Fancybox Script -->
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+
+<!-- FullScreen Script -->
+<script type="text/javascript" src="js/jquery.fullscreen-min.js"></script>
+
+<!-- Settings Script -->
+<script type="text/javascript">
+$(document).ready(function() {
+
+/* --- ScrollBar --- */
+var nice = $("html").niceScroll();
+var obj = window;
+
+/* --- NavBar Search --- */
+$('.navbar form input[type=text]').click(function () {
+  $(".navbar form").addClass("form-hover");
+  return false;
+});
+$('.navbar form input[type=text]').blur(function () {
+  $(".navbar form").removeClass("form-hover");
+  return false;
+});
+
+/* --- Opacity effect --- */
+$('.single').mouseover(function () {
+  $(this).siblings().css({
+    opacity: 0.35
+  });
+}).mouseout(function () {
+  $(this).siblings().css({
+    opacity: 1
+  });
+});
+
+/* --- Fancybox --- */
+$('.fancybox').fancybox();
+
+/* --- FullScreen --- */
+$(".fullscreen-supported").toggle($(document).fullScreen() != null);
+$(".fullscreen-not-supported").toggle($(document).fullScreen() == null);
+$(document).bind("fullscreenchange", function (e) {
+  $("#status").text($(document).fullScreen() ?
+    "Full screen enabled" : "Full screen disabled");
+});
+$(document).bind("fullscreenerror", function (e) {
+  $("#status").text("Browser won't enter full screen mode for some reason.");
+});
+
+/* --- Swap color --- */
+$('.swap').click(function () {
+  $('#swap-bg').attr('href','css/'+$(this).data('bg')+'.css');
+  $('#swap-color').attr('href','css/color/'+$(this).data('color')+'.css');
+  return false;
+});
+
+/* --- toTop --- */
+$(window).scroll(function () {
+  if ($(this).scrollTop() != 0) {
+    $('#toTop').fadeIn();
+  } else {
+    $('#toTop').fadeOut();
+  }
+});
+$('#toTop').click(function () {
+  $('body,html').animate({
+    scrollTop: 0
+  }, 1000);
+});
+
+});
+
+/* --- Masonry --- */
+window.onload = function () {
+  var wall = new Masonry(document.getElementById('masonry'), {
+    columnWidth: 240
+  });
+};
+</script>
+</head>
+<body>
+
+<!-- NavBar container -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+  
+      <!-- NavBar logo -->
+      <img src="img/logo.png" alt="logo" class="logo" />
+      
+      <!-- NavBar Title --> 
+      <a class="brand" data-toggle="collapse" data-target=".nav-collapse"><span class="sosa">m</span>Menu</a>
+      <div class="nav-collapse collapse navbar-responsive-collapse"> 
+        
+        <!-- NavBar section list -->
+        <ul id="nav" class="nav nav-main pull-left">
+          <li class="home-icon"><a href="esatto.html#home"><span class="sosa">Ç</span></a></li>
+          <li><a href="esatto.html#about">About</a></li>
+          <li><a href="esatto.html#services">Services</a></li>
+          <li><a href="esatto.html#portfolio">Portfolio</a></li>
+          <li><a href="esatto.html#contact">Contact</a></li>
+        </ul>
+        
+        <!-- NavBar right list -->
+        <ul class="nav nav-divider pull-left">
+          <li><a href="#"><i class="icon-cog icon-white"></i>Settings</a>
+            <ul>
+              <li><a href="#" onClick="$(document).toggleFullScreen()">Fullscreen mode</a></li>
+              <li><a href="#"><i class="icon-chevron-right icon-white"></i>White background</a>
+                <ul>
+                  <li><a href="#" class="swap" data-bg="white" data-color="red">White Red</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="yellow">White Yellow</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="green">White Green</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="blue">White Blue</a></li>
+                  <li><a href="#" class="swap" data-bg="white" data-color="violet">White Violet</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="icon-chevron-right icon-white"></i>Black background</a>
+                <ul>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="red">Black Red</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="yellow">Black Yellow</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="green">Black Green</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="blue">Black Blue</a></li>
+                  <li><a href="#" class="swap" data-bg="dark" data-color="violet">Black Violet</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+        <!-- NavBar search -->
+        <form action="search" class="form-search pull-right">
+          <input type="text" class="input-medium" />
+          <button type="submit" class="btn"><span class="sosa">]</span></button>
+        </form>
+        
+        <!-- NavBar social -->
+        <ul class="nav social-nav pull-right">
+          <li><a href="#"><span class="sosa">v</span></a></li>
+          <li><a href="#"><span class="sosa">t</span></a></li>
+          <li><a href="#"><span class="sosa">x</span></a></li>
+        </ul>
+        
+        <!-- NavBar Blog list -->
+        <ul class="nav nav-divider-right pull-right">
+          <li class="current"><a href="blog.html">Blog</a>
+            <ul>
+              <li><a href="blog.html">Home Blog</a></li>
+              <li class="current"><a href="blog-detail.html">Single Post</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Template container -->
+<div class="wrapper-blog">
+  <h1>Single <span>Post</span></h1>
+  <p class="lead">Lorem ipsum dolor sit amet, <span>consectetuer</span> adipiscing elit.<br />
+    Sed diam <span>nonummy nibh</span> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <div class="container">
+    <div class="row"> 
+      
+      <!-- Sidebar -->
+      <div class="span2 sidebar">
+        <h4 class="half-margin">Optional classes terminal row</h4>
+        <p>by <a href="#">Admin</a> on <span>April 20th</span>, 2013</p>
+        <hr />
+        <dl>
+          <dt>Categories</dt>
+          <dd><a href="#">Design</a>, <a href="#">Works</a></dd>
+        </dl>
+        <dl>
+          <dt>Tags</dt>
+          <dd><a href="#">optional</a>, <a href="#">john</a>, <a href="#">doe</a></dd>
+        </dl>
+      </div>
+      <div class="span8"><img src="img/slider/slide1.jpg" class="margin" alt="Pic" />
+        <h4 class="half-margin">Another subTitle</h4>
+        <p class="margin">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <strong>tincidunt</strong> ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br />
+          <br />
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui <a href="#">blandit praesent</a> luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        <hr />
+        <h3 class="half-margin text-left"><span>4</span> Comments for this post</h3>
+        
+        <!-- Comments container -->
+        <ul class="media-list">
+          
+          <!-- Single comment -->
+          <li class="media"><a href="#" class="pull-left thumb"><img src="img/profile/man2.jpg" alt="Man" /></a>
+            <div class="media-body"> <small>April 25th, 2013 at 09:12 pm</small>
+              <h4 class="media-heading text-left"><a href="#">John Doe</a></h4>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+              <a href="#" class="btn reply pull-right"><i class="icon-comment icon-white"></i>Reply</a></div>
+            
+            <!-- Children comments -->
+            <ul>
+              <li class="media"><a href="#" class="pull-left thumb"><img src="img/profile/woman1.jpg" alt="Woman" /></a>
+                <div class="media-body"> <small>April 25th, 2013 at 09:12 pm</small>
+                  <h4 class="media-heading text-left"><a href="#">John Doe</a></h4>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <a href="#" class="btn reply pull-right"><i class="icon-comment icon-white"></i>Reply</a></div>
+              </li>
+              <li class="media"><a href="#" class="pull-left thumb"><img src="img/profile/woman2.jpg" alt="Woman" /></a>
+                <div class="media-body"> <small>April 25th, 2013 at 09:12 pm</small>
+                  <h4 class="media-heading text-left"><a href="#">John Doe</a></h4>
+                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <a href="#" class="btn reply pull-right"><i class="icon-comment icon-white"></i>Reply</a></div>
+              </li>
+            </ul>
+          </li>
+          
+          <!-- Single comment -->
+          <li class="media"><a href="#" class="pull-left thumb"><img src="img/profile/man1.jpg" alt="Man" /></a>
+            <div class="media-body"> <small>April 25th, 2013 at 09:12 pm</small>
+              <h4 class="media-heading text-left"><a href="#">John Doe</a></h4>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+              <a href="#" class="btn reply pull-right"><i class="icon-comment icon-white"></i>Reply</a></div>
+          </li>
+        </ul>
+      </div>
+      <div class="span2"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer section -->
+<div class="footer">
+  <p class="text-center">&copy; 2013 <a href="esatto.html">Esatto</a></p>
+</div>
+
+<!-- Go to top page -->
+<div id="toTop"><i class="icon-chevron-up icon-white"></i></div>
+</body>
+</html>

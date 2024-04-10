@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <title>العالمية :: لطباعة لوحات الاوفست</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300|Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css' />
+        <link type="text/css" rel="stylesheet" href="fonts/zocial.css" />
+        <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+        <link type="text/css" rel="stylesheet" href="css/touchTouch.css" />
+        <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+        <link type="text/css" rel="stylesheet" href="css/main.css" />
+        <link type="text/css" rel="stylesheet" href="css/style9.css" />
+        <link type="text/css" rel="stylesheet" href="css/style_ar.css" />
+        <link type="text/css" rel="stylesheet" href="css/responsive.css" />
+        <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+        <!--[if gte IE 7]><link type="text/css" rel="stylesheet" href="css/ie.css"><![endif]-->
+        <!--[if IE 7]>
+            <link type="text/css" rel="stylesheet" href="css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- ==========================HEADER=========================== -->
+        <header>
+            <div class="container">
+                    <div class="logo">
+                        <a href="index.html"><img src="image/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="nav js">
+                        <nav>
+                            <ul>
+                            <li><a href="#contact_us" class="menu_1">اتصل بنا</a></li>
+                            <li><a href="#about_us" class="menu_5">عن الشركة</a></li>
+                            <li><a href="#portfolio" class="menu_4">المعرض</a></li>
+                            <li><a href="#services" class="menu_2">الاوفست</a></li>
+                            <li><a href="#services" class="menu_3">الكيماوية</a></li> 
+                            <li class="current"><a href="#home" class="menu_6">الرئيسية</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mob_nav js">
+                        <span class="trigger">MENU</span>
+                        <ul>
+                            <li class="current"><a href="#home" class="menu_1">HOME</a></li>
+                            <li><a href="#services" class="menu_2">SERVICES</a></li>
+                            <li><a href="#portfolio" class="menu_3">PORTFOLIO</a></li>
+                            <li><a href="#pricing_table" class="menu_4">PRICING</a></li>
+                            <li><a href="#about_us" class="menu_5">ABOUT</a></li>
+                            <li><a href="blog.html" class="menu_6 external">BLOG</a></li>
+                            <li><a href="#contact_us" class="menu_7">CONTACT</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </header>
+        
+        <!-- =========================PAGES============================= -->
+        <section id="pages">
+            <ul class="nostyle">
+                
+                <!-- ========== HOME SECTION ========== -->
+                <li id="home">
+                    <section class="slider">
+                            <div class="flexslider">
+                                  <ul class="slides">
+                                      <li>
+                                          <img src="image/slide2.jpg" alt="" />
+                                          <div class="slide_text">
+                                              <div class="container text_right">
+                                                  <div class="title1">منتجات الاوفست</div>
+                                                  <div class="title2"></div>
+                                                  <a href="#portfolio" class="slide_link">شاهد المزيد من خدماتنا</a>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <img src="image/slide3.jpg" alt="" />
+                                          <div class="slide_text">
+                                              <div class="container text_left">
+                                                  <div class="title1">منتجات الاوفست</div>
+                                                  <div class="title2"></div>
+                                                  <a href="#portfolio" class="slide_link">شاهد المزيد من خدماتنا</a>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <img src="image/team_img.jpg" alt="" />
+                                          <div class="slide_text">
+                                              <div class="container text_right">
+                                                  <div class="title1">منتجات الاوفست</div>
+                                                  <div class="title2"></div>
+                                                  <a href="#portfolio" class="slide_link">شاهد المزيد من خدماتنا</a>
+                                              </div>
+                                          </div>
+                                      </li>
+
+                                  </ul>
+                            </div>
+                    </section>
+                </li>
+                
+                <!-- ========== SERVICES SECTION ========== -->
+                <li id="services">
+                    <section class="service_box">
+                        <div class="serv_top top_box_right"></div>
+                        <div class="serv_mid">
+                            <div class="container">
+                                <h3 class="text_center">المنتجات التي نقدمها</h3>
+                                <div class="lines sub_title text_center">جميع خدمات الاوفست</div>
+                                <div class="serv_corusel">
+                                    <div class="mycont">
+                                      <!-- Carousel items -->
+                                      <ul class="mycarousel">
+                                        <li class="item">
+                                            <h4>الاوفست <br />طباعة</h4>
+                                            <div class="fs1" aria-hidden="true" data-icon="&#xe001;"></div>
+                                            <div class="serv_entry text_center">
+                                                طباعة لوحات أوفست معدني إيجابي / سلبي
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <h4>احترافية<br /> مهنية </h4>
+                                            <div class="fs1" aria-hidden="true" data-icon="&#xe00e;"></div>
+                                            <div class="serv_entry text_center">
+                                                الإيجابية المركزة (1:7) المطورة.
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <h4>للتطوير <br />المستخدمين </h4>
+                                            <div class="fs1" aria-hidden="true" data-icon="&#xe017;"></div>
+                                            <div class="serv_entry text_center">
+                                                إيجابي مباشر / سلبي الاستخدام المطور.
+                                            </div>
+                                        </li>
+                                        
+                                      </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="serv_bot bot_box_right"><a href="#home" class="back2top"><i class="icon-chevron-up"></i></a></div>
+                    </section>
+                </li>
+                
+                <!-- ========== PORTFOLIO SECTION ========== -->
+                <li id="portfolio">
+                    <section class="portfolio_intro intro">
+                        <div class="black_over">
+                            <div class="container text_center">
+                                <div class="intro_pad">
+                                    <h1>معرض الشركة</h1>
+                                    <h2>لمحة عن اعمال الشركة</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="portfolio_main">
+                        <div class="portfolio_top top_box_left"></div>
+                        <div class="portfolio_mid">
+                            <div class="container">
+                                <h3 class="text_center">البروفايل</h3>
+                                <div class="lines sub_title text_center">منتجاتنا</div>
+                                <section id="options" class="clearfix">
+                                    <ul id="filters" class="option-set clearfix" data-option-key="filter">
+                                        <li><a href="#filter" data-option-value="*" class="selected">عرض الكل</a></li>
+                                        <li><a href="#filter" data-option-value=".design" class="">منتجات الاوفست</a></li>
+                                        <li><a href="#filter" data-option-value=".studio" class="">منتجات الكيميائية</a></li>
+                                    </ul>
+                                </section>
+                                <div id="container">
+                                    <div class="isotope-item design studio">
+                                        <div class="iso_inner">
+                                            <a href="image/portfolio_img1.jpg" class="gal_box">
+                                                <img src="image/portfolio_img1.jpg" alt="" />
+                                                <div class="over_box">
+                                                    <div class="over_box_pad">
+                                                        <div class="over_box_inner">
+                                                            <span class="portfolio_name">تاريخ</span>
+                                                            <span class="portfolio_date">March 23, 2013</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="isotope-item newest studio">
+                                        <div class="iso_inner">
+                                            <a href="image/portfolio_img3.jpg" class="gal_box">
+                                                <img src="image/portfolio_img3.jpg" alt="" />
+                                                <div class="over_box">
+                                                    <div class="over_box_pad">
+                                                        <div class="over_box_inner">
+                                                            <span class="portfolio_name">تاريخ</span>
+                                                            <span class="portfolio_date">March 23, 2013</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="isotope-item design innovation">
+                                        <div class="iso_inner">
+                                            <a href="image/portfolio_img4.jpg" class="gal_box">
+                                                <img src="image/portfolio_img4.jpg" alt="" />
+                                                <div class="over_box">
+                                                    <div class="over_box_pad">
+                                                        <div class="over_box_inner">
+                                                            <span class="portfolio_name">تاريخ</span>
+                                                            <span class="portfolio_date">March 23, 2013</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                <div class="text_center">
+                                    <a href="#" class="load_more">Load more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio_bot bot_box_left"><a href="#home" class="back2top"><i class="icon-chevron-up"></i></a></div>
+                    </section>
+                </li>
+
+                
+                <!-- ========== ABOUT TEAM ========== -->
+                <li id="about_us">
+                    <section class="about_us_intro intro">
+                        <div class="black_over">
+                            <div class="container text_center">
+                                <div class="intro_pad">
+                                    <h1>مصنع العالمية لطباعة لوحات الأوفست  </h1>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="about_us_main">
+                        <div class="about_us_top top_box_left"></div>
+                        <div class="about_us_mid">
+                            <div class="container">
+                                <h3 class="text_center">عن الشركة</h3>
+                                <div class="lines sub_title text_center">احترافية العمل والازدهار</div>
+                                <div class="team_corusel">
+                                    <div class="mycont">
+                                      <!-- Carousel items -->
+                                      <ul class="mycarousel">
+                                        <li class="item text_center">
+                                            <div class="team_photo">
+                                                <img src="image/team1.jpg" alt="" />
+                                                <div class="mask mask-1"></div>
+                                                <div class="mask mask-2"></div>
+                                                <div class="content">
+                                                    <h2>المدير العام</h2>
+                                                </div>
+                                            </div>
+                                            <div class="team_name">اسم الشخص</div>
+                                            <div class="team_entry">
+                                                عن عمله
+                                            </div>
+                                            <div class="team_social">
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a>
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a>
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Google Plus"><i class="icon-google-plus"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="item text_center">
+                                            <div class="team_photo">
+                                                <img src="image/team2.jpg" alt="" />
+                                                <div class="mask mask-1"></div>
+                                                <div class="mask mask-2"></div>
+                                                <div class="content">
+                                                    <h2>المدير التنفيذي</h2>
+                                                </div>
+                                            </div>
+                                            <div class="team_name">اسم الشخص</div>
+                                            <div class="team_entry">
+                                                عن عمله
+                                            </div>
+                                            <div class="team_social">
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a>
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a>
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Google Plus"><i class="icon-google-plus"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="item text_center">
+                                            <div class="team_photo">
+                                                <img src="image/team3.jpg" alt="" />
+                                                <div class="mask mask-1"></div>
+                                                <div class="mask mask-2"></div>
+                                                <div class="content">
+                                                    <h2>مدير الصالة</h2>
+                                                </div>
+                                            </div>
+                                            <div class="team_name">اسم الشخص</div>
+                                            <div class="team_entry">
+                                                عن عمله
+                                            </div>
+                                            <div class="team_social">
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Twitter"><i class="icon-twitter"></i></a>
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Facebook"><i class="icon-facebook"></i></a>
+                                                <a href="#" class="soc_font" data-toggle="tooltip" title="Google Plus"><i class="icon-google-plus"></i></a>
+                                            </div>
+                                        </li>
+                                        
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="our_skills">
+                                    <h4 class="text_center">تقييم خبرتنا</h4>
+                                    <div class="speed_container">
+                                        <div class="speed_box">
+                                            <div class="knob_box">
+                                                <input data-displayprevious="false" data-readonly="true" type="text" data-bgcolor="#dd6a5f" data-fgcolor="#ffffff" data-width="160" data-height="100" class="knob-1" data-rel="100" value="0" data-anglearc="180" data-angleoffset="-90" data-max="100" />
+                                            </div>
+                                            <div class="knob_title">
+                                                التطوير
+                                            </div>
+                                        </div>
+                                        <div class="speed_box">
+                                            <div class="knob_box">
+                                                <input data-displayprevious="false" data-readonly="true" type="text" data-bgcolor="#dd6a5f" data-fgcolor="#ffffff" data-width="160" data-height="100" class="knob-2" data-rel="100" value="0" data-anglearc="180" data-angleoffset="-90" data-max="100" />
+                                            </div>
+                                            <div class="knob_title">
+                                                الاوفست
+                                            </div>
+                                        </div>
+                                        <div class="speed_box">
+                                            <div class="knob_box">
+                                                <input data-displayprevious="false" data-readonly="true" type="text" data-bgcolor="#dd6a5f" data-fgcolor="#ffffff" data-width="160" data-height="100" class="knob-3" data-rel="100" value="0" data-anglearc="180" data-angleoffset="-90" data-max="100" />
+                                            </div>
+                                            <div class="knob_title">
+                                                الكيميائية
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_us_bot bot_box_left"><a href="#home" class="back2top"><i class="icon-chevron-up"></i></a></div>
+                    </section>
+                </li>
+                
+                <!-- ========== CONTACT US ========== -->
+                <li id="contact_us">
+                    <section class="contact_us_intro intro">
+                        <div class="black_over">
+                            <div class="container text_center">
+                                <div class="intro_pad">
+                                    <h1>اسم المسؤول</h1>
+                                    <h2>السيد عبد الرحمن البكري</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="contact_us_main">
+                        <div class="contact_us_top top_box_right"></div>
+                        <div class="contact_us_mid">
+                            <div class="container">
+                                <h3 class="text_center">اتصل بنا</h3>
+                                <div class="lines sub_title text_center">نحن دائما نتفاعل مع اي تساؤولات</div>
+                                <div class="google_map">
+                                    <iframe width="350" height="350" src="https://maps.google.com/maps?hl=en&ll=24.548841,46.912823&spn=0.087597,0.169086&doflg=ptk&mra=mr&t=m&z=13&amp;output=embed"></iframe>
+
+
+                                </div>
+                                <div class="form">
+                                    <div class="row-fluid">
+                                        <div class="span8" style="text-align:right">
+                                            <h4 class="bold">راسلنا</h4>
+                                            <form action="#" method="post" />
+                                            <input type="text" name="email" value="" placeholder="البريد" class="half" />
+                                            <input type="text" name="name" value="" placeholder="الاسم" class="half" />
+                                            <textarea name="msg" placeholder="الرسالة.."></textarea>
+                                            <input type="submit" value="> ارسال" />
+                                            <div class="error_checker">
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="span4" style="text-align:right">
+                                            <h4 class="bold">معلومات الاتصال</h4>
+                                            <div class="more_info_box">
+هاتف :                                                (00966) 11 4980366 
+<br />
+فاكس :                                                (00966) 11 4983253 
+<br />
+                                                صندوق بريد 606. الرياض - 11383, <br />المملكة العربية السعودية<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="contact_us_bot bot_box_right"><a href="#home" class="back2top"><i class="icon-chevron-up"></i></a></div>
+                    </section>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- ==========================FOOTER======================= -->
+        <footer>
+            <div class="container">
+                <section class="footer_intro">
+                    <h1>ابقى على تواصل معنا</h1>
+                    <h2>تابعنا عبر الشبكات الاجتماعية</h2>
+                    
+                    <ul class="social_line">
+                        <li><a href="#" title="Facebook" class="fsoc">f</a></li>
+                        <li><a href="#" title="Twitter" class="fsoc">T</a></li>
+                        <li><a href="#" title="YouTube" class="fsoc">U</a></li>
+                    </ul>
+                </section>
+
+                <section class="footer_bottom">
+                    <div class="row-fluid">
+                        <div class="span4 flogo">
+                            <a href="index.html"><img src="image/logo.png" alt="" /></a>
+                        </div>
+                        <div class="span4 copyright">
+جميع الحقوق محفوظة لصالح العالمية لطباعة الاوفست 
+                        </div>
+                        <div class="span4 powered">
+                           تصميم وبرمجة <a href="http://vip4it.com/">شركة المشاريع الافتراضية المتكاملة</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        
+
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/vendor/jquery-migrate-1.1.1.min.js"></script>
+        <script src="js/responsive.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/nicescroll.js"></script>
+        <script src="js/jquery.tweet.min.js"></script>
+        <script src="js/jquery.fitvids.fittext.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.knob.js"></script>
+        <script src="js/jquery.nav.js"></script>
+        <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/jquery.touchwipe.min.js"></script>
+        <script src="js/jquery.jcarousel.min.js"></script>
+        <script src="js/touchTouch.jquery.js"></script>
+        <script src="js/custom.js"></script>
+
+        
+    </body>
+</html>

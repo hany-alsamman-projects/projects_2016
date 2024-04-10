@@ -1,0 +1,32 @@
+ul#faq {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.question {
+    font-family: tahoma;
+    font-size: 16px;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 20px;
+    direction: rtl;
+}
+li.question span {
+    font-family: tahoma;
+    font-weight: bold;
+}
+li.answer {
+    font-family: tahoma;
+    padding: 10px 15px 10px 15px;
+    direction: rtl;
+}
+li.answer ul {
+    margin: 0;
+    padding: 0;
+    padding: 0 0 0 30px;
+}
+p.more-categories {
+    margin: 30px 0 0 0;
+    font-style: italic;
+    font-size: smaller;
+}

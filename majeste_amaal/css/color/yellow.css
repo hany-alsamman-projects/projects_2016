@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, a, .navbar .nav li.home-icon a:hover span, .navbar .nav li.current a span, .navbar .nav li a:focus, .navbar .nav li a:hover, .navbar .nav .active a, .navbar .nav .active a:hover, .navbar .nav .active a:focus, .navbar .nav li.current a, .navbar .nav li.current ul li a:hover, .navbar .nav li.current ul li.current a, .navbar .nav li.current ul li.current ul li a:hover, .navbar .nav li.current ul li.current ul li.current a, .navbar form input[type=text], .navbar form button:hover span.sosa, .navbar .social-nav li a:hover span.sosa, .breadcrumb li a, #slides li .detail .title span, #slides li .detail:hover .sosa, .accordion-heading a:hover, #contact address p a, .footer p a:hover {
+	color: #FC0;
+}
+.progress-warning .bar, .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled], .sosa.bg, .btn-primary, .nav-folio a.current-li, .accordion-heading a:hover .sosa, .pricing ul li.price, .pricing:hover ul li.price, .pricing:hover .btn, #contact address p .sosa {
+	background: #FC0;
+}
+.nicescroll-rails div {
+	background: #FC0 !important;
+}
+#slides:hover .slides-navigation a.prev:hover, #slides:hover .slides-navigation a.next:hover, a.fancybox .sosa:hover, #toTop:hover {
+	background: rgba(255,204,0,0.5);
+}
+.thumbnail.hover:hover img {
+	border-color: #FC0;
+}

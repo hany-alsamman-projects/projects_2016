@@ -1,0 +1,130 @@
+/* CSS Document */
+td ,div{
+	font-size:12px;
+}
+.log_text{
+	border:1px #003 solid;
+	width:120px;
+}
+.cpTable{
+	border:1px #ccc solid;
+}
+.menu td{
+	height:20px;
+	color:#ddd;
+	font-size:12px;
+}
+.menu td a:link,a:visited{
+	height:20px;
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+}
+.menu td a:hover{
+	height:20px;
+	color:#aaa;
+	font-size:12px;
+	text-decoration:none;
+}
+.titles{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#226;
+	margin-bottom:15px;
+}
+.list{
+	background-color:#ccc;
+	font-weight:bold;
+	height:25px;
+	border:1px #000 solid;
+}
+.list td{
+	background-color:#666;
+	font-weight:bold;
+	height:25px;
+	color:#FFF;
+}
+.list_n td{
+	border-bottom:1px #ccc solid;
+}
+.text_f{
+	border:1px #ccc solid;
+	width:200px;
+}
+.text_area{
+	border:1px #ccc solid;
+	width:200px;
+	height:100px;
+}
+select{
+	width:200px;
+}
+textarea{
+	font-family:Tahoma, Geneva, sans-serif;
+	
+}
+.hand{
+	cursor:pointer;
+}
+.pagging td{
+
+}
+.pageN div{
+	background-color:#6fa7d1;
+	color:#FFF;
+	text-align:center;
+	height:20px;
+	padding:5px;
+	cursor:pointer;
+
+
+}
+.pageN_act div{
+	background-color:#004B8F;
+	color:#fff;
+	text-align:center;
+	height:20px;
+	padding:5px;
+	cursor:pointer;
+}
+.loading{
+	display:none;
+	text-align:center;
+	font-size:12px;
+	color:#09C;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-top:10px;
+}
+.submit{
+	width:100px;
+	height:40px;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+}
+.redMsg{
+	background-color:#600;
+	color:#FFF;
+	height:30px;
+	text-align:center;
+	font-size:15px;
+}
+.greenMsg{
+	background-color:#060;
+	color:#FFF;
+	height:30px;
+	text-align:center;
+	font-size:15px;
+}
+.redMsg div ,.greenMsg div {
+	margin-top:6px;
+}
+.ex_link:link,.ex_link:visited,.ex_link:active{
+	color:#009;
+	text-decoration:none;
+	height:auto;
+}
+.ex_link:hover{
+	color:#003;
+}

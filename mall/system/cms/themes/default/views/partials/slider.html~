@@ -1,0 +1,204 @@
+<div class="bannercontainer responsive">
+    <div class="banner">
+
+<ul>
+
+	<!-- THE SECOND SLIDE -->
+	<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="system/cms/themes/default/img/thumbs/thumb2.jpg">
+				<img src="system/cms/themes/default/img/slides/slide31.jpg" >
+
+				<div class="caption tp-caption.boxshadow large_text lfl stl"
+					 data-x="100"
+					 data-y="100"
+					 data-speed="300"
+					 data-start="500"
+					 data-easing="easeOutExpo" data-end="8800" data-endspeed="300" data-endeasing="easeInSine" >Welcome to<br> Fawares Mall Website</div>
+
+<!--
+
+				<div class="caption lft ltb"
+					 data-x="500"
+					 data-y="200"
+					 data-speed="600"
+					 data-start="1100"
+					 data-easing="easeOutExpo" data-end="3100" data-endspeed="600" data-endeasing="easeInSine" ><img src="system/cms/themes/default/img/slides/drink1.png" alt="Image 3"></div>
+
+				<div class="caption big_orange sft stb"
+					 data-x="720"
+					 data-y="290"
+					 data-speed="300"
+					 data-start="1400"
+					 data-easing="easeOutExpo" data-end="3300" data-endspeed="300" data-endeasing="easeInSine" >Drink</div>
+
+				<div class="caption medium_grey sfb stb"
+					 data-x="720"
+					 data-y="330"
+					 data-speed="300"
+					 data-start="1700"
+					 data-easing="easeOutExpo" data-end="3200" data-endspeed="300" data-endeasing="easeInSine" >7.49 SR</div>
+
+				<div class="caption lft ltb"
+					 data-x="520"
+					 data-y="200"
+					 data-speed="600"
+					 data-start="3600"
+					 data-easing="easeOutExpo" data-end="5600" data-endspeed="600" data-endeasing="easeInSine" ><img src="system/cms/themes/default/img/slides/drink2.png" alt="Image 6"></div>
+
+				<div class="caption big_orange sft stb"
+					 data-x="720"
+					 data-y="290"
+					 data-speed="300"
+					 data-start="3900"
+					 data-easing="easeOutExpo" data-end="5800" data-endspeed="300" data-endeasing="easeInSine" >Drink</div>
+
+				<div class="caption medium_grey sfb stb"
+					 data-x="720"
+					 data-y="330"
+					 data-speed="300"
+					 data-start="4200"
+					 data-easing="easeOutExpo" data-end="5700" data-endspeed="300" data-endeasing="easeInSine" >5.99 SR</div>
+
+				<div class="caption lft ltb"
+					 data-x="450"
+					 data-y="200"
+					 data-speed="600"
+					 data-start="6100"
+					 data-easing="easeOutExpo" data-end="8100" data-endspeed="300" data-endeasing="easeInSine" ><img src="system/cms/themes/default/img/slides/drink3.png" alt="Image 9"></div>
+
+				<div class="caption big_orange sft stb"
+					 data-x="720"
+					 data-y="290"
+					 data-speed="300"
+					 data-start="6400"
+					 data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine" >Meal</div>
+
+				<div class="caption medium_grey sfb stb"
+					 data-x="720"
+					 data-y="330"
+					 data-speed="300"
+					 data-start="6700"
+					 data-easing="easeOutExpo" data-end="8200" data-endspeed="300" data-endeasing="easeInSine" >6.79 SR</div>
+
+-->
+												</li>
+									
+	<!-- THE THIRD SLIDE -->
+	<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="system/cms/themes/default/img/thumbs/thumb4.jpg">
+			<img src="system/cms/themes/default/img/slides/black.jpg" >
+
+			<div class="caption fade fullscreenvideo" data-autoplay="false" data-x="0" data-y="0" data-speed="500" data-start="10" data-easing="easeOutBack"><iframe width="420" height="315" src="http://www.youtube.com/embed/Rv4wZW87ttk" frameborder="0" allowfullscreen></iframe>></div>
+
+			<div class="caption big_white sft stt"
+				 data-x="327"
+				 data-y="25"
+				 data-speed="300"
+				 data-start="500"
+				 data-easing="easeOutExpo" data-end="4000" data-endspeed="300" data-endeasing="easeInSine" >POWERD BY Virtual Integrated Projects</div>
+	</li>
+
+	<!-- THE FOURTH SLIDE -->
+	<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="system/cms/themes/default/img/thumbs/thumb5.jpg">
+
+			<img src="system/cms/themes/default/img/slides/slide4.jpg" >
+
+			<div class="caption large_text sft"
+				 data-x="50"
+				 data-y="44"
+				 data-speed="300"
+				 data-start="800"
+				 data-easing="easeOutExpo"  >Introduction to the project location Fawares Mall  </div>
+
+			<div class="caption medium_text sfl"
+				 data-x="79"
+				 data-y="82"
+				 data-speed="300"
+				 data-start="1100"
+				 data-easing="easeOutExpo"  >commercial value and a rare realistic chance</div>
+
+			<div class="caption lfl"
+				 data-x="53"
+				 data-y="192"
+				 data-speed="300"
+				 data-start="1400"
+				 data-easing="easeOutExpo"  ><img src="system/cms/themes/default/img/slides/imac.png" alt="Image 4"></div>
+
+			<div class="caption lfl"
+				 data-x="253"
+				 data-y="282"
+				 data-speed="300"
+				 data-start="1500"
+				 data-easing="easeOutExpo"  ><img src="system/cms/themes/default/img/slides/ipad.png" alt="Image 5"></div>
+
+			<div class="caption lfl"
+				 data-x="322"
+				 data-y="313"
+				 data-speed="300"
+				 data-start="1600"
+				 data-easing="easeOutExpo"  ><img src="system/cms/themes/default/img/slides/iphone.png" alt="Image 6"></div>
+	</li>
+
+
+	<!-- THE FIFTH SLIDE -->
+	<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="system/cms/themes/default/img/thumbs/thumb6.jpg">
+			<img src="system/cms/themes/default/img/slides/slide51.jpg" >
+
+			<div class="caption large_text sfl"
+				 data-x="38"
+				 data-y="200"
+				 data-speed="300"
+				 data-start="1000"
+				 data-easing="easeOutExpo"  >A Happy</div>
+
+			<div class="caption large_text sfl"
+				 data-x="37"
+				 data-y="243"
+				 data-speed="300"
+				 data-start="1300"
+				 data-easing="easeOutExpo"  >Holiday Season</div>
+
+			<div class="caption randomrotate"
+				 data-x="610"
+				 data-y="74"
+				 data-speed="800"
+				 data-start="1600"
+				 data-easing="easeOutExpo"  ><img src="system/cms/themes/default/img/slides/TP_logo.png" alt="Image 4"></div>
+	</li>
+</ul>
+
+        <!-- CORRED -->
+        <div class="tp-bannertimer"></div>
+    </div>
+</div>
+
+<script>
+    jQuery(document).ready(function() {
+       jQuery('.banner').revolution(
+          {
+              delay:5000,
+              startheight:500,
+              startwidth:960,
+    
+              hideThumbs:300,
+    
+              thumbWidth:100,	
+              thumbHeight:50,
+              thumbAmount:5,
+    
+              navigationType:"both",					
+              navigationArrows:"verticalcentered",		
+              navigationStyle:"round",				
+    
+              touchenabled:"on",					
+              onHoverStop:"on",					
+    
+              navOffsetHorizontal:0,
+              navOffsetVertical:20,
+    
+              stopAtSlide:-1,
+              stopAfterLoops:-1,
+    
+              shadow:1,						
+              fullWidth:"off"					
+          });
+    });
+</script>

@@ -1,0 +1,71 @@
+/********************************
+RESPONSIVE CSS * MEDIA QUERIES
+********************************/
+
+/*iPad Landscape*/
+@media screen and (max-width: 1024px), screen and (max-device-width: 1024px), screen and (max-width: 1200px)  {
+    .inner{margin:20px}
+    .project{width:313px;height:193px}
+    .project .btn{right:15px;bottom:0}
+    .flickr ul li + li{margin-left:4px}
+    .project-info-left{width:100%}
+    .project-info-right{width:100%;height:auto !important}
+}
+
+/*iPad Portrait*/
+@media handheld and (max-width: 767px), screen and (max-device-width: 767px), screen and (max-width: 960px)  {
+    .post img, .about_us img{width:100%;max-width:auto}
+    .about_us img{display:block;margin-bottom:30px}
+    .about_us .team{height:auto}
+    .blog_page.single .intro .author{text-align:left}
+    .container{margin:0 30px}
+    .header-top{position:relative}
+    .js .nav{display:none}
+    .js .selectnav{display:block;position:absolute;top:130px;right:0;width:226px;height:40px;padding:10px;color:#777;font:14px 'RobotLight', sans-serif}
+    .social-icons{float:none;width:auto;position:absolute;top:0;right:0}
+    .project{width:50%}
+    .project h3,
+    .project a{font-size:20px}
+    .services .widget{margin-bottom:30px}
+    #footer .widget{padding:25px 0}
+    #footer .widget h5{font:24px 'RobotoThin', sans-serif;color:#bbb}
+    .flickr ul li{width:70px;height:70px}
+    .flickr ul li{margin-right:10px;margin-left:0 !important;margin-bottom:10px}
+    .filter-category{clear:both;width:100%}
+    .filter-category ul#nav-select{width:100%}
+    #nav-select li.always-visible a{text-align:center}
+    .contact_form, .comment_form{height:auto}
+    .contact_form input, .comment_form input{margin-bottom:30px}
+    .widget{float:left !important}
+    .blog_page .pagination{float:left;margin-bottom:30px}
+}
+
+
+/*iPhone Landscape*/
+@media screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 750px)  {
+    .project{width:100%;height:350px}
+    .project h3,
+    .project a{font-size:28px}
+    .project .btn{display:block}
+}
+
+
+/*iPhone Portrait*/
+@media screen and (max-width: 320px), screen and (max-device-width: 320px), screen and (max-width: 450px) {
+    body{min-width:320px}
+    #logo{width:100%}
+    .js .selectnav{margin-top:160px;margin-bottom:80px;width:100%}
+    .social-icons{width:100%;margin-top:200px;text-align:center}
+    .social-icons li{display:inline-block;float:none}
+    .header_text{margin-top:100px}
+    .header_text h1{font-size:24px;line-height:32px}
+    .project_container .project{width:100%;height:200px}
+    .project_container .project h3,
+    .project_container .project a{font-size:18px}
+    .flickr ul li{width:55px;height:55px}
+    .flickr ul li + li{margin-left:7px}
+    .footer_bottom [class*="span"]{float:left}
+    .footer_bottom .go_top{left:auto;right:40px}
+    .footer_bottom .theme_author{display:block;float:left}
+    .divider{height:40px}
+}

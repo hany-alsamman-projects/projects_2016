@@ -1,0 +1,30 @@
+#contactus {
+    width: 50%;
+    padding-bottom: 2px;
+    background: #FFF;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+    float: left;
+
+}
+#contactus-header { top:100px; background: url(../img/hd-bg.png); padding: 5px 10px 5px 10px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#contactus-header  h2 { color: #444; font-size: 1.3em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+#contactus-header  p { color: #444; font-size: 1.3em; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+#contactus .txt-fld { position: relative; width: 364px; padding: 10px 10px; border-bottom: 1px solid #EEE; text-align: right; }
+#contactus .btn-fld { width: 254px; overflow: hidden; padding: 12px 20px 12px 130px; }
+
+#contactus .txt-fld label { display: block; float: left; width: 90px; padding-top: 8px; color: #222; font-size: 9pt; text-align: left;  }
+#contactus .txt-fld input,textarea { width: 244px; padding: 5px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; }
+#contactus .txt-fld input.good_input { background: #DEF5E1 url(../img/good.png) 236px center no-repeat; }
+#contactus .txt-fld input.error_input { background: #FDE0E0; }
+
+#map-canvas {
+    height: 300px;
+    width: 100%;
+    float: right;
+    background: #FFF;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}

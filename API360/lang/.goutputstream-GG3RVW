@@ -1,0 +1,5 @@
+<?php
+
+    $SiteLang = array(
+                        ## HOME PAGE
+                        'BTN_HOME' => '

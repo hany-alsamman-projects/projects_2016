@@ -1,0 +1,284 @@
+﻿
+html{
+   background: url('../images/body_bg.jpg') center center no-repeat; 
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Calibri, Arial, sans-serif;
+    background: url('../images/body_bg.gif') top center repeat-x;
+}
+
+.clear{ clear: both; }
+
+a:link, a:visited{
+	color: #0059ba;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+
+/* HEADER */
+
+#wrapper{
+	width:1200px;
+	overflow: hidden;
+	margin: 0px auto 0px auto;    
+}
+
+#header
+{
+	width:100%;
+	height: 230px;
+    margin: 0px;
+    background: url('../images/header_bg.jpg') no-repeat;
+    position: relative;
+}
+
+
+#logo{
+	width: 281px;
+	height: 148px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: url('../images/logo.jpg') no-repeat;
+}
+
+#money_paper{
+	width: 270px;
+	height: 230px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: url('../images/money_ranks.jpg') no-repeat;
+}
+
+#user_cp{
+    width: 615px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -290px; /* Half the width */
+}
+
+#corner_left{
+	width: 20px;
+	height: 52px;
+    background: url('../images/cpbar_left.gif') no-repeat;
+    float: left;
+}
+
+#corner_right{
+	width: 20px;
+	height: 52px;
+    background: url('../images/cpbar_right.gif') no-repeat;
+    float: right;
+}
+
+#bar_content{
+    width: 575px;
+    background: url('../images/cpbar_bg.gif') repeat-x;
+    height: 52px;
+    float: left;
+}
+
+#intro{
+    margin: 0px;
+    background: url('../images/bet.jpg') top center no-repeat;
+}
+
+#root{	
+	width:100%;
+	overflow: hidden;
+	clear: none;
+}
+
+
+#left_side{
+    width: 20%;
+    float: left;
+    margin: 12px 10px 0px 5px;
+}
+
+
+#center_side{
+    width: 55%;
+    float: left;
+    margin: 12px 0px 0px 12px;
+}
+
+
+#right_side{
+    width: 20%;
+    float: right;
+    margin: 12px 12px 0px 5px;
+    
+}
+
+#welcome_board{    
+    width: 100%;    
+    
+}
+
+#blog{
+    width: 96%;
+    margin: 0px auto 25px auto;
+    clear: both;
+}
+
+#blog_sub{
+    width: 100%;
+    height: 24px;
+    color: white;
+    text-align: center;
+    background: url('../images/sub_blog_bg.gif') repeat-x;    
+}
+
+.charts div#bcontent{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.charts div#bbottom{
+    width: 100%;
+    height: 25px;
+    background-color: #b7e4f4;
+}
+
+.why div#bcontent{
+    width: 100%;
+    background: url('../images/silver_bg.gif') repeat-x;
+}
+
+.why_links{
+    text-align: left;
+    width: 70%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#btop{
+    height: 31px;
+    background: url('../images/blog_bg.gif') center repeat-x;
+
+}
+
+#btitle{
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 3px;
+    width: 195px;
+}
+
+#bleft{
+    height: 31px;
+    width: 13px;
+    float: left;
+    background: url('../images/blog_left_bg.gif') no-repeat;
+}
+
+#bright{
+    height: 31px;
+    width: 13px;
+    float: right;
+    background: url('../images/blog_right_bg.gif') no-repeat;
+}
+
+#menu{
+    width: 100%;
+    height: 30px;
+    background: url('../images/menu_bg_level1.gif') top repeat-x;
+}
+
+#links{
+    color: white;
+    padding: 5px;
+}
+
+#footer{
+	width: 100%;
+	height: 200px;
+    background: url('../images/footer_left_bg.gif') top center repeat-x;
+}
+
+#fc_left{
+	width: 60%;
+	height: 149px;
+    float: left;
+    background: url('../images/footer_left.gif') left no-repeat;
+    
+}
+
+#fc_right{
+	width: 40%;
+	height: 149px;
+    float: right;
+    background: url('../images/footer_right.gif') right center no-repeat;
+    
+}
+
+#fc_bet{
+	width: 37px;
+	height: 149px;
+    float: right;
+    background: url('../images/footer_bet.gif') no-repeat;    
+}
+
+#find_us{
+    float: left;
+    height: 149px;
+    width: 98%;
+    background: url('../images/footer_right_bg.gif') center left repeat-x;
+    
+}
+
+#find_us a{
+    margin-right: 30px; 
+}
+
+#follow{
+    margin: 25px auto;
+    width: 250px;
+    color: #706f6f;
+    font-size: 20pt;
+}
+
+#copyright{
+    height: 30px;
+	color:#7a7a7a;
+	font-size:10pt;
+	direction: rtl;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    text-align: left;
+}
+
+#codeXperts{
+    height: 30px;
+	color:#7a7a7a;
+	font-size:10pt;
+	direction: rtl;
+    width: 300px;
+    float: right;
+    margin: 10px;
+    text-align: right;
+}
+
+.highlight {
+	color: #199fd4;
+}
+
+.between{
+    width: 100%;
+    height: 20px;
+    clear: both;
+}
+

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/css/screen-orange.css" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9887d0b0-b600-455a-9ded-d8687999d533" name="Default" comment="" />
+    <ignored path="cosmo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cosmo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1111" column="25" selection-start="57010" selection-end="57010" vertical-scroll-proportion="0.55469954" vertical-offset="19638" max-vertical-offset="37530">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen-orange.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/screen-orange.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3456" column="0" selection-start="100028" selection-end="100028" vertical-scroll-proportion="0.0" vertical-offset="62019" max-vertical-offset="85500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/tabs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="177" column="19" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-20.148148" vertical-offset="2642" max-vertical-offset="5382">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dasky.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dasky.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="353" column="26" selection-start="8362" selection-end="8362" vertical-scroll-proportion="-13.851851" vertical-offset="5980" max-vertical-offset="7074">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="925" column="62" selection-start="31210" selection-end="31210" vertical-scroll-proportion="0.0" vertical-offset="16394" max-vertical-offset="20466">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/css/components/ionicons/ionicons.min.css" />
+        <option value="$PROJECT_DIR$/css/components/ionicons/ionicons.css" />
+        <option value="$PROJECT_DIR$/js/init-map.js" />
+        <option value="$USER_HOME$/Desktop/music-player/plugin/ttw-music-player.js" />
+        <option value="$USER_HOME$/Desktop/music-player/demo/js/myplaylist.js" />
+        <option value="$USER_HOME$/Desktop/music-player/demo/index.html" />
+        <option value="$PROJECT_DIR$/css/screen-green.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rs-plugin/css/settings.css" />
+        <option value="$PROJECT_DIR$/css/jquery.bxslider.css" />
+        <option value="$USER_HOME$/Desktop/OTA/Android.mk" />
+        <option value="$USER_HOME$/Desktop/OTA/res/layout/oct_ota.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/menu/oct_ota_base_menu.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/values/arrays.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/values/strings.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/values/styles.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/xml/oct_ota_settings.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/xml/short_cut_fragment.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/res/xml/wakeful.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/OctOTA.java" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/ShortCutFragment.java" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/settings/About.java" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/updater/ConnectivityReceiver.java" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/updater/UpdateChecker.java" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/updater/UpdateListener.java" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/updater/UpdateService.java" />
+        <option value="$USER_HOME$/Desktop/OTA/res/layout/about.xml" />
+        <option value="$USER_HOME$/Desktop/OTA/src/com/ota/settings/Settings.java" />
+        <option value="$USER_HOME$/Desktop/OTA/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../info.php" />
+        <option value="$USER_HOME$/Desktop/index.php" />
+        <option value="$USER_HOME$/Desktop/files5/Settings/ProBamUpdater/res/layout/update_fragment.xml" />
+        <option value="$PROJECT_DIR$/../index.php" />
+        <option value="$USER_HOME$/Desktop/dasky-timeline-slider-5071233/css/dasky.min.css" />
+        <option value="$USER_HOME$/Desktop/dasky-timeline-slider-5071233/index.html" />
+        <option value="$PROJECT_DIR$/js/dasky.eval.js" />
+        <option value="$PROJECT_DIR$/../syn/aaa.xml" />
+        <option value="$PROJECT_DIR$/../syn/politicnews.xml" />
+        <option value="$PROJECT_DIR$/../syn/index.php" />
+        <option value="$PROJECT_DIR$/css/tooltip_skin_variation.css" />
+        <option value="$PROJECT_DIR$/js/jquery.sky.carousel-1.0.2.min.js" />
+        <option value="$PROJECT_DIR$/css/ytv.css" />
+        <option value="$PROJECT_DIR$/js/ytv.js" />
+        <option value="$USER_HOME$/websites/circletabs/luca-ottolini.it/envato/circletabs/css/tabs.css" />
+        <option value="$USER_HOME$/websites/circletabs/luca-ottolini.it/envato/circletabs/index.html" />
+        <option value="$PROJECT_DIR$/css/tabs.css" />
+        <option value="$PROJECT_DIR$/js/init.js" />
+        <option value="$PROJECT_DIR$/css/dasky.min.css" />
+        <option value="$PROJECT_DIR$/css/screen-orange.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1600" />
+    <option name="height" value="868" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cosmo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="web.server" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/OTA" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="SearchEverywhereHistory" value="&#10;b-about-company" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9887d0b0-b600-455a-9ded-d8687999d533" name="Default" comment="" />
+      <created>1396316287469</created>
+      <updated>1396316287469</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1600" height="868" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32402235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1919585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32458565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19001298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="580" column="28" selection-start="20673" selection-end="20674" vertical-scroll-proportion="0.0" vertical-offset="10218" max-vertical-offset="21798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/screen-orange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3676" column="5" selection-start="105317" selection-end="105317" vertical-scroll-proportion="0.0" vertical-offset="65919" max-vertical-offset="84528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="336" column="52" selection-start="16816" selection-end="16816" vertical-scroll-proportion="0.0" vertical-offset="5835" max-vertical-offset="29790">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1159" column="31" selection-start="40228" selection-end="40228" vertical-scroll-proportion="0.0" vertical-offset="20862" max-vertical-offset="21168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/screen-orange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3674" column="16" selection-start="105280" selection-end="105291" vertical-scroll-proportion="0.0" vertical-offset="65910" max-vertical-offset="84510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1167" column="10" selection-start="54405" selection-end="54405" vertical-scroll-proportion="0.0" vertical-offset="20399" max-vertical-offset="27990">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/ionicons/ionicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2566" column="0" selection-start="38744" selection-end="38744" vertical-scroll-proportion="0.0" vertical-offset="46188" max-vertical-offset="49086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/screen-orange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3551" column="1" selection-start="102661" selection-end="102661" vertical-scroll-proportion="0.0" vertical-offset="63443" max-vertical-offset="84096" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_variation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="1" selection-start="966" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="4896" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.sky.carousel-1.0.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="336" column="32" selection-start="16428" selection-end="16439" vertical-scroll-proportion="0.0" vertical-offset="5754" max-vertical-offset="12330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="571" column="104" selection-start="20877" selection-end="20877" vertical-scroll-proportion="0.0" vertical-offset="8597" max-vertical-offset="20808" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/gumby/gumby.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="12" selection-start="20256" selection-end="20262" vertical-scroll-proportion="0.0" vertical-offset="759" max-vertical-offset="29106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rs-plugin/js/jquery.themepunch.revolution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="20" selection-start="2095" selection-end="2110" vertical-scroll-proportion="0.49208632" vertical-offset="936" max-vertical-offset="93978" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/device.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-9.50425" vertical-offset="6710" max-vertical-offset="7416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3366" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rs-plugin/css/settings.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="32346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="123" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/files5/Settings/ProBamUpdater/res/layout/update_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1440" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/files5/Settings/ProBamUpdater/src/com/probam/updater/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="40" selection-start="5064" selection-end="5064" vertical-scroll-proportion="0.83972913" vertical-offset="1662" max-vertical-offset="5310" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/files5/Settings/ProBamUpdater/src/com/probam/updater/manager/PreferencesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="48" selection-start="4086" selection-end="4100" vertical-scroll-proportion="0.37179488" vertical-offset="1860" max-vertical-offset="4140" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/files5/Settings/ProBamUpdater/src/com/probam/updater/ui/fragment/UpdateFragment.java">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="25" selection-start="2692" selection-end="2709" vertical-scroll-proportion="0.3325792" vertical-offset="1167" max-vertical-offset="3924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jmpress.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="28" selection-end="66" vertical-scroll-proportion="0.05179856" vertical-offset="0" max-vertical-offset="695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dasky.eval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="14" selection-start="4412" selection-end="4412" vertical-scroll-proportion="2.0460432" vertical-offset="0" max-vertical-offset="2304" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/SimpleXML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="346" column="81" selection-start="12089" selection-end="12097" vertical-scroll-proportion="2.7444935" vertical-offset="4359" max-vertical-offset="6714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/gumby/gumby.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="12" selection-start="20256" selection-end="20262" vertical-scroll-proportion="0.0" vertical-offset="2649" max-vertical-offset="29106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.queryloader2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/support2/27.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.sky.carousel-1.0.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="336" column="32" selection-start="16428" selection-end="16439" vertical-scroll-proportion="0.42424244" vertical-offset="5754" max-vertical-offset="12330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_variation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="1" selection-start="966" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="4896" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sponser/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.mb.YTPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="9" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ytv.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.21207659" vertical-offset="90" max-vertical-offset="4410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ytv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="0" selection-start="11951" selection-end="11951" vertical-scroll-proportion="0.45495495" vertical-offset="3909" max-vertical-offset="7776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/ionicons/ionicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1878" column="1" selection-start="29552" selection-end="29567" vertical-scroll-proportion="0.22522523" vertical-offset="33654" max-vertical-offset="49086" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/websites/circletabs/luca-ottolini.it/envato/circletabs/css/tabs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="278" column="19" selection-start="6021" selection-end="6021" vertical-scroll-proportion="0.3552239" vertical-offset="4766" max-vertical-offset="5436" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/websites/circletabs/luca-ottolini.it/envato/circletabs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="636" selection-end="4520" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tabs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="19" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-20.148148" vertical-offset="2642" max-vertical-offset="5382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dasky.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="353" column="26" selection-start="8362" selection-end="8362" vertical-scroll-proportion="-13.851851" vertical-offset="5980" max-vertical-offset="7074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="925" column="62" selection-start="31210" selection-end="31210" vertical-scroll-proportion="0.0" vertical-offset="16394" max-vertical-offset="20466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/screen-orange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3456" column="0" selection-start="100028" selection-end="100028" vertical-scroll-proportion="0.0" vertical-offset="62019" max-vertical-offset="85500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1111" column="25" selection-start="57010" selection-end="57010" vertical-scroll-proportion="0.55469954" vertical-offset="19638" max-vertical-offset="37530">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#4;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#5;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#10;n#div#1;n#div#0;n#section#6;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#8;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
